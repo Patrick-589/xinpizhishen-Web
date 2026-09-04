@@ -1,0 +1,22350 @@
+window.CNINFO_PEER_DATA = {
+  "generatedAt": "2026-09-03T01:00:29.712Z",
+  "note": "对标公司公告索引来自巨潮资讯网公开披露页面，仅作公开信息对比参考，不作为创业黑马公司事实、审批标准或合规结论依据。公告正文、披露时间及效力以巨潮资讯网原始 PDF 为准。",
+  "companies": [
+    {
+      "company": {
+        "secCode": "003032",
+        "secName": "传智教育",
+        "orgId": "gfbj0839976",
+        "market": "深圳证券交易所"
+      },
+      "sourceUrl": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003032&orgId=gfbj0839976&sjstsBond=false#latestAnnouncement",
+      "stats": {
+        "total": 716,
+        "periodicTotal": 44,
+        "earliestAt": "2020-12-23",
+        "latestAt": "2026-08-29",
+        "latestId": "1225525435",
+        "yearlyCounts": {
+          "2020": 27,
+          "2021": 126,
+          "2022": 117,
+          "2023": 158,
+          "2024": 127,
+          "2025": 96,
+          "2026": 65
+        }
+      },
+      "categories": [
+        {
+          "id": "periodic",
+          "name": "定期报告",
+          "count": 44
+        },
+        {
+          "id": "performance",
+          "name": "业绩与分红",
+          "count": 32
+        },
+        {
+          "id": "meeting",
+          "name": "三会公告",
+          "count": 174
+        },
+        {
+          "id": "transaction",
+          "name": "交易与投资",
+          "count": 25
+        },
+        {
+          "id": "capital",
+          "name": "资本运作",
+          "count": 116
+        },
+        {
+          "id": "equity",
+          "name": "股东与股份",
+          "count": 69
+        },
+        {
+          "id": "governance",
+          "name": "治理与制度",
+          "count": 77
+        },
+        {
+          "id": "regulatory",
+          "name": "监管与风险",
+          "count": 13
+        },
+        {
+          "id": "investor",
+          "name": "投资者关系",
+          "count": 0
+        },
+        {
+          "id": "other",
+          "name": "其他公告",
+          "count": 166
+        }
+      ],
+      "announcements": [
+        {
+          "id": "1225525435",
+          "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2026-08-29",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525435.PDF",
+          "fileType": "PDF",
+          "sizeKB": 805,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225525434",
+          "title": "2026年半年度报告",
+          "publishedAt": "2026-08-29",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525434.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2258,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225525433",
+          "title": "2026年半年度报告摘要",
+          "publishedAt": "2026-08-29",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525433.PDF",
+          "fileType": "PDF",
+          "sizeKB": 108,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225489593",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2026-08-22",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225489593.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225469616",
+          "title": "股票交易风险提示公告",
+          "publishedAt": "2026-08-13",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-13/1225469616.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225460765",
+          "title": "股票交易严重异常波动公告",
+          "publishedAt": "2026-08-06",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-06/1225460765.pdf",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225458639",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2026-08-05",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458639.pdf",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225448214",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2026-07-31",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448214.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225444736",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2026-07-29",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444736.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225425036",
+          "title": "2026年半年度业绩预告",
+          "publishedAt": "2026-07-15",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225425036.PDF",
+          "fileType": "PDF",
+          "sizeKB": 86,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225361400",
+          "title": "艾华迪资产评估（北京）有限公司江苏传智播客教育科技股份有限公司关于对深圳证券交易所2025年年报问询函的回复专项说明",
+          "publishedAt": "2026-06-10",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-10/1225361400.PDF",
+          "fileType": "PDF",
+          "sizeKB": 218,
+          "announcementTypes": [
+            "01010503",
+            "01010909",
+            "010112",
+            "012399",
+            "012905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225361399",
+          "title": "北京国枫兴华资产评估有限公司关于深圳证券交易所上市公司管理二部《关于对江苏传智播客教育科技股份有限公司2025年年报问询函》资产评估相关问题回复之核査意见",
+          "publishedAt": "2026-06-10",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-10/1225361399.PDF",
+          "fileType": "PDF",
+          "sizeKB": 228,
+          "announcementTypes": [
+            "01010909",
+            "010112",
+            "012905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225361398",
+          "title": "德勤华永会计师事务所(特殊普通合伙)《关于对江苏传智播客教育科技股份有限公司深圳证券交易所2025年年报问询函》的回复",
+          "publishedAt": "2026-06-10",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-10/1225361398.PDF",
+          "fileType": "PDF",
+          "sizeKB": 528,
+          "announcementTypes": [
+            "010109",
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225361397",
+          "title": "中瑞世联资产评估集团有限公司江苏传智播客教育科技股份有限公司《关于对深圳证券交易所2025年年报问询函的回复》评估相关问题回复的核查意见",
+          "publishedAt": "2026-06-10",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-10/1225361397.PDF",
+          "fileType": "PDF",
+          "sizeKB": 333,
+          "announcementTypes": [
+            "01010909",
+            "010112",
+            "012905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225361396",
+          "title": "关于对深圳证券交易所2025年年报问询函的回复",
+          "publishedAt": "2026-06-10",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-10/1225361396.PDF",
+          "fileType": "PDF",
+          "sizeKB": 630,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225361395",
+          "title": "关于公司股票交易撤销退市风险警示暨股票停复牌的公告",
+          "publishedAt": "2026-06-10",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-10/1225361395.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225318616",
+          "title": "关于申请撤销对公司股票交易实施退市风险警示的进展公告",
+          "publishedAt": "2026-05-21",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-21/1225318616.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225317369",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2025年年度股东会的法律意见",
+          "publishedAt": "2026-05-20",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-20/1225317369.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225317368",
+          "title": "2025年年度股东会决议公告",
+          "publishedAt": "2026-05-20",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-20/1225317368.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212432",
+          "title": "关于拟续聘会计师事务所的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212432.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212431",
+          "title": "2025年度董事会工作报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212431.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212430",
+          "title": "2025年度商誉减值测试报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212430.PDF",
+          "fileType": "PDF",
+          "sizeKB": 145,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212429",
+          "title": "董事和高级管理人员2026年度薪酬方案",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212429.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212428",
+          "title": "2025年度独立董事述职报告（李一帆）",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212428.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212427",
+          "title": "2025年度独立董事述职报告（李洪）",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212427.PDF",
+          "fileType": "PDF",
+          "sizeKB": 112,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212426",
+          "title": "2025年度独立董事述职报告（张岭）",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212426.PDF",
+          "fileType": "PDF",
+          "sizeKB": 105,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212425",
+          "title": "2025年度独立董事述职报告（赵伟）",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212425.PDF",
+          "fileType": "PDF",
+          "sizeKB": 106,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212424",
+          "title": "关于召开2025年年度业绩说明会的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212424.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212423",
+          "title": "2025年年度社会责任报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212423.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2181,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212422",
+          "title": "江苏传智播客教育科技股份有限公司2025年内部控制审计报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212422.PDF",
+          "fileType": "PDF",
+          "sizeKB": 6695,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212421",
+          "title": "2025年度内部控制自我评价报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212421.PDF",
+          "fileType": "PDF",
+          "sizeKB": 162,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212420",
+          "title": "董事和高级管理人员薪酬管理制度（2026年4月）",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212420.PDF",
+          "fileType": "PDF",
+          "sizeKB": 84,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212419",
+          "title": "关于调整公司治理制度的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212419.PDF",
+          "fileType": "PDF",
+          "sizeKB": 73,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212418",
+          "title": "信息披露事务管理制度（2026年4月）",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212418.PDF",
+          "fileType": "PDF",
+          "sizeKB": 152,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212417",
+          "title": "关于2025年度计提资产减值准备的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212417.PDF",
+          "fileType": "PDF",
+          "sizeKB": 112,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212416",
+          "title": "关于为董事、高级管理人员购买责任保险的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212416.PDF",
+          "fileType": "PDF",
+          "sizeKB": 71,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212415",
+          "title": "关于召开2025年年度股东会的通知",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212415.PDF",
+          "fileType": "PDF",
+          "sizeKB": 131,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212414",
+          "title": "第四届董事会第八次会议决议公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212414.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212413",
+          "title": "2025年度利润分配方案",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212413.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212411",
+          "title": "2026年一季度报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212411.PDF",
+          "fileType": "PDF",
+          "sizeKB": 175,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212410",
+          "title": "2025年年度募集资金存放、管理与使用情况的专项报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212410.PDF",
+          "fileType": "PDF",
+          "sizeKB": 165,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212409",
+          "title": "江苏传智播客教育科技股份有限公司关于厦门优优汇联信息科技股份有限公司2025年度业绩承诺完成情况的审核报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212409.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7838,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212408",
+          "title": "江苏传智播客教育科技股份有限公司募集资金存放、管理与实际使用情况的专项报告及审核报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212408.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7771,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010112",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212407",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2025年度募集资金存放、管理与使用情况的专项核查报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212407.PDF",
+          "fileType": "PDF",
+          "sizeKB": 495,
+          "announcementTypes": [
+            "01010503",
+            "01010701",
+            "010109",
+            "010112",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212406",
+          "title": "江苏传智播客教育科技股份有限公司2025年度营业收入扣除情况的专项说明",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212406.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7496,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010112",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212405",
+          "title": "对德勤华永会计师事务所(特殊普通合伙)2025年度履职情况的评估报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212405.PDF",
+          "fileType": "PDF",
+          "sizeKB": 121,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212404",
+          "title": "第四届董事会审计委员会对德勤华永会计师事务所(特殊普通合伙)2025年度履行监督职责情况的报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212404.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212403",
+          "title": "关于江苏传智播客教育科技股份有限公司控股股东、实际控制人及其他关联方资金占用情况的专项说明",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212403.PDF",
+          "fileType": "PDF",
+          "sizeKB": 8269,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212402",
+          "title": "2025年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212402.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2108,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212401",
+          "title": "董事会关于独立董事独立性自查情况的专项报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212401.PDF",
+          "fileType": "PDF",
+          "sizeKB": 66,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212400",
+          "title": "2025年年度审计报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212400.PDF",
+          "fileType": "PDF",
+          "sizeKB": 26175,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212398",
+          "title": "2025年年度报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212398.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1857,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212397",
+          "title": "2025年年度报告摘要",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212397.PDF",
+          "fileType": "PDF",
+          "sizeKB": 462,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212396",
+          "title": "关于申请撤销对公司股票交易实施退市风险警示的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212396.PDF",
+          "fileType": "PDF",
+          "sizeKB": 84,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225212395",
+          "title": "关于使用部分闲置自有资金进行委托理财的公告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225212395.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225134382",
+          "title": "股票可能被终止上市的风险提示公告",
+          "publishedAt": "2026-04-22",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-22/1225134382.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225097112",
+          "title": "关于2025年年度报告编制及最新审计进展情况的公告",
+          "publishedAt": "2026-04-14",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-14/1225097112.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225078460",
+          "title": "股票可能被终止上市的风险提示公告",
+          "publishedAt": "2026-04-07",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-07/1225078460.PDF",
+          "fileType": "PDF",
+          "sizeKB": 109,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225039574",
+          "title": "关于2025年年度报告编制及最新审计进展情况的公告",
+          "publishedAt": "2026-03-30",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-03-30/1225039574.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225020864",
+          "title": "股票可能被终止上市的风险提示公告",
+          "publishedAt": "2026-03-23",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-03-23/1225020864.PDF",
+          "fileType": "PDF",
+          "sizeKB": 105,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224998803",
+          "title": "股票可能被终止上市的风险提示公告",
+          "publishedAt": "2026-03-09",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-03-09/1224998803.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224978644",
+          "title": "股票可能被终止上市的风险提示公告",
+          "publishedAt": "2026-02-13",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-02-13/1224978644.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224958757",
+          "title": "关于2025年度拟计提资产减值准备的提示性公告",
+          "publishedAt": "2026-01-31",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-01-31/1224958757.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224958756",
+          "title": "2025年年度业绩预告",
+          "publishedAt": "2026-01-31",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-01-31/1224958756.PDF",
+          "fileType": "PDF",
+          "sizeKB": 119,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224958755",
+          "title": "可能被终止上市的风险提示公告",
+          "publishedAt": "2026-01-31",
+          "year": 2026,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-01-31/1224958755.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224825609",
+          "title": "关于签字注册会计师变更的公告",
+          "publishedAt": "2025-11-26",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-26/1224825609.PDF",
+          "fileType": "PDF",
+          "sizeKB": 83,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224757194",
+          "title": "2025年三季度报告",
+          "publishedAt": "2025-10-29",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-29/1224757194.pdf",
+          "fileType": "PDF",
+          "sizeKB": 205,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224749602",
+          "title": "关于为子公司申请银行授信额度提供担保的进展公告",
+          "publishedAt": "2025-10-29",
+          "year": 2025,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-29/1224749602.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011709",
+            "011711"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224705013",
+          "title": "关于变更财务总监的公告",
+          "publishedAt": "2025-10-11",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-11/1224705013.PDF",
+          "fileType": "PDF",
+          "sizeKB": 83,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224705012",
+          "title": "第四届董事会第六次会议决议公告",
+          "publishedAt": "2025-10-11",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-11/1224705012.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224688046",
+          "title": "关于全资子公司之间资产划转的公告",
+          "publishedAt": "2025-09-30",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-09-30/1224688046.PDF",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224688045",
+          "title": "第四届董事会第五次会议决议公告",
+          "publishedAt": "2025-09-30",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-09-30/1224688045.PDF",
+          "fileType": "PDF",
+          "sizeKB": 81,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224680520",
+          "title": "关于为子公司申请银行授信额度提供担保并撤销先前担保的公告",
+          "publishedAt": "2025-09-26",
+          "year": 2025,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-09-26/1224680520.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011709",
+            "011711"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224680519",
+          "title": "第四届董事会第四次会议决议公告",
+          "publishedAt": "2025-09-26",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-09-26/1224680519.PDF",
+          "fileType": "PDF",
+          "sizeKB": 80,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607745",
+          "title": "2025年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607745.PDF",
+          "fileType": "PDF",
+          "sizeKB": 165,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607744",
+          "title": "半年报董事会决议公告",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607744.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607743",
+          "title": "半年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607743.PDF",
+          "fileType": "PDF",
+          "sizeKB": 51,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607742",
+          "title": "2025年半年度报告",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607742.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1072,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607741",
+          "title": "半年报财务报表",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607741.PDF",
+          "fileType": "PDF",
+          "sizeKB": 14255,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607740",
+          "title": "2025年半年度财务报告",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607740.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1631,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224607738",
+          "title": "2025年半年度报告摘要",
+          "publishedAt": "2025-08-29",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224607738.PDF",
+          "fileType": "PDF",
+          "sizeKB": 115,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224502140",
+          "title": "关于为子公司申请银行授信额度提供担保的公告",
+          "publishedAt": "2025-08-19",
+          "year": 2025,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-19/1224502140.pdf",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011709",
+            "011711"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224502139",
+          "title": "第四届董事会第二次会议决议公告",
+          "publishedAt": "2025-08-19",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-19/1224502139.pdf",
+          "fileType": "PDF",
+          "sizeKB": 77,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224164381",
+          "title": "2025年半年度业绩预告",
+          "publishedAt": "2025-07-15",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-07-15/1224164381.PDF",
+          "fileType": "PDF",
+          "sizeKB": 279,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223537699",
+          "title": "关于选举产生职工代表董事的公告",
+          "publishedAt": "2025-05-14",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-14/1223537699.PDF",
+          "fileType": "PDF",
+          "sizeKB": 181,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223537698",
+          "title": "2024年年度股东会决议公告",
+          "publishedAt": "2025-05-14",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-14/1223537698.PDF",
+          "fileType": "PDF",
+          "sizeKB": 121,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223537697",
+          "title": "关于公司董事会换届选举完成并聘任高级管理人员的公告",
+          "publishedAt": "2025-05-14",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-14/1223537697.PDF",
+          "fileType": "PDF",
+          "sizeKB": 134,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223537696",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2024年年度股东会的法律意见",
+          "publishedAt": "2025-05-14",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-14/1223537696.PDF",
+          "fileType": "PDF",
+          "sizeKB": 383,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223537695",
+          "title": "第四届董事会第一次会议决议公告",
+          "publishedAt": "2025-05-14",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-14/1223537695.PDF",
+          "fileType": "PDF",
+          "sizeKB": 189,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223406438",
+          "title": "2025年一季度报告",
+          "publishedAt": "2025-04-30",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223406438.PDF",
+          "fileType": "PDF",
+          "sizeKB": 460,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223305384",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2025-04-28",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223305384.PDF",
+          "fileType": "PDF",
+          "sizeKB": 200,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197738",
+          "title": "投资者关系工作管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197738.PDF",
+          "fileType": "PDF",
+          "sizeKB": 273,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197737",
+          "title": "独立董事年报工作制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197737.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197736",
+          "title": "独立董事提名人声明与承诺（李一帆）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197736.PDF",
+          "fileType": "PDF",
+          "sizeKB": 153,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197735",
+          "title": "关于召开2024年年度业绩说明会的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197735.PDF",
+          "fileType": "PDF",
+          "sizeKB": 194,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197734",
+          "title": "重大信息内部报告制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197734.PDF",
+          "fileType": "PDF",
+          "sizeKB": 269,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197733",
+          "title": "总经理工作细则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197733.PDF",
+          "fileType": "PDF",
+          "sizeKB": 108,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197731",
+          "title": "董事会议事规则(2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197731.PDF",
+          "fileType": "PDF",
+          "sizeKB": 346,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197730",
+          "title": "董事会薪酬与考核委员会议事规则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197730.PDF",
+          "fileType": "PDF",
+          "sizeKB": 263,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197729",
+          "title": "2024年度董事会工作报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197729.PDF",
+          "fileType": "PDF",
+          "sizeKB": 181,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197728",
+          "title": "董事会对独立董事独立性评估的专项意见",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197728.PDF",
+          "fileType": "PDF",
+          "sizeKB": 474,
+          "announcementTypes": [
+            "01010503",
+            "01011107",
+            "010112",
+            "012399",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197727",
+          "title": "董事离职管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197727.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197726",
+          "title": "关于2024年度利润分配预案的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197726.PDF",
+          "fileType": "PDF",
+          "sizeKB": 285,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197725",
+          "title": "委托理财管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197725.PDF",
+          "fileType": "PDF",
+          "sizeKB": 265,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197724",
+          "title": "2024年年度报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197724.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2923,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197723",
+          "title": "内部审计制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197723.PDF",
+          "fileType": "PDF",
+          "sizeKB": 315,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197722",
+          "title": "2024年度监事会工作报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197722.PDF",
+          "fileType": "PDF",
+          "sizeKB": 156,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197721",
+          "title": "年报信息披露重大差错责任追究制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197721.PDF",
+          "fileType": "PDF",
+          "sizeKB": 314,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197720",
+          "title": "2024年度独立董事述职报告（张岭）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197720.PDF",
+          "fileType": "PDF",
+          "sizeKB": 155,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197719",
+          "title": "关于2024年度计提资产减值准备的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197719.PDF",
+          "fileType": "PDF",
+          "sizeKB": 243,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197718",
+          "title": "内部控制自我评价报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197718.PDF",
+          "fileType": "PDF",
+          "sizeKB": 351,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197717",
+          "title": "年度关联方资金占用专项审计报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197717.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2276,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197716",
+          "title": "独立董事提名人声明与承诺（赵伟）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197716.PDF",
+          "fileType": "PDF",
+          "sizeKB": 153,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197715",
+          "title": "独立董事提名人声明与承诺（李洪）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197715.PDF",
+          "fileType": "PDF",
+          "sizeKB": 153,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197714",
+          "title": "2024年度独立董事述职报告（李一帆）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197714.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197713",
+          "title": "董事会审计委员会议事规则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197713.PDF",
+          "fileType": "PDF",
+          "sizeKB": 136,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197712",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2024年度募集资金存放与使用情况的专项核查报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197712.PDF",
+          "fileType": "PDF",
+          "sizeKB": 682,
+          "announcementTypes": [
+            "01010503",
+            "01010701",
+            "010109",
+            "010112",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197711",
+          "title": "2024 年度营业收入扣除情况的专项报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197711.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1763,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197710",
+          "title": "防范控股股东及关联方占用公司资金专项制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197710.PDF",
+          "fileType": "PDF",
+          "sizeKB": 120,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197709",
+          "title": "募集资金管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197709.PDF",
+          "fileType": "PDF",
+          "sizeKB": 253,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197708",
+          "title": "年度股东大会通知",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197708.PDF",
+          "fileType": "PDF",
+          "sizeKB": 350,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197707",
+          "title": "对德勤华永会计师事务所(特殊普通合伙)2024年度履职情况的评估报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197707.PDF",
+          "fileType": "PDF",
+          "sizeKB": 306,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197706",
+          "title": "关于使用部分闲置自有资金进行委托理财的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197706.PDF",
+          "fileType": "PDF",
+          "sizeKB": 203,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197705",
+          "title": "关于为董事、高级管理人员购买责任保险的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197705.PDF",
+          "fileType": "PDF",
+          "sizeKB": 166,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197704",
+          "title": "对外投资管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197704.PDF",
+          "fileType": "PDF",
+          "sizeKB": 335,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197700",
+          "title": "董事会决议公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197700.PDF",
+          "fileType": "PDF",
+          "sizeKB": 318,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197691",
+          "title": "年度募集资金使用情况专项说明",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197691.PDF",
+          "fileType": "PDF",
+          "sizeKB": 233,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197689",
+          "title": "董事会提名委员会议事规则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197689.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197688",
+          "title": "独立董事候选人声明与承诺（李一帆）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197688.PDF",
+          "fileType": "PDF",
+          "sizeKB": 157,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197687",
+          "title": "第三届董事会审计委员会对德勤华永会计师事务所(特殊普通合伙)2024年度履行监督职责情况的报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197687.PDF",
+          "fileType": "PDF",
+          "sizeKB": 273,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197686",
+          "title": "会计师事务所选聘管理办法（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197686.PDF",
+          "fileType": "PDF",
+          "sizeKB": 158,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197685",
+          "title": "董事会战略委员会议事规则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197685.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197684",
+          "title": "关于董事会换届选举的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197684.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197683",
+          "title": "独立董事候选人声明与承诺（李洪）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197683.PDF",
+          "fileType": "PDF",
+          "sizeKB": 157,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197682",
+          "title": "2024年年度社会责任报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197682.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2057,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197681",
+          "title": "股东会议事规则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197681.PDF",
+          "fileType": "PDF",
+          "sizeKB": 229,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197680",
+          "title": "2024年度独立董事述职报告（李洪）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197680.PDF",
+          "fileType": "PDF",
+          "sizeKB": 164,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197679",
+          "title": "独立董事候选人声明与承诺（赵伟）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197679.PDF",
+          "fileType": "PDF",
+          "sizeKB": 157,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197678",
+          "title": "董事和高级管理人员持有公司股份及其变动管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197678.PDF",
+          "fileType": "PDF",
+          "sizeKB": 133,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197677",
+          "title": "2024年度财务决算报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197677.PDF",
+          "fileType": "PDF",
+          "sizeKB": 335,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197676",
+          "title": "董事会秘书工作细则（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197676.PDF",
+          "fileType": "PDF",
+          "sizeKB": 172,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197675",
+          "title": "监事会决议公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197675.PDF",
+          "fileType": "PDF",
+          "sizeKB": 290,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197674",
+          "title": "关于修订《公司章程》并调整部分公司治理制度暨调整公司治理结构的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197674.PDF",
+          "fileType": "PDF",
+          "sizeKB": 859,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197673",
+          "title": "内幕信息知情人登记管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197673.PDF",
+          "fileType": "PDF",
+          "sizeKB": 149,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197672",
+          "title": "年度募集资金使用鉴证报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197672.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1774,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197671",
+          "title": "关于拟续聘会计师事务所的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197671.PDF",
+          "fileType": "PDF",
+          "sizeKB": 231,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197670",
+          "title": "2024年年度报告摘要",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197670.PDF",
+          "fileType": "PDF",
+          "sizeKB": 427,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197669",
+          "title": "独立董事工作制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197669.PDF",
+          "fileType": "PDF",
+          "sizeKB": 198,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197668",
+          "title": "信息披露事务管理制度（2025年4月）",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197668.PDF",
+          "fileType": "PDF",
+          "sizeKB": 369,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197667",
+          "title": "公司章程(2025年4月)",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197667.PDF",
+          "fileType": "PDF",
+          "sizeKB": 536,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197666",
+          "title": "关于股票交易被实施退市风险警示暨股票停牌的公告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197666.PDF",
+          "fileType": "PDF",
+          "sizeKB": 148,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197665",
+          "title": "2024年年度审计报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197665.PDF",
+          "fileType": "PDF",
+          "sizeKB": 21446,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223197664",
+          "title": "内部控制审计报告",
+          "publishedAt": "2025-04-22",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197664.PDF",
+          "fileType": "PDF",
+          "sizeKB": 501,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223143343",
+          "title": "关于公司股票交易可能被实施退市风险警示的第三次风险提示性公告",
+          "publishedAt": "2025-04-19",
+          "year": 2025,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223143343.PDF",
+          "fileType": "PDF",
+          "sizeKB": 218,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223066983",
+          "title": "关于公司股票交易可能被实施退市风险警示的第二次风险提示性公告",
+          "publishedAt": "2025-04-12",
+          "year": 2025,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-12/1223066983.PDF",
+          "fileType": "PDF",
+          "sizeKB": 308,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222832141",
+          "title": "关于大同数据科技职业学院通过教育部备案并收到办学许可证的自愿性信息披露公告",
+          "publishedAt": "2025-03-19",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-03-19/1222832141.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222523292",
+          "title": "关于收购厦门优优汇联信息科技股份有限公司51%股份交割完成的公告",
+          "publishedAt": "2025-02-13",
+          "year": 2025,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-02-13/1222523292.PDF",
+          "fileType": "PDF",
+          "sizeKB": 176,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222430249",
+          "title": "关于公司股票交易可能被实施退市风险警示的提示性公告",
+          "publishedAt": "2025-01-25",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-25/1222430249.PDF",
+          "fileType": "PDF",
+          "sizeKB": 295,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012107"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222430248",
+          "title": "2024年年度业绩预告",
+          "publishedAt": "2025-01-25",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-25/1222430248.PDF",
+          "fileType": "PDF",
+          "sizeKB": 324,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222430247",
+          "title": "关于2024年度拟计提资产减值准备的提示性公告",
+          "publishedAt": "2025-01-25",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-25/1222430247.PDF",
+          "fileType": "PDF",
+          "sizeKB": 242,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222221071",
+          "title": "关于全资子公司收购FIS Holdings Pte. Ltd.51%股权交易完成的公告",
+          "publishedAt": "2025-01-04",
+          "year": 2025,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-04/1222221071.PDF",
+          "fileType": "PDF",
+          "sizeKB": 192,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222092497",
+          "title": "舆情管理制度（2024年12月）",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222092497.PDF",
+          "fileType": "PDF",
+          "sizeKB": 187,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222092496",
+          "title": "第三届董事会第二十三次会议决议公告",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222092496.PDF",
+          "fileType": "PDF",
+          "sizeKB": 247,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222092495",
+          "title": "关于收购厦门优优汇联信息科技股份有限公司51%股份的公告",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222092495.PDF",
+          "fileType": "PDF",
+          "sizeKB": 404,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221739354",
+          "title": "关于变更办公地址的公告",
+          "publishedAt": "2024-11-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-11-16/1221739354.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221739352",
+          "title": "关于变更签字注册会计师的公告",
+          "publishedAt": "2024-11-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-11-16/1221739352.PDF",
+          "fileType": "PDF",
+          "sizeKB": 120,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221568311",
+          "title": "2024年三季度报告",
+          "publishedAt": "2024-10-31",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-31/1221568311.PDF",
+          "fileType": "PDF",
+          "sizeKB": 325,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221540169",
+          "title": "关于变更持续督导保荐代表人的公告",
+          "publishedAt": "2024-10-29",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-29/1221540169.PDF",
+          "fileType": "PDF",
+          "sizeKB": 64,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221342146",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2024年第一次临时股东大会的法律意见",
+          "publishedAt": "2024-10-09",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-09/1221342146.PDF",
+          "fileType": "PDF",
+          "sizeKB": 228,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221342145",
+          "title": "2024年第一次临时股东大会决议公告",
+          "publishedAt": "2024-10-09",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-09/1221342145.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258764",
+          "title": "独立董事年报工作制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258764.PDF",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258763",
+          "title": "信息披露事务管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258763.PDF",
+          "fileType": "PDF",
+          "sizeKB": 277,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258762",
+          "title": "总经理工作细则（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258762.PDF",
+          "fileType": "PDF",
+          "sizeKB": 80,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258761",
+          "title": "股东会议事规则（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258761.PDF",
+          "fileType": "PDF",
+          "sizeKB": 230,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258760",
+          "title": "内幕信息知情人登记管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258760.PDF",
+          "fileType": "PDF",
+          "sizeKB": 115,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258759",
+          "title": "关于修订《公司章程》及其附件及修订、制订和废止部分公司治理制度的公告",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258759.PDF",
+          "fileType": "PDF",
+          "sizeKB": 365,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258758",
+          "title": "内部审计制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258758.PDF",
+          "fileType": "PDF",
+          "sizeKB": 194,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258757",
+          "title": "董事会议事规则(2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258757.PDF",
+          "fileType": "PDF",
+          "sizeKB": 289,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258756",
+          "title": "董事会秘书工作细则（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258756.PDF",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258755",
+          "title": "第三届董事会第二十一次会议决议公告",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258755.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258754",
+          "title": "董事会薪酬与考核委员会议事规则（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258754.PDF",
+          "fileType": "PDF",
+          "sizeKB": 170,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258753",
+          "title": "融资管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258753.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258752",
+          "title": "第三届监事会第十七次会议决议公告",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258752.PDF",
+          "fileType": "PDF",
+          "sizeKB": 75,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258751",
+          "title": "关于全资子公司拟收购FIS Holdings Pte. Ltd51%股权的公告",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258751.PDF",
+          "fileType": "PDF",
+          "sizeKB": 205,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258750",
+          "title": "防范控股股东及关联方占用公司资金专项制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258750.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258749",
+          "title": "关于召开2024年第一次临时股东大会的通知",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258749.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258748",
+          "title": "监事会议事规则(2024年9月)",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258748.PDF",
+          "fileType": "PDF",
+          "sizeKB": 195,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258747",
+          "title": "公司章程(2024年9月)",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258747.PDF",
+          "fileType": "PDF",
+          "sizeKB": 318,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258746",
+          "title": "对外投资管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258746.PDF",
+          "fileType": "PDF",
+          "sizeKB": 247,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258745",
+          "title": "董事、监事、高级管理人员持有公司股份及其变动管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258745.PDF",
+          "fileType": "PDF",
+          "sizeKB": 102,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258744",
+          "title": "第三届监事会第十七次会议决议-签署版",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258744.PDF",
+          "fileType": "PDF",
+          "sizeKB": 252,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258743",
+          "title": "委托理财管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258743.PDF",
+          "fileType": "PDF",
+          "sizeKB": 172,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258742",
+          "title": "关联交易管理办法（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258742.PDF",
+          "fileType": "PDF",
+          "sizeKB": 150,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258741",
+          "title": "独立董事津贴管理办法（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258741.PDF",
+          "fileType": "PDF",
+          "sizeKB": 52,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258740",
+          "title": "关于监事辞任并提名监事候选人的公告",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258740.PDF",
+          "fileType": "PDF",
+          "sizeKB": 165,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258739",
+          "title": "控股子公司管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258739.PDF",
+          "fileType": "PDF",
+          "sizeKB": 169,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258738",
+          "title": "年报信息披露重大差错责任追究制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258738.PDF",
+          "fileType": "PDF",
+          "sizeKB": 225,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258737",
+          "title": "募集资金管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258737.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258736",
+          "title": "对外担保制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258736.PDF",
+          "fileType": "PDF",
+          "sizeKB": 180,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258735",
+          "title": "董事会审计委员会年报工作规程（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258735.PDF",
+          "fileType": "PDF",
+          "sizeKB": 183,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258734",
+          "title": "投资者关系工作管理制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258734.PDF",
+          "fileType": "PDF",
+          "sizeKB": 187,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258733",
+          "title": "FIS HOLDINGS PTE.LTD.于2024年6月30日的股东全部权益的市场价值估值咨询报告",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258733.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1209,
+          "announcementTypes": [
+            "01010905",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258732",
+          "title": "会计师事务所选聘管理办法（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258732.PDF",
+          "fileType": "PDF",
+          "sizeKB": 111,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258731",
+          "title": "独立董事工作制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258731.PDF",
+          "fileType": "PDF",
+          "sizeKB": 164,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258730",
+          "title": "FIS HOLDINGS PTE.LTD.财务报表及审计报告（2024年1月1日至2024年6月30日止期间及2023年度）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258730.PDF",
+          "fileType": "PDF",
+          "sizeKB": 10204,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258728",
+          "title": "重大信息内部报告制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258728.PDF",
+          "fileType": "PDF",
+          "sizeKB": 174,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258727",
+          "title": "日常经营决策制度（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258727.PDF",
+          "fileType": "PDF",
+          "sizeKB": 150,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221258726",
+          "title": "董事会审计委员会议事规则（2024年9月）",
+          "publishedAt": "2024-09-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-21/1221258726.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221159532",
+          "title": "关于监事亲属短线交易及致歉的公告",
+          "publishedAt": "2024-09-07",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-07/1221159532.PDF",
+          "fileType": "PDF",
+          "sizeKB": 123,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012102",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221082405",
+          "title": "关于公司及相关人员收到江苏证监局警示函的公告",
+          "publishedAt": "2024-08-31",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-31/1221082405.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024294",
+          "title": "2024年半年度报告摘要",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024294.PDF",
+          "fileType": "PDF",
+          "sizeKB": 153,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024287",
+          "title": "半年报监事会决议公告",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024287.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024283",
+          "title": "半年报董事会决议公告",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024283.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024273",
+          "title": "半年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024273.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024263",
+          "title": "2024年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024263.PDF",
+          "fileType": "PDF",
+          "sizeKB": 198,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024255",
+          "title": "2024年半年度报告",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024255.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2877,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221024247",
+          "title": "2024年半年度财务报告",
+          "publishedAt": "2024-08-29",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221024247.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2066,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220862509",
+          "title": "关于股东股份减持计划期限届满的公告",
+          "publishedAt": "2024-08-14",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-14/1220862509.PDF",
+          "fileType": "PDF",
+          "sizeKB": 124,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220688183",
+          "title": "2024-043 关于收到政府补助的公告",
+          "publishedAt": "2024-07-20",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-07-20/1220688183.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220615712",
+          "title": "2024年半年度业绩预告",
+          "publishedAt": "2024-07-12",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-07-12/1220615712.PDF",
+          "fileType": "PDF",
+          "sizeKB": 134,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220497049",
+          "title": "关于股东减持股份比例超过1%的公告",
+          "publishedAt": "2024-06-29",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-06-29/1220497049.PDF",
+          "fileType": "PDF",
+          "sizeKB": 155,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220347698",
+          "title": "2023年年度权益分派实施公告",
+          "publishedAt": "2024-06-14",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-06-14/1220347698.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220223156",
+          "title": "关于变更财务总监的公告",
+          "publishedAt": "2024-06-01",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220223156.PDF",
+          "fileType": "PDF",
+          "sizeKB": 269,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220223153",
+          "title": "关于2022年员工持股计划股份出售完毕的公告",
+          "publishedAt": "2024-06-01",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220223153.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220223151",
+          "title": "第三届董事会第十九次会议决议公告",
+          "publishedAt": "2024-06-01",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220223151.PDF",
+          "fileType": "PDF",
+          "sizeKB": 102,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220009680",
+          "title": "第三届监事会第十五次会议决议公告",
+          "publishedAt": "2024-05-09",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-09/1220009680.PDF",
+          "fileType": "PDF",
+          "sizeKB": 64,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219997414",
+          "title": "2023年年度股东大会决议公告",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219997414.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219997412",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2023年年度股东大会的法律意见",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219997412.PDF",
+          "fileType": "PDF",
+          "sizeKB": 206,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219815454",
+          "title": "董事会决议公告",
+          "publishedAt": "2024-04-26",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219815454.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219815453",
+          "title": "2024年一季度报告",
+          "publishedAt": "2024-04-26",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219815453.PDF",
+          "fileType": "PDF",
+          "sizeKB": 376,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219815452",
+          "title": "关于终止实施公司2022年员工持股计划的公告",
+          "publishedAt": "2024-04-26",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219815452.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219654536",
+          "title": "关于股东股份减持计划的预披露公告",
+          "publishedAt": "2024-04-18",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219654536.PDF",
+          "fileType": "PDF",
+          "sizeKB": 120,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619116",
+          "title": "监事会决议公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619116.PDF",
+          "fileType": "PDF",
+          "sizeKB": 112,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619115",
+          "title": "2023年年度报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619115.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3851,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619114",
+          "title": "内部控制自我评价报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619114.PDF",
+          "fileType": "PDF",
+          "sizeKB": 453,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619113",
+          "title": "传智教育2023年年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619113.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619112",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2023年度募集资金存放与使用情况的专项核查报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619112.PDF",
+          "fileType": "PDF",
+          "sizeKB": 612,
+          "announcementTypes": [
+            "01010503",
+            "01010701",
+            "010109",
+            "010112",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619111",
+          "title": "2023年社会责任报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619111.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2023,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619110",
+          "title": "2023年年度报告摘要",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619110.PDF",
+          "fileType": "PDF",
+          "sizeKB": 388,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619109",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2023年度内部控制自我评价报告的核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619109.PDF",
+          "fileType": "PDF",
+          "sizeKB": 392,
+          "announcementTypes": [
+            "01010503",
+            "01010701",
+            "010109",
+            "010112",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619108",
+          "title": "2023年度独立董事述职报告（张岭）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619108.PDF",
+          "fileType": "PDF",
+          "sizeKB": 133,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619107",
+          "title": "内部控制审计报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619107.PDF",
+          "fileType": "PDF",
+          "sizeKB": 508,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619106",
+          "title": "2023年度财务决算报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619106.PDF",
+          "fileType": "PDF",
+          "sizeKB": 179,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619105",
+          "title": "2023年度独立董事述职报告（李一帆）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619105.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619104",
+          "title": "年度股东大会通知",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619104.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619103",
+          "title": "2023年度监事会工作报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619103.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619102",
+          "title": "第三届董事会审计委员会对德勤华永会计师事务所(特殊普通合伙)2023年度履行监督职责情况的报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619102.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619101",
+          "title": "2023年度董事会工作报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619101.PDF",
+          "fileType": "PDF",
+          "sizeKB": 192,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619100",
+          "title": "第三届董事会关于追溯调整财务报表的专项说明",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619100.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619099",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司首次公开发行股票并上市之保荐总结报告书",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619099.PDF",
+          "fileType": "PDF",
+          "sizeKB": 453,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619098",
+          "title": "关于使用部分闲置募集资金进行现金管理的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619098.PDF",
+          "fileType": "PDF",
+          "sizeKB": 102,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619097",
+          "title": "关于监事辞任并提名监事候选人的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619097.PDF",
+          "fileType": "PDF",
+          "sizeKB": 168,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619096",
+          "title": "2023年年度审计报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619096.PDF",
+          "fileType": "PDF",
+          "sizeKB": 30825,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619095",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司使用闲置自有资金进行委托理财的核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619095.PDF",
+          "fileType": "PDF",
+          "sizeKB": 369,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619094",
+          "title": "关于召开2023年年度业绩说明会的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619094.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619093",
+          "title": "关于拟续聘会计师事务所的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619093.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619092",
+          "title": "年度关联方资金占用专项审计报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619092.PDF",
+          "fileType": "PDF",
+          "sizeKB": 803,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619091",
+          "title": "第三届监事会关于追溯调整财务报表的专项说明",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619091.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619090",
+          "title": "董事会决议公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619090.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619089",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619089.PDF",
+          "fileType": "PDF",
+          "sizeKB": 403,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619088",
+          "title": "2023年度独立董事述职报告（董一鸣）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619088.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619087",
+          "title": "对德勤华永会计师事务所(特殊普通合伙)2023年度履职情况的评估报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619087.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619086",
+          "title": "年度募集资金使用鉴证报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619086.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3731,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619085",
+          "title": "关于使用部分闲置自有资金进行委托理财的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619085.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619084",
+          "title": "2023年度独立董事述职报告（李洪）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619084.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619083",
+          "title": "董事会对独立董事独立性评估的专项意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619083.PDF",
+          "fileType": "PDF",
+          "sizeKB": 53,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619077",
+          "title": "关于2023年度利润分配预案的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619077.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619070",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2023年度保荐工作报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619070.PDF",
+          "fileType": "PDF",
+          "sizeKB": 669,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619064",
+          "title": "关于公司购买董监高责任险的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619064.PDF",
+          "fileType": "PDF",
+          "sizeKB": 67,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219619056",
+          "title": "年度募集资金使用情况专项说明",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619056.PDF",
+          "fileType": "PDF",
+          "sizeKB": 197,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219295273",
+          "title": "关于深圳证券交易所同意公司撤回向不特定对象发行可转换公司债券申请文件的公告",
+          "publishedAt": "2024-03-13",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-03-13/1219295273.PDF",
+          "fileType": "PDF",
+          "sizeKB": 59,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219242000",
+          "title": "第三届董事会第十六次会议决议公告",
+          "publishedAt": "2024-03-06",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-03-06/1219242000.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219241999",
+          "title": "关于终止向不特定对象发行可转换公司债券事项并撤回申请文件的公告",
+          "publishedAt": "2024-03-06",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-03-06/1219241999.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219241998",
+          "title": "第三届监事会第十二次会议决议公告",
+          "publishedAt": "2024-03-06",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-03-06/1219241998.PDF",
+          "fileType": "PDF",
+          "sizeKB": 83,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219107600",
+          "title": "变更向不特定对象发行可转债保荐代表人的公告",
+          "publishedAt": "2024-02-07",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-02-07/1219107600.PDF",
+          "fileType": "PDF",
+          "sizeKB": 64,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219107599",
+          "title": "变更持续督导保荐代表人的公告",
+          "publishedAt": "2024-02-07",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-02-07/1219107599.PDF",
+          "fileType": "PDF",
+          "sizeKB": 66,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219078282",
+          "title": "关于对全资子公司大同好学增资的进展公告",
+          "publishedAt": "2024-02-03",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-02-03/1219078282.PDF",
+          "fileType": "PDF",
+          "sizeKB": 80,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219025974",
+          "title": "关于对全资子公司大同好学增资的公告",
+          "publishedAt": "2024-01-30",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-30/1219025974.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219025973",
+          "title": "第三届董事会第十五次会议决议公告",
+          "publishedAt": "2024-01-30",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-30/1219025973.PDF",
+          "fileType": "PDF",
+          "sizeKB": 77,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931170",
+          "title": "第三届董事会第十四次会议决议公告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931170.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931169",
+          "title": "关于募集资金投资项目延期的公告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931169.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931168",
+          "title": "2023年年度业绩预告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931168.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931167",
+          "title": "关于2022年员工持股计划第一个解锁期考核指标未达成的公告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931167.PDF",
+          "fileType": "PDF",
+          "sizeKB": 108,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931166",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司募集资金投资项目延期的专项核查报告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931166.PDF",
+          "fileType": "PDF",
+          "sizeKB": 408,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931165",
+          "title": "第三届监事会第十一次会议决议公告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931165.PDF",
+          "fileType": "PDF",
+          "sizeKB": 242,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931164",
+          "title": "关于确认公允价值变动损益及计提资产减值准备的公告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931164.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218836205",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司首次公开发行前已发行股份上市流通的核查意见",
+          "publishedAt": "2024-01-10",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-10/1218836205.PDF",
+          "fileType": "PDF",
+          "sizeKB": 479,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218836203",
+          "title": "首次公开发行前已发行股份上市流通的提示性公告",
+          "publishedAt": "2024-01-10",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-10/1218836203.PDF",
+          "fileType": "PDF",
+          "sizeKB": 221,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218768059",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2023年第二次临时股东大会的法律意见",
+          "publishedAt": "2023-12-30",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-30/1218768059.PDF",
+          "fileType": "PDF",
+          "sizeKB": 227,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218768058",
+          "title": "2023年第二次临时股东大会决议公告",
+          "publishedAt": "2023-12-30",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-30/1218768058.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218768057",
+          "title": "关于信托产品逾期兑付的提示性公告",
+          "publishedAt": "2023-12-30",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-30/1218768057.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218702505",
+          "title": "关于对全资子公司大同好学增资的进展公告",
+          "publishedAt": "2023-12-23",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-23/1218702505.PDF",
+          "fileType": "PDF",
+          "sizeKB": 79,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218671854",
+          "title": "关于对全资子公司大同好学增资的公告",
+          "publishedAt": "2023-12-21",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-21/1218671854.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218671853",
+          "title": "第三届董事会第十三次会议决议公告",
+          "publishedAt": "2023-12-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-21/1218671853.PDF",
+          "fileType": "PDF",
+          "sizeKB": 151,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218664825",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2023年定期现场检查报告",
+          "publishedAt": "2023-12-20",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-20/1218664825.PDF",
+          "fileType": "PDF",
+          "sizeKB": 490,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593822",
+          "title": "董事会审计委员会议事规则（2023年12月）",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593822.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593821",
+          "title": "关于修订《公司章程》及部分公司治理制度的公告",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593821.PDF",
+          "fileType": "PDF",
+          "sizeKB": 290,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593820",
+          "title": "独立董事提名人声明与承诺",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593820.PDF",
+          "fileType": "PDF",
+          "sizeKB": 215,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593819",
+          "title": "董事会薪酬与考核委员会议事规则（2023年12月）",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593819.PDF",
+          "fileType": "PDF",
+          "sizeKB": 194,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593818",
+          "title": "董事会议事规则(2023年12月）",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593818.PDF",
+          "fileType": "PDF",
+          "sizeKB": 242,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593817",
+          "title": "董事会提名委员会议事规则（2023年12月）",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593817.PDF",
+          "fileType": "PDF",
+          "sizeKB": 101,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593816",
+          "title": "第三届董事会第十二次会议决议公告",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593816.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593815",
+          "title": "董事会战略委员会议事规则（2023年12月）",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593815.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593814",
+          "title": "第三届董事会提名委员会关于补选第三届董事会独立董事的审核意见",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593814.PDF",
+          "fileType": "PDF",
+          "sizeKB": 61,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593813",
+          "title": "公司章程(2023年12月)",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593813.PDF",
+          "fileType": "PDF",
+          "sizeKB": 316,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593812",
+          "title": "关于独立董事任期届满辞职暨补选独立董事并调整专门委员会委员的公告",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593812.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593811",
+          "title": "独立董事关于第三届董事会第十二次会议相关事项的独立意见",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593811.PDF",
+          "fileType": "PDF",
+          "sizeKB": 59,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593809",
+          "title": "独立董事工作制度（2023年12月）",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593809.PDF",
+          "fileType": "PDF",
+          "sizeKB": 174,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593808",
+          "title": "独立董事候选人声明与承诺",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593808.PDF",
+          "fileType": "PDF",
+          "sizeKB": 220,
+          "announcementTypes": [
+            "01010503",
+            "01011199",
+            "010112",
+            "012303",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218593807",
+          "title": "关于召开2023年第二次临时股东大会的通知",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218593807.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218431182",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2023-11-27",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-11-27/1218431182.PDF",
+          "fileType": "PDF",
+          "sizeKB": 79,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218329944",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2023-11-15",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-11-15/1218329944.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218197346",
+          "title": "2023年三季度报告",
+          "publishedAt": "2023-10-31",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-31/1218197346.PDF",
+          "fileType": "PDF",
+          "sizeKB": 372,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137411",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券募集说明书",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137411.PDF",
+          "fileType": "PDF",
+          "sizeKB": 8595,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137408",
+          "title": "关于向不特定对象发行可转换公司债券审核问询函回复等申请文件更新的提示性公告",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137408.PDF",
+          "fileType": "PDF",
+          "sizeKB": 141,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137405",
+          "title": "德勤华永会计师事务所(特殊普通合伙)关于深圳证券交易所《关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的审核问询函》(审核函 (2023) 120086 号)的回复",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137405.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2948,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137402",
+          "title": "关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的审核问询函之回复",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137402.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2607,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137399",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司向不特定对象发行可转债之上市保荐书",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137399.PDF",
+          "fileType": "PDF",
+          "sizeKB": 854,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137394",
+          "title": "北京国枫律师事务所关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的补充法律意见书之二",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137394.PDF",
+          "fileType": "PDF",
+          "sizeKB": 13230,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218137392",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司向不特定对象发行可转债之发行保荐书",
+          "publishedAt": "2023-10-25",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218137392.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1117,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217699818",
+          "title": "2023年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217699818.PDF",
+          "fileType": "PDF",
+          "sizeKB": 160,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694755",
+          "title": "半年报董事会决议公告",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694755.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694749",
+          "title": "半年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694749.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694745",
+          "title": "2023年半年度报告",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694745.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2271,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694741",
+          "title": "独立董事关于控股股东及其他关联方占用公司资金、公司对外担保情况的专项说明和独立意见",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694741.PDF",
+          "fileType": "PDF",
+          "sizeKB": 63,
+          "announcementTypes": [
+            "01010503",
+            "01011107",
+            "010112",
+            "012399",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694735",
+          "title": "半年报财务报表",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694735.PDF",
+          "fileType": "PDF",
+          "sizeKB": 6174,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694730",
+          "title": "2023年半年度财务报告",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694730.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1740,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694727",
+          "title": "半年报监事会决议公告",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694727.PDF",
+          "fileType": "PDF",
+          "sizeKB": 167,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217694722",
+          "title": "2023年半年度报告摘要",
+          "publishedAt": "2023-08-30",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217694722.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217315601",
+          "title": "关于股东股份减持计划实施结束暨后续股份减持计划的预披露公告",
+          "publishedAt": "2023-07-18",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-07-18/1217315601.PDF",
+          "fileType": "PDF",
+          "sizeKB": 144,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217075627",
+          "title": "第三届董事会第九次会议决议公告",
+          "publishedAt": "2023-06-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-16/1217075627.PDF",
+          "fileType": "PDF",
+          "sizeKB": 70,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217075626",
+          "title": "独立董事关于第三届董事会第九次会议相关事项的独立意见",
+          "publishedAt": "2023-06-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-16/1217075626.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217075625",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券募集资金使用可行性分析报告（修订稿）",
+          "publishedAt": "2023-06-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-16/1217075625.PDF",
+          "fileType": "PDF",
+          "sizeKB": 308,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217051383",
+          "title": "关于监事减持股份计划实施结束的公告",
+          "publishedAt": "2023-06-14",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-14/1217051383.PDF",
+          "fileType": "PDF",
+          "sizeKB": 143,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934499",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券募集说明书（申报稿）",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934499.PDF",
+          "fileType": "PDF",
+          "sizeKB": 8183,
+          "announcementTypes": [
+            "01010501",
+            "01010503",
+            "010112",
+            "010905",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934498",
+          "title": "北京国枫律师事务所关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的补充法律意见书之一",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934498.PDF",
+          "fileType": "PDF",
+          "sizeKB": 8973,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934497",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司向不特定对象发行可转债之上市保荐书",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934497.PDF",
+          "fileType": "PDF",
+          "sizeKB": 841,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934496",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司向不特定对象发行可转债之发行保荐书",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934496.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1115,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934495",
+          "title": "关于回复深圳证券交易所《关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的审核问询函》的提示性公告",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934495.PDF",
+          "fileType": "PDF",
+          "sizeKB": 138,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934494",
+          "title": "德勤华永会计师事务所(特殊普通合伙)关于深圳证券交易所《关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的审核问询函》(审核函〔2023〕120086号)的回复",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934494.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4107,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216934492",
+          "title": "关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的审核问询函之回复",
+          "publishedAt": "2023-05-30",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-30/1216934492.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2215,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216808573",
+          "title": "关于收到深圳证券交易所《关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的审核问询函》的公告",
+          "publishedAt": "2023-05-13",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-13/1216808573.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216766338",
+          "title": "2022年年度股东大会决议公告",
+          "publishedAt": "2023-05-09",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-09/1216766338.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216766336",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2022年年度股东大会的法律意见",
+          "publishedAt": "2023-05-09",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-09/1216766336.PDF",
+          "fileType": "PDF",
+          "sizeKB": 355,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216686972",
+          "title": "董事会决议公告",
+          "publishedAt": "2023-04-29",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216686972.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216686971",
+          "title": "2023年一季度报告",
+          "publishedAt": "2023-04-29",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216686971.PDF",
+          "fileType": "PDF",
+          "sizeKB": 391,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216686970",
+          "title": "关于公司向银行申请综合授信额度的公告",
+          "publishedAt": "2023-04-29",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216686970.PDF",
+          "fileType": "PDF",
+          "sizeKB": 65,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011709"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216666672",
+          "title": "关于向不特定对象发行可转换公司债券申请获得深圳证券交易所受理的公告",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216666672.PDF",
+          "fileType": "PDF",
+          "sizeKB": 58,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216666671",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券募集说明书（申报稿）",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216666671.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7564,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216666670",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司向不特定对象发行可转债之上市保荐书（申报稿）",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216666670.PDF",
+          "fileType": "PDF",
+          "sizeKB": 647,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216666669",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司向不特定对象发行可转债之发行保荐书（申报稿）",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216666669.PDF",
+          "fileType": "PDF",
+          "sizeKB": 959,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216666668",
+          "title": "北京国枫律师事务所关于江苏传智播客教育科技股份有限公司申请向不特定对象发行可转换公司债券的法律意见书",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216666668.PDF",
+          "fileType": "PDF",
+          "sizeKB": 13791,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216666667",
+          "title": "公司最近三年的财务报告及其审计报告",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216666667.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82179,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216641756",
+          "title": "关于召开2022年年度股东大会的提示性公告",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216641756.PDF",
+          "fileType": "PDF",
+          "sizeKB": 149,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216479810",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2022年度保荐工作报告",
+          "publishedAt": "2023-04-20",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-20/1216479810.PDF",
+          "fileType": "PDF",
+          "sizeKB": 565,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216443474",
+          "title": "2022年年度报告摘要（更正后）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216443474.PDF",
+          "fileType": "PDF",
+          "sizeKB": 252,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216443473",
+          "title": "2022年年度报告（更正后）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216443473.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3651,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216443472",
+          "title": "关于2022年年度报告及其摘要的更正公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216443472.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437456",
+          "title": "年度关联方资金占用专项审计报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437456.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2375,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437455",
+          "title": "江苏传智播客教育科技股份有限公司前次募集资金使用情况专项报告及审核报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437455.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3138,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010112",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437454",
+          "title": "年度募集资金使用情况专项说明",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437454.PDF",
+          "fileType": "PDF",
+          "sizeKB": 171,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437453",
+          "title": "股东大会议事规则（2023年4月）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437453.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437452",
+          "title": "董事会决议公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437452.PDF",
+          "fileType": "PDF",
+          "sizeKB": 221,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437451",
+          "title": "关于2023年度日常关联交易预计的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437451.PDF",
+          "fileType": "PDF",
+          "sizeKB": 187,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437450",
+          "title": "2022年度监事会工作报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437450.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437449",
+          "title": "2022年度内部控制自我评价报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437449.PDF",
+          "fileType": "PDF",
+          "sizeKB": 411,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437448",
+          "title": "2022年年度报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437448.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3638,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437447",
+          "title": "董事会议事规则(2023年4月）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437447.PDF",
+          "fileType": "PDF",
+          "sizeKB": 197,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437446",
+          "title": "2022年社会责任报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437446.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1027,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437445",
+          "title": "2022年度董事会工作报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437445.PDF",
+          "fileType": "PDF",
+          "sizeKB": 222,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437444",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2022年度内部控制自我评价报告的核查意见",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437444.PDF",
+          "fileType": "PDF",
+          "sizeKB": 276,
+          "announcementTypes": [
+            "01010503",
+            "01010701",
+            "010109",
+            "010112",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437443",
+          "title": "关于聘任证券事务代表的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437443.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437442",
+          "title": "独立董事关于第三届董事会第七次会议相关事项的事前认可意见",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437442.PDF",
+          "fileType": "PDF",
+          "sizeKB": 65,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437441",
+          "title": "关于选举公司董事及聘任高级管理人员的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437441.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437440",
+          "title": "关于使用部分闲置自有资金进行委托理财的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437440.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437439",
+          "title": "监事会决议公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437439.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437438",
+          "title": "公司章程(2023年4月)",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437438.PDF",
+          "fileType": "PDF",
+          "sizeKB": 323,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437437",
+          "title": "2022年度独立董事述职报告（张岭）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437437.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437436",
+          "title": "监事会议事规则(2023年4月)",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437436.PDF",
+          "fileType": "PDF",
+          "sizeKB": 452,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437435",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司使用闲置自有资金进行委托理财的核查意见",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437435.PDF",
+          "fileType": "PDF",
+          "sizeKB": 261,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437434",
+          "title": "2022年度募集资金存放与使用鉴证报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437434.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2857,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437433",
+          "title": "关于会计政策变更的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437433.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437432",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司调整募集资金投资项目投入金额及实施期限的专项核查报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437432.PDF",
+          "fileType": "PDF",
+          "sizeKB": 395,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437431",
+          "title": "2022年年度报告摘要",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437431.PDF",
+          "fileType": "PDF",
+          "sizeKB": 253,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437430",
+          "title": "关于召开2022年年度业绩说明会的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437430.PDF",
+          "fileType": "PDF",
+          "sizeKB": 105,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437429",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437429.PDF",
+          "fileType": "PDF",
+          "sizeKB": 286,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437428",
+          "title": "关于拟续聘会计师事务所的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437428.PDF",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437427",
+          "title": "2022年年度审计报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437427.PDF",
+          "fileType": "PDF",
+          "sizeKB": 59134,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437426",
+          "title": "内部控制鉴证报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437426.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2045,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437425",
+          "title": "关于公司购买董监高责任险的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437425.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437423",
+          "title": "2022年度财务决算报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437423.PDF",
+          "fileType": "PDF",
+          "sizeKB": 124,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437422",
+          "title": "关于修订《公司章程》《股东大会议事规则》《董事会议事规则》《监事会议事规则》的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437422.PDF",
+          "fileType": "PDF",
+          "sizeKB": 274,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437421",
+          "title": "关于调整募集资金投资项目投入金额及实施期限的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437421.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437420",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2023年度日常关联交易预计情况的核查意见",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437420.PDF",
+          "fileType": "PDF",
+          "sizeKB": 374,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437419",
+          "title": "关于使用部分闲置募集资金进行现金管理的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437419.PDF",
+          "fileType": "PDF",
+          "sizeKB": 109,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437418",
+          "title": "独立董事对担保等事项的独立意见",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437418.PDF",
+          "fileType": "PDF",
+          "sizeKB": 134,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437417",
+          "title": "2022年度独立董事述职报告（李洪）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437417.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437415",
+          "title": "年度股东大会通知",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437415.PDF",
+          "fileType": "PDF",
+          "sizeKB": 148,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437410",
+          "title": "江苏传智播客教育科技股份有限公司前次募集资金使用情况专项报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437410.PDF",
+          "fileType": "PDF",
+          "sizeKB": 208,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437407",
+          "title": "2022年度独立董事述职报告（董一鸣）",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437407.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437403",
+          "title": "关于2022年度利润分配预案的公告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437403.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216437399",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2022年度募集资金存放与使用情况的专项核查报告",
+          "publishedAt": "2023-04-18",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-18/1216437399.PDF",
+          "fileType": "PDF",
+          "sizeKB": 489,
+          "announcementTypes": [
+            "01010503",
+            "01010701",
+            "010109",
+            "010112",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216411901",
+          "title": "关于董事、总经理辞任的公告",
+          "publishedAt": "2023-04-15",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-15/1216411901.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216411900",
+          "title": "独立董事关于总经理辞任的独立意见",
+          "publishedAt": "2023-04-15",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-15/1216411900.PDF",
+          "fileType": "PDF",
+          "sizeKB": 53,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216145319",
+          "title": "关于监事减持股份实施进展的公告",
+          "publishedAt": "2023-03-18",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-03-18/1216145319.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216091428",
+          "title": "关于证券事务代表辞职的公告",
+          "publishedAt": "2023-03-11",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-03-11/1216091428.PDF",
+          "fileType": "PDF",
+          "sizeKB": 68,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216054498",
+          "title": "北京市天元律师事务所关于江苏传智播客教育科技股份有限公司2023年第一次临时股东大会的法律意见",
+          "publishedAt": "2023-03-07",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-03-07/1216054498.PDF",
+          "fileType": "PDF",
+          "sizeKB": 387,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216054497",
+          "title": "2023年第一次临时股东大会决议公告",
+          "publishedAt": "2023-03-07",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-03-07/1216054497.PDF",
+          "fileType": "PDF",
+          "sizeKB": 106,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950194",
+          "title": "江苏传智播客教育科技股份有限公司前次募集资金使用情况专项报告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950194.PDF",
+          "fileType": "PDF",
+          "sizeKB": 210,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950193",
+          "title": "关于2023年第一次临时股东大会取消部分提案并增加临时提案的公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950193.PDF",
+          "fileType": "PDF",
+          "sizeKB": 189,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950192",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券的论证分析报告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950192.PDF",
+          "fileType": "PDF",
+          "sizeKB": 391,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950191",
+          "title": "独立董事关于第三届董事会第六次会议相关事项的独立意见",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950191.PDF",
+          "fileType": "PDF",
+          "sizeKB": 134,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950190",
+          "title": "第三届董事会第六次会议决议公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950190.PDF",
+          "fileType": "PDF",
+          "sizeKB": 225,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950189",
+          "title": "江苏传智播客教育科技股份有限公司可转换公司债券持有人会议规则",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950189.PDF",
+          "fileType": "PDF",
+          "sizeKB": 213,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950188",
+          "title": "关于向不特定对象发行可转换公司债券摊薄即期回报、采取填补措施及相关主体承诺（修订稿）的公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950188.PDF",
+          "fileType": "PDF",
+          "sizeKB": 205,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950187",
+          "title": "关于向不特定对象发行可转换公司债券预案（修订稿）披露的提示性公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950187.PDF",
+          "fileType": "PDF",
+          "sizeKB": 55,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010901",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950186",
+          "title": "关于向不特定对象发行可转换公司债券有关担保事项暨关联交易解除的公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950186.PDF",
+          "fileType": "PDF",
+          "sizeKB": 66,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "011711",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950185",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券预案（修订稿）",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950185.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1005,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950183",
+          "title": "江苏传智播客教育科技股份有限公司前次募集资金使用情况专项报告及审核报告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950183.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2680,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950181",
+          "title": "第三届监事会第六次会议决议公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950181.PDF",
+          "fileType": "PDF",
+          "sizeKB": 213,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950180",
+          "title": "江苏传智播客教育科技股份有限公司向不特定对象发行可转换公司债券募集资金使用可行性分析报告（修订稿）",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950180.PDF",
+          "fileType": "PDF",
+          "sizeKB": 255,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215950177",
+          "title": "关于向不特定对象发行可转换公司债券预案相关文件修订情况说明的公告",
+          "publishedAt": "2023-02-24",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-24/1215950177.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010901",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870976",
+          "title": "第三届监事会第五次会议决议公告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870976.PDF",
+          "fileType": "PDF",
+          "sizeKB": 210,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870975",
+          "title": "江苏传智播客教育科技股份有限公司公开发行可转换公司债券预案",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870975.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1011,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870974",
+          "title": "江苏传智播客教育科技股份有限公司可转换公司债券持有人会议规则",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870974.PDF",
+          "fileType": "PDF",
+          "sizeKB": 170,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870972",
+          "title": "独立董事关于第三届董事会第五次会议相关事项的独立意见",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870972.PDF",
+          "fileType": "PDF",
+          "sizeKB": 184,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870970",
+          "title": "江苏传智播客教育科技股份有限公司未来三年（2023-2025年）股东分红回报规划",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870970.PDF",
+          "fileType": "PDF",
+          "sizeKB": 201,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870969",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司公开发行可转换公司债券有关担保事项暨关联交易的核查意见",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870969.PDF",
+          "fileType": "PDF",
+          "sizeKB": 309,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870968",
+          "title": "关于公司最近五年被证券监管部门和交易所采取监管措施或处罚及整改情况的公告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870968.PDF",
+          "fileType": "PDF",
+          "sizeKB": 101,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870967",
+          "title": "江苏传智播客教育科技股份有限公司前次募集资金使用情况专项报告及审核报告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870967.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2589,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870965",
+          "title": "关于召开2023年第一次临时股东大会的通知",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870965.PDF",
+          "fileType": "PDF",
+          "sizeKB": 182,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870964",
+          "title": "江苏传智播客教育科技股份有限公司公开发行可转换公司债券募集资金使用可行性分析报告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870964.PDF",
+          "fileType": "PDF",
+          "sizeKB": 256,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870963",
+          "title": "第三届董事会第五次会议决议公告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870963.PDF",
+          "fileType": "PDF",
+          "sizeKB": 222,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870962",
+          "title": "关于公开发行可转换公司债券摊薄即期回报、采取填补措施及相关主体承诺的公告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870962.PDF",
+          "fileType": "PDF",
+          "sizeKB": 204,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870961",
+          "title": "独立董事关于第三届董事会第五次会议相关事项的事前认可意见",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870961.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870960",
+          "title": "关于公司公开发行可转换公司债券有关担保事项暨关联交易的公告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870960.PDF",
+          "fileType": "PDF",
+          "sizeKB": 144,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010999",
+            "011711",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215870956",
+          "title": "江苏传智播客教育科技股份有限公司前次募集资金使用情况专项报告",
+          "publishedAt": "2023-02-16",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-16/1215870956.PDF",
+          "fileType": "PDF",
+          "sizeKB": 210,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215861797",
+          "title": "2022年员工持股计划第一次持有人会议决议公告",
+          "publishedAt": "2023-02-15",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-15/1215861797.PDF",
+          "fileType": "PDF",
+          "sizeKB": 166,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215802285",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2022年定期现场检查报告",
+          "publishedAt": "2023-02-09",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-09/1215802285.PDF",
+          "fileType": "PDF",
+          "sizeKB": 439,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215722171",
+          "title": "2022年年度业绩预告",
+          "publishedAt": "2023-01-31",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-31/1215722171.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215557369",
+          "title": "关于股东股份减持计划的预披露公告",
+          "publishedAt": "2023-01-10",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-10/1215557369.PDF",
+          "fileType": "PDF",
+          "sizeKB": 84,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215557368",
+          "title": "关于股东提前终止股份减持计划暨后续减持股份的预披露的公告",
+          "publishedAt": "2023-01-10",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-10/1215557368.PDF",
+          "fileType": "PDF",
+          "sizeKB": 106,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215557367",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司首次公开发行前已发行股份上市流通的核查意见",
+          "publishedAt": "2023-01-10",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-10/1215557367.PDF",
+          "fileType": "PDF",
+          "sizeKB": 382,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215557366",
+          "title": "首次公开发行前已发行股份上市流通提示性公告",
+          "publishedAt": "2023-01-10",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-10/1215557366.PDF",
+          "fileType": "PDF",
+          "sizeKB": 120,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215532100",
+          "title": "关于申办学院列入《山西省十四五高校设置规划》的自愿性披露公告",
+          "publishedAt": "2023-01-06",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-06/1215532100.PDF",
+          "fileType": "PDF",
+          "sizeKB": 76,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215525345",
+          "title": "关于2022年员工持股计划股票非交易过户完成暨回购股份处理完成的公告",
+          "publishedAt": "2023-01-05",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-05/1215525345.PDF",
+          "fileType": "PDF",
+          "sizeKB": 115,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011507",
+            "011513",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215396950",
+          "title": "关于股东减持计划实施完毕的公告",
+          "publishedAt": "2022-12-20",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-12-20/1215396950.PDF",
+          "fileType": "PDF",
+          "sizeKB": 115,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215265543",
+          "title": "关于股份回购完成暨股份变动的公告",
+          "publishedAt": "2022-12-03",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-12-03/1215265543.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215173577",
+          "title": "关于监事减持股份的预披露公告",
+          "publishedAt": "2022-11-23",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-11-23/1215173577.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214999563",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-11-02",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-11-02/1214999563.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214957818",
+          "title": "2022年三季度报告",
+          "publishedAt": "2022-10-31",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-31/1214957818.PDF",
+          "fileType": "PDF",
+          "sizeKB": 313,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214966940",
+          "title": "关于股东减持计划实施完毕的公告",
+          "publishedAt": "2022-10-29",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-29/1214966940.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214825380",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2022-10-19",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-19/1214825380.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214816205",
+          "title": "2022年员工持股计划",
+          "publishedAt": "2022-10-18",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-18/1214816205.PDF",
+          "fileType": "PDF",
+          "sizeKB": 411,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214816204",
+          "title": "2022年第一次临时股东大会的法律意见",
+          "publishedAt": "2022-10-18",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-18/1214816204.PDF",
+          "fileType": "PDF",
+          "sizeKB": 510,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214816203",
+          "title": "2022年第一次临时股东大会决议公告",
+          "publishedAt": "2022-10-18",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-18/1214816203.PDF",
+          "fileType": "PDF",
+          "sizeKB": 77,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214816202",
+          "title": "2022年前三季度业绩预告",
+          "publishedAt": "2022-10-18",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-18/1214816202.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214747384",
+          "title": "北京市天元律师事务所关于公司实施2022年员工持股计划的法律意见",
+          "publishedAt": "2022-10-12",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-12/1214747384.PDF",
+          "fileType": "PDF",
+          "sizeKB": 545,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "012399",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214737237",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-10-11",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-11/1214737237.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710697",
+          "title": "上海荣正企业咨询服务（集团）股份有限公司关于江苏传智播客教育科技股份有限公司2022年员工持股计划（草案）之独立财务顾问报告",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710697.PDF",
+          "fileType": "PDF",
+          "sizeKB": 473,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "012901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710696",
+          "title": "2022年员工持股计划（草案）摘要",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710696.PDF",
+          "fileType": "PDF",
+          "sizeKB": 408,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710695",
+          "title": "关于召开2022年第一次临时股东大会的通知",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710695.PDF",
+          "fileType": "PDF",
+          "sizeKB": 129,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710694",
+          "title": "第三届董事会第三次会议决议公告",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710694.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710693",
+          "title": "2022年员工持股计划管理办法",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710693.PDF",
+          "fileType": "PDF",
+          "sizeKB": 324,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710692",
+          "title": "2022年员工持股计划（草案）",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710692.PDF",
+          "fileType": "PDF",
+          "sizeKB": 412,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710691",
+          "title": "监事会关于2022年员工持股计划相关事项的审核意见",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710691.PDF",
+          "fileType": "PDF",
+          "sizeKB": 66,
+          "announcementTypes": [
+            "01010503",
+            "01010505",
+            "010112",
+            "012399",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710690",
+          "title": "独立董事关于第三届董事会第三次会议相关事项的独立意见",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710690.PDF",
+          "fileType": "PDF",
+          "sizeKB": 66,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710689",
+          "title": "第三届监事会第三次会议决议公告",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710689.PDF",
+          "fileType": "PDF",
+          "sizeKB": 83,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214710688",
+          "title": "董事会关于2022年员工持股计划(草案)合规性说明",
+          "publishedAt": "2022-09-30",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-30/1214710688.PDF",
+          "fileType": "PDF",
+          "sizeKB": 62,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555184",
+          "title": "关于股东减持计划实施完毕及继续减持股份的预披露公告",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555184.PDF",
+          "fileType": "PDF",
+          "sizeKB": 178,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214492533",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-09-01",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-01/1214492533.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317721",
+          "title": "2022年半年度报告摘要",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317721.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317720",
+          "title": "2022年半年度报告",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317720.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2029,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317719",
+          "title": "关于2022年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317719.PDF",
+          "fileType": "PDF",
+          "sizeKB": 170,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317718",
+          "title": "半年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317718.PDF",
+          "fileType": "PDF",
+          "sizeKB": 199,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317717",
+          "title": "独立董事关于控股股东及其他关联方占用公司资金、公司对外担保情况的专项说明和独立意见",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317717.PDF",
+          "fileType": "PDF",
+          "sizeKB": 60,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317708",
+          "title": "半年报监事会决议公告",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317708.PDF",
+          "fileType": "PDF",
+          "sizeKB": 71,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317703",
+          "title": "半年报董事会决议公告",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317703.PDF",
+          "fileType": "PDF",
+          "sizeKB": 73,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214317702",
+          "title": "2022年半年度财务报告",
+          "publishedAt": "2022-08-18",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-18/1214317702.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1561,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214266042",
+          "title": "关于股东减持计划期限届满及继续减持股份的预披露公告",
+          "publishedAt": "2022-08-11",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-11/1214266042.PDF",
+          "fileType": "PDF",
+          "sizeKB": 131,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214189517",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-08-02",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-02/1214189517.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214110388",
+          "title": "关于股东减持计划期限届满及继续减持股份的预披露公告",
+          "publishedAt": "2022-07-22",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-22/1214110388.PDF",
+          "fileType": "PDF",
+          "sizeKB": 163,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214006800",
+          "title": "2022年半年度业绩预告",
+          "publishedAt": "2022-07-12",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-12/1214006800.PDF",
+          "fileType": "PDF",
+          "sizeKB": 93,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213939010",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-07-05",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-05/1213939010.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213833618",
+          "title": "关于股东及其一致行动人减持股份的进展公告",
+          "publishedAt": "2022-06-28",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-06-28/1213833618.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213589748",
+          "title": "2021年度权益分派实施公告",
+          "publishedAt": "2022-06-02",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-06-02/1213589748.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213589747",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-06-02",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-06-02/1213589747.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213548571",
+          "title": "简式权益变动报告书（宁波君度德瑞、宁波加泽北瑞）",
+          "publishedAt": "2022-05-31",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-31/1213548571.PDF",
+          "fileType": "PDF",
+          "sizeKB": 344,
+          "announcementTypes": [
+            "01010503",
+            "01011101",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213548569",
+          "title": "关于持股5%以上股东及其一致行动人减持至5%以下的提示性公告",
+          "publishedAt": "2022-05-31",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-31/1213548569.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323417",
+          "title": "2021年度股东大会的法律意见",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323417.PDF",
+          "fileType": "PDF",
+          "sizeKB": 557,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "011999",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323416",
+          "title": "关于完成董事会、监事会换届选举及聘任高级管理人员及其他相关人员的公告",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323416.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323413",
+          "title": "独立董事关于第三届董事会第一次会议相关事项的独立意见",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323413.PDF",
+          "fileType": "PDF",
+          "sizeKB": 64,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323412",
+          "title": "2021年度股东大会决议公告",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323412.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323411",
+          "title": "第三届监事会第一次会议决议公告",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323411.PDF",
+          "fileType": "PDF",
+          "sizeKB": 67,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323410",
+          "title": "第三届董事会第一次会议决议公告",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323410.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213323409",
+          "title": "关于选举第三届监事会职工代表监事的公告",
+          "publishedAt": "2022-05-12",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-12/1213323409.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213300998",
+          "title": "简式权益变动报告书（上海创稷）",
+          "publishedAt": "2022-05-10",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-10/1213300998.PDF",
+          "fileType": "PDF",
+          "sizeKB": 227,
+          "announcementTypes": [
+            "01011101",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213300997",
+          "title": "关于持股5%以上股东减持至5%以下的提示性公告",
+          "publishedAt": "2022-05-10",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-10/1213300997.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213300996",
+          "title": "关于持股5%以上股东减持股份的进展公告",
+          "publishedAt": "2022-05-10",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-10/1213300996.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213282131",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-05-06",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-06/1213282131.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213282130",
+          "title": "关于召开2021年度股东大会的提示性公告",
+          "publishedAt": "2022-05-06",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-06/1213282130.PDF",
+          "fileType": "PDF",
+          "sizeKB": 180,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213199336",
+          "title": "2022年一季度报告",
+          "publishedAt": "2022-04-29",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213199336.PDF",
+          "fileType": "PDF",
+          "sizeKB": 344,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213128764",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2022-04-27",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-27/1213128764.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212977050",
+          "title": "年度募集资金使用鉴证报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212977050.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2858,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212977040",
+          "title": "年度关联方资金占用专项审计报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212977040.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3065,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212977029",
+          "title": "2021年年度报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212977029.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3169,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212977017",
+          "title": "2021年年度审计报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212977017.PDF",
+          "fileType": "PDF",
+          "sizeKB": 10092,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212977007",
+          "title": "中信建投证券股份有限公司关于使用闲置自有资金进行委托理财的核查意见",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212977007.PDF",
+          "fileType": "PDF",
+          "sizeKB": 259,
+          "announcementTypes": [
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976999",
+          "title": "中信建投证券股份有限公司关于公司2021年度募集资金存放与使用情况的专项核查报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976999.PDF",
+          "fileType": "PDF",
+          "sizeKB": 289,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976989",
+          "title": "中信建投证券股份有限公司关于公司2022年度日常关联交易预计情况的核查意见",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976989.PDF",
+          "fileType": "PDF",
+          "sizeKB": 305,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976980",
+          "title": "中信建投证券股份有限公司关于公司2021年度内部控制自我评价报告的核查意见",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976980.PDF",
+          "fileType": "PDF",
+          "sizeKB": 248,
+          "announcementTypes": [
+            "01010701",
+            "010109",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976974",
+          "title": "中信建投证券股份有限公司关于公司2021年度保荐工作报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976974.PDF",
+          "fileType": "PDF",
+          "sizeKB": 523,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976965",
+          "title": "独立董事关于第二届董事会第二十一次会议文件会议相关事项的事前认可意见",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976965.PDF",
+          "fileType": "PDF",
+          "sizeKB": 65,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976954",
+          "title": "关于召开2021年度业绩说明会的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976954.PDF",
+          "fileType": "PDF",
+          "sizeKB": 95,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976947",
+          "title": "2021年度监事会工作报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976947.PDF",
+          "fileType": "PDF",
+          "sizeKB": 108,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976945",
+          "title": "独立董事候选人声明（李洪）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976945.PDF",
+          "fileType": "PDF",
+          "sizeKB": 116,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976938",
+          "title": "独立董事候选人声明（张岭）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976938.PDF",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976928",
+          "title": "独立董事候选人声明（董一鸣）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976928.PDF",
+          "fileType": "PDF",
+          "sizeKB": 117,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976926",
+          "title": "独立董事提名人声明（李洪）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976926.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976925",
+          "title": "独立董事提名人声明（张岭）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976925.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976924",
+          "title": "独立董事提名人声明（董一鸣）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976924.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976923",
+          "title": "关于监事会换届选举的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976923.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976922",
+          "title": "关于董事会换届选举的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976922.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976921",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976921.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976920",
+          "title": "关于公司购买董监高责任险的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976920.PDF",
+          "fileType": "PDF",
+          "sizeKB": 72,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976919",
+          "title": "关于2022年度日常关联交易预计的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976919.PDF",
+          "fileType": "PDF",
+          "sizeKB": 195,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976918",
+          "title": "关于使用闲置自有资金进行委托理财的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976918.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976917",
+          "title": "关于2021年度利润分配预案的公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976917.PDF",
+          "fileType": "PDF",
+          "sizeKB": 95,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976916",
+          "title": "2021年度财务决算报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976916.PDF",
+          "fileType": "PDF",
+          "sizeKB": 136,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976915",
+          "title": "2021年度独立董事述职报告（沈发兵）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976915.PDF",
+          "fileType": "PDF",
+          "sizeKB": 85,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976914",
+          "title": "2021年度独立董事述职报告（李洪）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976914.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976913",
+          "title": "2021年度独立董事述职报告（张岭）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976913.PDF",
+          "fileType": "PDF",
+          "sizeKB": 101,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976912",
+          "title": "2021年度独立董事述职报告（董一鸣）",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976912.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976911",
+          "title": "2021年度董事会工作报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976911.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976910",
+          "title": "独立董事对担保等事项的独立意见",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976910.PDF",
+          "fileType": "PDF",
+          "sizeKB": 102,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976908",
+          "title": "年度募集资金使用情况专项说明",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976908.PDF",
+          "fileType": "PDF",
+          "sizeKB": 203,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976907",
+          "title": "内部控制自我评价报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976907.PDF",
+          "fileType": "PDF",
+          "sizeKB": 372,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976906",
+          "title": "2021年社会责任报告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976906.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1130,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976904",
+          "title": "监事会决议公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976904.PDF",
+          "fileType": "PDF",
+          "sizeKB": 107,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976901",
+          "title": "年度股东大会通知",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976901.PDF",
+          "fileType": "PDF",
+          "sizeKB": 172,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976898",
+          "title": "董事会决议公告",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976898.PDF",
+          "fileType": "PDF",
+          "sizeKB": 119,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212976896",
+          "title": "2021年年度报告摘要",
+          "publishedAt": "2022-04-20",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-20/1212976896.PDF",
+          "fileType": "PDF",
+          "sizeKB": 245,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212917968",
+          "title": "2021年度业绩快报",
+          "publishedAt": "2022-04-15",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-15/1212917968.PDF",
+          "fileType": "PDF",
+          "sizeKB": 84,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212917967",
+          "title": "2022年第一季度业绩预告",
+          "publishedAt": "2022-04-15",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-15/1212917967.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212763572",
+          "title": "关于回购公司股份的进展公告",
+          "publishedAt": "2022-04-01",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-01/1212763572.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212707960",
+          "title": "简式权益变动报告书（天津心意云）",
+          "publishedAt": "2022-03-29",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-29/1212707960.PDF",
+          "fileType": "PDF",
+          "sizeKB": 192,
+          "announcementTypes": [
+            "01011101",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212707959",
+          "title": "关于持股5%以上股东减持至5%以下的提示性公告",
+          "publishedAt": "2022-03-29",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-29/1212707959.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212683230",
+          "title": "关于首次回购公司股份的公告",
+          "publishedAt": "2022-03-26",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-26/1212683230.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212632231",
+          "title": "回购报告书",
+          "publishedAt": "2022-03-22",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-22/1212632231.PDF",
+          "fileType": "PDF",
+          "sizeKB": 160,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212578989",
+          "title": "关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+          "publishedAt": "2022-03-16",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-16/1212578989.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212565376",
+          "title": "独立董事关于第二届董事会第二十次会议相关事项的独立意见",
+          "publishedAt": "2022-03-15",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-15/1212565376.PDF",
+          "fileType": "PDF",
+          "sizeKB": 70,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212565375",
+          "title": "第二届董事会第二十次会议决议公告",
+          "publishedAt": "2022-03-15",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-15/1212565375.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212565374",
+          "title": "关于回购公司股份方案的公告",
+          "publishedAt": "2022-03-15",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-15/1212565374.PDF",
+          "fileType": "PDF",
+          "sizeKB": 159,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212508239",
+          "title": "关于持股5%以上股东及其一致行动人减持股份的预披露公告",
+          "publishedAt": "2022-03-05",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-05/1212508239.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212200210",
+          "title": "关于持股5%以上股东拟通过大宗交易减持股份的预披露公告",
+          "publishedAt": "2022-01-18",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-18/1212200210.PDF",
+          "fileType": "PDF",
+          "sizeKB": 101,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01150199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212157531",
+          "title": "关于持股5%以上股东减持股份的预披露公告",
+          "publishedAt": "2022-01-13",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-13/1212157531.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01150199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109680",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司首次公开发行前已发行股份上市流通的核查意见",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109680.PDF",
+          "fileType": "PDF",
+          "sizeKB": 304,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109679",
+          "title": "首次公开发行前已发行股份上市流通提示性公告",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109679.PDF",
+          "fileType": "PDF",
+          "sizeKB": 156,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01130303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109650",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109650.PDF",
+          "fileType": "PDF",
+          "sizeKB": 275,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109649",
+          "title": "独立董事关于第二届董事会第十九次会议相关事项的独立意见",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109649.PDF",
+          "fileType": "PDF",
+          "sizeKB": 62,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109648",
+          "title": "第二届监事会第十四次会议决议公告",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109648.PDF",
+          "fileType": "PDF",
+          "sizeKB": 84,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109647",
+          "title": "第二届董事会第十九次会议决议公告",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109647.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212109646",
+          "title": "关于使用部分闲置募集资金进行现金管理的公告",
+          "publishedAt": "2022-01-07",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-07/1212109646.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212030670",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2021年定期现场检查报告",
+          "publishedAt": "2021-12-28",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-12-28/1212030670.PDF",
+          "fileType": "PDF",
+          "sizeKB": 299,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "012917"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211968863",
+          "title": "独立董事关于第二届董事会第十八次会议相关事项的独立意见",
+          "publishedAt": "2021-12-21",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211968863.PDF",
+          "fileType": "PDF",
+          "sizeKB": 56,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211968509",
+          "title": "第二届董事会第十八次会议决议公告",
+          "publishedAt": "2021-12-21",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211968509.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211968508",
+          "title": "关于变更高级管理人员的公告",
+          "publishedAt": "2021-12-21",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211968508.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230320"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211873843",
+          "title": "关于举办中等职业教育学校的公告",
+          "publishedAt": "2021-12-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-12-11/1211873843.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211361104",
+          "title": "关于聘任证券事务代表的公告",
+          "publishedAt": "2021-10-25",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-25/1211361104.PDF",
+          "fileType": "PDF",
+          "sizeKB": 68,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211361103",
+          "title": "2021年第三季度报告",
+          "publishedAt": "2021-10-25",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-25/1211361103.PDF",
+          "fileType": "PDF",
+          "sizeKB": 435,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211269001",
+          "title": "2021年前三季度业绩预告",
+          "publishedAt": "2021-10-15",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-15/1211269001.PDF",
+          "fileType": "PDF",
+          "sizeKB": 93,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01211120"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211193706",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司变更部分募投项目实施地点的核查意见",
+          "publishedAt": "2021-10-08",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-08/1211193706.PDF",
+          "fileType": "PDF",
+          "sizeKB": 258,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211193705",
+          "title": "独立董事关于第二届董事会第十六次会议相关事项的独立意见",
+          "publishedAt": "2021-10-08",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-08/1211193705.PDF",
+          "fileType": "PDF",
+          "sizeKB": 56,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211193704",
+          "title": "第二届监事会第十二次会议决议公告",
+          "publishedAt": "2021-10-08",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-08/1211193704.PDF",
+          "fileType": "PDF",
+          "sizeKB": 77,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211193703",
+          "title": "第二届董事会第十六次会议决议公告",
+          "publishedAt": "2021-10-08",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-08/1211193703.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211193702",
+          "title": "关于变更部分募投项目实施地点的公告",
+          "publishedAt": "2021-10-08",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-08/1211193702.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01231501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210964393",
+          "title": "2021年第三次临时股东大会的法律意见",
+          "publishedAt": "2021-09-03",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-09-03/1210964393.PDF",
+          "fileType": "PDF",
+          "sizeKB": 136,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210964392",
+          "title": "2021年第三次临时股东大会决议公告",
+          "publishedAt": "2021-09-03",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-09-03/1210964392.PDF",
+          "fileType": "PDF",
+          "sizeKB": 76,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768920",
+          "title": "公司上市后未来三年股东分红回报规划(2021年8月)",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768920.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768919",
+          "title": "公司章程(2021年8月)",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768919.PDF",
+          "fileType": "PDF",
+          "sizeKB": 303,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768918",
+          "title": "关于召开2021年第三次临时股东大会的通知",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768918.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01190110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768917",
+          "title": "监事会议事规则(2021年8月)",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768917.PDF",
+          "fileType": "PDF",
+          "sizeKB": 530,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "01310310"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768916",
+          "title": "董事会议事规则(2021年8月)",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768916.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01310501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768915",
+          "title": "关于修订《公司上市后未来三年股东分红回报规划》的公告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768915.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768914",
+          "title": "关于修订《公司章程》《董事会议事规则》及《监事会议事规则》的公告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768914.PDF",
+          "fileType": "PDF",
+          "sizeKB": 135,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230101",
+            "01230199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768913",
+          "title": "关于2021年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768913.PDF",
+          "fileType": "PDF",
+          "sizeKB": 195,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01231530"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768912",
+          "title": "独立董事关于控股股东及其他关联方占用公司资金、公司对外担保情况的专项说明和独立意见",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768912.PDF",
+          "fileType": "PDF",
+          "sizeKB": 69,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768911",
+          "title": "半年报监事会决议公告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768911.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768910",
+          "title": "半年报董事会决议公告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768910.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768909",
+          "title": "2021年半年度财务报告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768909.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1964,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768908",
+          "title": "2021年半年度报告",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768908.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2396,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210768907",
+          "title": "2021年半年度报告摘要",
+          "publishedAt": "2021-08-18",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-18/1210768907.PDF",
+          "fileType": "PDF",
+          "sizeKB": 123,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030310"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210568966",
+          "title": "关于教育行业双减政策对公司主营业务不存在重大影响的自愿性信息披露公告",
+          "publishedAt": "2021-07-26",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-07-26/1210568966.PDF",
+          "fileType": "PDF",
+          "sizeKB": 79,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210482602",
+          "title": "2021年半年度业绩预告",
+          "publishedAt": "2021-07-15",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-07-15/1210482602.PDF",
+          "fileType": "PDF",
+          "sizeKB": 79,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01211101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210321052",
+          "title": "关于公司股东部分股份质押的公告",
+          "publishedAt": "2021-06-24",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-24/1210321052.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210311597",
+          "title": "关于对深圳证券交易所关注函回复的公告",
+          "publishedAt": "2021-06-23",
+          "year": 2021,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-23/1210311597.PDF",
+          "fileType": "PDF",
+          "sizeKB": 126,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210269759",
+          "title": "关于收到深圳证券交易所关注函的公告",
+          "publishedAt": "2021-06-18",
+          "year": 2021,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-18/1210269759.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210269758",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-06-18",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-18/1210269758.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210225682",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-06-15",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-15/1210225682.PDF",
+          "fileType": "PDF",
+          "sizeKB": 85,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210217744",
+          "title": "关于公司董事辞职的公告",
+          "publishedAt": "2021-06-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-11/1210217744.PDF",
+          "fileType": "PDF",
+          "sizeKB": 70,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210198559",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-06-09",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-09/1210198559.PDF",
+          "fileType": "PDF",
+          "sizeKB": 76,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210087867",
+          "title": "关于证券事务代表因岗位调整辞任的公告",
+          "publishedAt": "2021-05-26",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-26/1210087867.PDF",
+          "fileType": "PDF",
+          "sizeKB": 60,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210087866",
+          "title": "北京市天元律师事务所关于公司控股股东、实际控制人增持股份的法律意见",
+          "publishedAt": "2021-05-26",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-26/1210087866.PDF",
+          "fileType": "PDF",
+          "sizeKB": 141,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210087865",
+          "title": "关于控股股东、实际控制人增持公司股份计划实施完成的公告",
+          "publishedAt": "2021-05-26",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-26/1210087865.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01150199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210087864",
+          "title": "2020年度权益分派实施公告",
+          "publishedAt": "2021-05-26",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-26/1210087864.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01130120"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209953591",
+          "title": "2020年度股东大会决议公告",
+          "publishedAt": "2021-05-12",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-12/1209953591.PDF",
+          "fileType": "PDF",
+          "sizeKB": 83,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209953590",
+          "title": "2020年度股东大会的法律意见",
+          "publishedAt": "2021-05-12",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-12/1209953590.PDF",
+          "fileType": "PDF",
+          "sizeKB": 143,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209926597",
+          "title": "关于变更财务总监、董事会秘书的公告",
+          "publishedAt": "2021-05-06",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-06/1209926597.PDF",
+          "fileType": "PDF",
+          "sizeKB": 109,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230320"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209926596",
+          "title": "第二届董事会第十四次会议决议公告",
+          "publishedAt": "2021-05-06",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-06/1209926596.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209926595",
+          "title": "独立董事关于第二届董事会第十四次会议相关事项的独立意见",
+          "publishedAt": "2021-05-06",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-06/1209926595.PDF",
+          "fileType": "PDF",
+          "sizeKB": 60,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209867069",
+          "title": "关于2021年第一季度报告的补充公告",
+          "publishedAt": "2021-04-30",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-30/1209867069.PDF",
+          "fileType": "PDF",
+          "sizeKB": 203,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01270101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209867068",
+          "title": "2021年第一季度报告正文（更新后）",
+          "publishedAt": "2021-04-30",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-30/1209867068.PDF",
+          "fileType": "PDF",
+          "sizeKB": 379,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030540"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209867067",
+          "title": "2021年第一季度报告全文（更新后）",
+          "publishedAt": "2021-04-30",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-30/1209867067.PDF",
+          "fileType": "PDF",
+          "sizeKB": 771,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030540"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209830266",
+          "title": "2021年第一季度报告全文（已取消）",
+          "publishedAt": "2021-04-28",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-28/1209830266.PDF",
+          "fileType": "PDF",
+          "sizeKB": 767,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209830262",
+          "title": "2021年第一季度报告正文（已取消）",
+          "publishedAt": "2021-04-28",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-28/1209830262.PDF",
+          "fileType": "PDF",
+          "sizeKB": 378,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725364",
+          "title": "监事会决议公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725364.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725363",
+          "title": "独立董事对担保等事项的独立意见",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725363.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725362",
+          "title": "内部控制规则落实自查表",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725362.PDF",
+          "fileType": "PDF",
+          "sizeKB": 126,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725361",
+          "title": "董事会决议公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725361.PDF",
+          "fileType": "PDF",
+          "sizeKB": 129,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725360",
+          "title": "年度股东大会通知",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725360.PDF",
+          "fileType": "PDF",
+          "sizeKB": 143,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01190101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725359",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司使用闲置自有资金进行委托理财的核查意见",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725359.PDF",
+          "fileType": "PDF",
+          "sizeKB": 227,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725358",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2021年度日常关联交易预计情况的核查意见",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725358.PDF",
+          "fileType": "PDF",
+          "sizeKB": 308,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725357",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2020年度内部控制自我评价报告的核查意见",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725357.PDF",
+          "fileType": "PDF",
+          "sizeKB": 256,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725356",
+          "title": "中信建投证券股份有限公司关于江苏传智播客教育科技股份有限公司2020年度《内部控制规则落实自查表》的核查意见",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725356.PDF",
+          "fileType": "PDF",
+          "sizeKB": 196,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725355",
+          "title": "独立董事关于第二届董事会第十二次会议文件会议相关事项的事前认可意见",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725355.PDF",
+          "fileType": "PDF",
+          "sizeKB": 66,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725354",
+          "title": "2020年度监事会工作报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725354.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725353",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725353.PDF",
+          "fileType": "PDF",
+          "sizeKB": 112,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "0123017001"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725352",
+          "title": "关于公司购买董监高责任险的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725352.PDF",
+          "fileType": "PDF",
+          "sizeKB": 80,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725351",
+          "title": "关于2021年度日常关联交易预计的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725351.PDF",
+          "fileType": "PDF",
+          "sizeKB": 204,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725350",
+          "title": "关于使用闲置自有资金进行委托理财的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725350.PDF",
+          "fileType": "PDF",
+          "sizeKB": 93,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01170510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725349",
+          "title": "关于申请银行综合授信额度的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725349.PDF",
+          "fileType": "PDF",
+          "sizeKB": 71,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01170910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725348",
+          "title": "关于计提资产减值准备的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725348.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725347",
+          "title": "关于会计政策变更的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725347.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01230530"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725346",
+          "title": "关于2020年度利润分配预案的公告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725346.PDF",
+          "fileType": "PDF",
+          "sizeKB": 93,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01130101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725345",
+          "title": "2020年度财务决算报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725345.PDF",
+          "fileType": "PDF",
+          "sizeKB": 194,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725344",
+          "title": "2020年度独立董事述职报告（张岭）",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725344.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310555"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725343",
+          "title": "2020年度独立董事述职报告（沈发兵）",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725343.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310555"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725342",
+          "title": "2020年度独立董事述职报告（董一鸣）",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725342.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "01310555"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725341",
+          "title": "2020年度董事会工作报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725341.PDF",
+          "fileType": "PDF",
+          "sizeKB": 181,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725340",
+          "title": "内部控制鉴证报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725340.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1616,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725339",
+          "title": "内部控制自我评价报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725339.PDF",
+          "fileType": "PDF",
+          "sizeKB": 293,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725338",
+          "title": "年度关联方资金占用专项审计报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725338.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1345,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725337",
+          "title": "2020年年度审计报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725337.PDF",
+          "fileType": "PDF",
+          "sizeKB": 10523,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725336",
+          "title": "2020年年度报告",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725336.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3202,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209725335",
+          "title": "2020年年度报告摘要",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209725335.PDF",
+          "fileType": "PDF",
+          "sizeKB": 322,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01030110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209691696",
+          "title": "2020年度业绩快报",
+          "publishedAt": "2021-04-15",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-15/1209691696.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01211160"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209691695",
+          "title": "关于全资子公司完成工商注册登记并取得营业执照的公告",
+          "publishedAt": "2021-04-15",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-15/1209691695.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01170520"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209691694",
+          "title": "2021年第一季度业绩预告",
+          "publishedAt": "2021-04-15",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-15/1209691694.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "01211101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209384657",
+          "title": "关于公司监事亲属短线交易的公告",
+          "publishedAt": "2021-03-16",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-16/1209384657.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209384656",
+          "title": "2021年第二次临时股东大会的法律意见",
+          "publishedAt": "2021-03-16",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-16/1209384656.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209384655",
+          "title": "2021年第二次临时股东大会决议公告",
+          "publishedAt": "2021-03-16",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-16/1209384655.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209337539",
+          "title": "关于完成工商变更登记并换发营业执照的公告",
+          "publishedAt": "2021-03-05",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-05/1209337539.PDF",
+          "fileType": "PDF",
+          "sizeKB": 80,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01230110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209310830",
+          "title": "独立董事关于第二届董事会第十一次会议相关事项的独立意见",
+          "publishedAt": "2021-02-27",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-27/1209310830.PDF",
+          "fileType": "PDF",
+          "sizeKB": 59,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "010114",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209310829",
+          "title": "关于召开2021年第二次临时股东大会的通知",
+          "publishedAt": "2021-02-27",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-27/1209310829.PDF",
+          "fileType": "PDF",
+          "sizeKB": 119,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01190110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209310828",
+          "title": "独立董事候选人声明",
+          "publishedAt": "2021-02-27",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-27/1209310828.PDF",
+          "fileType": "PDF",
+          "sizeKB": 115,
+          "announcementTypes": [
+            "01011199",
+            "010112",
+            "010114",
+            "01230340"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209310827",
+          "title": "独立董事提名人声明",
+          "publishedAt": "2021-02-27",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-27/1209310827.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01230330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209310826",
+          "title": "关于补选公司独立董事的公告",
+          "publishedAt": "2021-02-27",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-27/1209310826.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01230315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209310825",
+          "title": "第二届董事会第十一次会议决议公告",
+          "publishedAt": "2021-02-27",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-27/1209310825.PDF",
+          "fileType": "PDF",
+          "sizeKB": 86,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209306761",
+          "title": "关于控股股东、实际控制人增持公司股份计划的公告",
+          "publishedAt": "2021-02-26",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-26/1209306761.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01150101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209296278",
+          "title": "关于公司独立董事辞职的公告",
+          "publishedAt": "2021-02-24",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-24/1209296278.PDF",
+          "fileType": "PDF",
+          "sizeKB": 67,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01230315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209284850",
+          "title": "2021年第一次临时股东大会的法律意见",
+          "publishedAt": "2021-02-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-20/1209284850.PDF",
+          "fileType": "PDF",
+          "sizeKB": 133,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209284849",
+          "title": "2021年第一次临时股东大会决议公告",
+          "publishedAt": "2021-02-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-20/1209284849.PDF",
+          "fileType": "PDF",
+          "sizeKB": 75,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209256225",
+          "title": "关于将公司举办的民办非企业单位登记为营利性民办学校的公告",
+          "publishedAt": "2021-02-08",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-08/1209256225.PDF",
+          "fileType": "PDF",
+          "sizeKB": 85,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01170520"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209256224",
+          "title": "第二届董事会第十次会议决议公告",
+          "publishedAt": "2021-02-08",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-08/1209256224.PDF",
+          "fileType": "PDF",
+          "sizeKB": 84,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209224299",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-02-02",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-02-02/1209224299.PDF",
+          "fileType": "PDF",
+          "sizeKB": 86,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209236",
+          "title": "独立董事关于第二届董事会第九次会议相关事项的独立意见",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209236.PDF",
+          "fileType": "PDF",
+          "sizeKB": 80,
+          "announcementTypes": [
+            "01011107",
+            "010112",
+            "010114",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209235",
+          "title": "中信建投证券股份有限公司关于公司使用募集资金置换已支付发行费用自有资金的核查意见",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209235.PDF",
+          "fileType": "PDF",
+          "sizeKB": 948,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "010114",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209234",
+          "title": "中信建投证券股份有限公司关于公司使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209234.PDF",
+          "fileType": "PDF",
+          "sizeKB": 955,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "010114",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209233",
+          "title": "以募集资金置换自筹资金预先支付发行费用的审核报告（截至2021年1月27日止）",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209233.PDF",
+          "fileType": "PDF",
+          "sizeKB": 10058,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "010114",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209232",
+          "title": "公司章程",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209232.PDF",
+          "fileType": "PDF",
+          "sizeKB": 301,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "010114",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209231",
+          "title": "关于召开2021年第一次临时股东大会的通知",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209231.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01190110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209230",
+          "title": "关于变更公司注册资本、公司类型及修订《公司章程》并办理工商变更登记的公告",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209230.PDF",
+          "fileType": "PDF",
+          "sizeKB": 203,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01230101",
+            "01230110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209229",
+          "title": "关于使用部分闲置募集资金进行现金管理的公告",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209229.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209228",
+          "title": "关于使用募集资金置换已支付发行费用自有资金的公告",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209228.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209227",
+          "title": "高级管理人员变动公告",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209227.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01230320"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209226",
+          "title": "第二届监事会第八次会议决议公告",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209226.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010505",
+            "010112",
+            "010114",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209209225",
+          "title": "第二届董事会第九次会议决议公告",
+          "publishedAt": "2021-01-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-29/1209209225.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209168238",
+          "title": "关于签订募集资金三方监管协议的公告",
+          "publishedAt": "2021-01-25",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-25/1209168238.PDF",
+          "fileType": "PDF",
+          "sizeKB": 106,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01231550"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209167985",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-01-25",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-25/1209167985.PDF",
+          "fileType": "PDF",
+          "sizeKB": 85,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209141897",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-01-20",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-20/1209141897.PDF",
+          "fileType": "PDF",
+          "sizeKB": 86,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209106714",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-01-15",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-15/1209106714.PDF",
+          "fileType": "PDF",
+          "sizeKB": 85,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209083049",
+          "title": "上市首日风险提示公告",
+          "publishedAt": "2021-01-12",
+          "year": 2021,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-12/1209083049.PDF",
+          "fileType": "PDF",
+          "sizeKB": 276,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "012109"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209077693",
+          "title": "首次公开发行股票上市公告书",
+          "publishedAt": "2021-01-11",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-11/1209077693.PDF",
+          "fileType": "PDF",
+          "sizeKB": 824,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "010213",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209077692",
+          "title": "北京市天元律师事务所关于公司首次公开发行的股票于深圳证券交易所上市的法律意见",
+          "publishedAt": "2021-01-11",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-11/1209077692.PDF",
+          "fileType": "PDF",
+          "sizeKB": 296,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209077691",
+          "title": "中信建投证券股份有限公司关于公司首次公开发行股票之上市保荐书",
+          "publishedAt": "2021-01-11",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-11/1209077691.PDF",
+          "fileType": "PDF",
+          "sizeKB": 462,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "010114",
+            "010215",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209058504",
+          "title": "首次公开发行股票发行结果公告",
+          "publishedAt": "2021-01-07",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-07/1209058504.PDF",
+          "fileType": "PDF",
+          "sizeKB": 796,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "010211",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209040055",
+          "title": "首次公开发行股票网下发行初步配售结果公告",
+          "publishedAt": "2021-01-05",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-05/1209040055.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1512,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01021110",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209040054",
+          "title": "首次公开发行股票网上中签结果公告",
+          "publishedAt": "2021-01-05",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-05/1209040054.PDF",
+          "fileType": "PDF",
+          "sizeKB": 711,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01021120",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209034127",
+          "title": "首次公开发行股票网上申购情况及中签率公告",
+          "publishedAt": "2021-01-04",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-01-04/1209034127.PDF",
+          "fileType": "PDF",
+          "sizeKB": 735,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01021101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209015898",
+          "title": "首次公开发行股票招股说明书摘要",
+          "publishedAt": "2020-12-30",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-30/1209015898.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4508,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01020320",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209015897",
+          "title": "首次公开发行股票招股说明书",
+          "publishedAt": "2020-12-30",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-30/1209015897.PDF",
+          "fileType": "PDF",
+          "sizeKB": 11227,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01020301",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209015896",
+          "title": "首次公开发行股票投资风险特别公告",
+          "publishedAt": "2020-12-30",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-30/1209015896.PDF",
+          "fileType": "PDF",
+          "sizeKB": 672,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209015895",
+          "title": "首次公开发行股票发行公告",
+          "publishedAt": "2020-12-30",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-30/1209015895.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1965,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01020501",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209008971",
+          "title": "首次公开发行股票网上路演公告",
+          "publishedAt": "2020-12-29",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-29/1209008971.PDF",
+          "fileType": "PDF",
+          "sizeKB": 518,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01029901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965259",
+          "title": "首次公开发行股票初步询价及推介公告",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965259.PDF",
+          "fileType": "PDF",
+          "sizeKB": 843,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01020910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965258",
+          "title": "首次公开发行A股股票招股意向书摘要",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965258.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4270,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01020321",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965257",
+          "title": "首次公开发行A股股票招股意向书",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965257.PDF",
+          "fileType": "PDF",
+          "sizeKB": 10818,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010112",
+            "010114",
+            "01020303",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965256",
+          "title": "非经常性损益鉴证报告(2017年度,2018年度,2019年度及2020年1-6月)",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965256.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1678,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "010114",
+            "010215",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965255",
+          "title": "第二届董事会第八次会议决议",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965255.PDF",
+          "fileType": "PDF",
+          "sizeKB": 625,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "010215",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965254",
+          "title": "第一届董事会第二十二次会议决议",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965254.PDF",
+          "fileType": "PDF",
+          "sizeKB": 679,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "010215",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965253",
+          "title": "盈利预测审核报告",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965253.PDF",
+          "fileType": "PDF",
+          "sizeKB": 8278,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "010114",
+            "010215",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965252",
+          "title": "审计报告",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965252.PDF",
+          "fileType": "PDF",
+          "sizeKB": 50731,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "010114",
+            "010215",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965251",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的补充法律意见（四）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965251.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1288,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965250",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的补充法律意见（六）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965250.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1085,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965249",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的补充法律意见（五）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965249.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1352,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965248",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的补充法律意见（二）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965248.PDF",
+          "fileType": "PDF",
+          "sizeKB": 453,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965247",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的补充法律意见（三）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965247.PDF",
+          "fileType": "PDF",
+          "sizeKB": 801,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965246",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的补充法律意见（一）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965246.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2505,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965245",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的法律意见书",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965245.PDF",
+          "fileType": "PDF",
+          "sizeKB": 467,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965244",
+          "title": "北京市天元律师事务所关于公司首次公开发行股票并上市的律师工作报告",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965244.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3457,
+          "announcementTypes": [
+            "01010901",
+            "010112",
+            "010114",
+            "010215",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965243",
+          "title": "内部控制鉴证报告",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965243.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4934,
+          "announcementTypes": [
+            "01010903",
+            "010112",
+            "010114",
+            "010215",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965242",
+          "title": "公司章程（草案）",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965242.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4347,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "010114",
+            "010215",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965241",
+          "title": "中国证监会关于核准公司首次公开发行股票的批复",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965241.PDF",
+          "fileType": "PDF",
+          "sizeKB": 208,
+          "announcementTypes": [
+            "01010501",
+            "010112",
+            "010114",
+            "010201",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965240",
+          "title": "中信建投证券股份有限公司关于公司首次公开发行股票之发行保荐工作报告",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965240.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1569,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "010114",
+            "010215",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965239",
+          "title": "中信建投证券股份有限公司关于公司首次公开发行股票之发行保荐书",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965239.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1672,
+          "announcementTypes": [
+            "01010701",
+            "010112",
+            "010114",
+            "010215",
+            "012911"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1208965238",
+          "title": "2019年第一次临时股东大会决议",
+          "publishedAt": "2020-12-23",
+          "year": 2020,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965238.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1512,
+          "announcementTypes": [
+            "01010503",
+            "010112",
+            "010114",
+            "010215",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        }
+      ]
+    },
+    {
+      "company": {
+        "secCode": "605098",
+        "secName": "行动教育",
+        "orgId": "gfbj0831891",
+        "market": "上海证券交易所"
+      },
+      "sourceUrl": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605098&orgId=gfbj0831891#latestAnnouncement",
+      "stats": {
+        "total": 497,
+        "periodicTotal": 35,
+        "earliestAt": "2021-03-26",
+        "latestAt": "2026-09-01",
+        "latestId": "1225538345",
+        "yearlyCounts": {
+          "2021": 68,
+          "2022": 76,
+          "2023": 90,
+          "2024": 111,
+          "2025": 79,
+          "2026": 73
+        }
+      },
+      "categories": [
+        {
+          "id": "periodic",
+          "name": "定期报告",
+          "count": 35
+        },
+        {
+          "id": "performance",
+          "name": "业绩与分红",
+          "count": 42
+        },
+        {
+          "id": "meeting",
+          "name": "三会公告",
+          "count": 139
+        },
+        {
+          "id": "transaction",
+          "name": "交易与投资",
+          "count": 13
+        },
+        {
+          "id": "capital",
+          "name": "资本运作",
+          "count": 65
+        },
+        {
+          "id": "equity",
+          "name": "股东与股份",
+          "count": 54
+        },
+        {
+          "id": "governance",
+          "name": "治理与制度",
+          "count": 40
+        },
+        {
+          "id": "regulatory",
+          "name": "监管与风险",
+          "count": 1
+        },
+        {
+          "id": "investor",
+          "name": "投资者关系",
+          "count": 1
+        },
+        {
+          "id": "other",
+          "name": "其他公告",
+          "count": 107
+        }
+      ],
+      "announcements": [
+        {
+          "id": "1225538345",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司差异化分红事项的法律意见书",
+          "publishedAt": "2026-09-01",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538345.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3982,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225538339",
+          "title": "2026年半年度权益分派实施公告",
+          "publishedAt": "2026-09-01",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538339.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225537156",
+          "title": "关于使用闲置募集资金进行现金管理到期赎回的公告",
+          "publishedAt": "2026-09-01",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225537156.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225537139",
+          "title": "关于2026年股票期权激励计划授予登记完成的公告",
+          "publishedAt": "2026-09-01",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225537139.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225468909",
+          "title": "2026年半年度募集资金存放、管理与实际使用情况的专项报告",
+          "publishedAt": "2026-08-12",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468909.PDF",
+          "fileType": "PDF",
+          "sizeKB": 144,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225468905",
+          "title": "第五届董事会第十六次会议决议公告",
+          "publishedAt": "2026-08-12",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468905.PDF",
+          "fileType": "PDF",
+          "sizeKB": 52,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225468903",
+          "title": "2026年半年度报告",
+          "publishedAt": "2026-08-12",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468903.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1482,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225468899",
+          "title": "2026年半年度利润分配预案公告",
+          "publishedAt": "2026-08-12",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468899.PDF",
+          "fileType": "PDF",
+          "sizeKB": 63,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225468891",
+          "title": "2026年半年度报告摘要",
+          "publishedAt": "2026-08-12",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225468891.PDF",
+          "fileType": "PDF",
+          "sizeKB": 332,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225450011",
+          "title": "关于使用闲置募集资金进行现金管理到期赎回的公告",
+          "publishedAt": "2026-08-01",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450011.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225429412",
+          "title": "关于公司2026年股票期权激励计划授予激励对象名单（授权日）的核查意见",
+          "publishedAt": "2026-07-18",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429412.PDF",
+          "fileType": "PDF",
+          "sizeKB": 65,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225429410",
+          "title": "2026年股票期权激励计划激励对象名单（授予日）",
+          "publishedAt": "2026-07-18",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429410.PDF",
+          "fileType": "PDF",
+          "sizeKB": 182,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225429404",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2026年股票期权激励计划首次授予事项的法律意见书",
+          "publishedAt": "2026-07-18",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429404.PDF",
+          "fileType": "PDF",
+          "sizeKB": 5936,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225429400",
+          "title": "关于向2026年股票期权激励计划激励对象授予股票期权的公告",
+          "publishedAt": "2026-07-18",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429400.PDF",
+          "fileType": "PDF",
+          "sizeKB": 162,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225429399",
+          "title": "第五届董事会第十五次会议决议公告",
+          "publishedAt": "2026-07-18",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429399.PDF",
+          "fileType": "PDF",
+          "sizeKB": 52,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225429397",
+          "title": "关于调整2026年股票期权激励计划授予激励对象名单及期权数量的公告",
+          "publishedAt": "2026-07-18",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429397.PDF",
+          "fileType": "PDF",
+          "sizeKB": 72,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225410321",
+          "title": "2026年第一次临时股东会决议公告",
+          "publishedAt": "2026-07-06",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-06/1225410321.PDF",
+          "fileType": "PDF",
+          "sizeKB": 82,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225410306",
+          "title": "关于2026年股票期权激励计划内幕信息知情人及激励对象买卖公司股票的自查报告",
+          "publishedAt": "2026-07-06",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-06/1225410306.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012317",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225410288",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2026年第一次临时股东会的法律意见书",
+          "publishedAt": "2026-07-06",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-06/1225410288.PDF",
+          "fileType": "PDF",
+          "sizeKB": 685,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225398346",
+          "title": "关于使用闲置募集资金进行现金管理到期赎回的公告",
+          "publishedAt": "2026-07-01",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225398346.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225377488",
+          "title": "2026年第一次临时股东会会议资料",
+          "publishedAt": "2026-06-19",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-19/1225377488.PDF",
+          "fileType": "PDF",
+          "sizeKB": 213,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225377481",
+          "title": "董事会薪酬与考核委员会关于公司2026年股票期权激励计划激励对象名单审核意见及公示情况的说明",
+          "publishedAt": "2026-06-19",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-19/1225377481.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351592",
+          "title": "2026年股票期权激励计划实施考核管理办法",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351592.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351590",
+          "title": "北京市中伦律师事务所关于2026年股票期权激励计划（草案）的法律意见书",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351590.PDF",
+          "fileType": "PDF",
+          "sizeKB": 779,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351579",
+          "title": "第五届董事会第十四次会议决议公告",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351579.PDF",
+          "fileType": "PDF",
+          "sizeKB": 119,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351576",
+          "title": "2026年股票期权激励计划（草案）",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351576.PDF",
+          "fileType": "PDF",
+          "sizeKB": 239,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351575",
+          "title": "2026年股权激励计划（草案）摘要公告",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351575.PDF",
+          "fileType": "PDF",
+          "sizeKB": 284,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351573",
+          "title": "关于召开2026年第一次临时股东会通知",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351573.PDF",
+          "fileType": "PDF",
+          "sizeKB": 138,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225351570",
+          "title": "第五届董事会薪酬与考核委员会关于公司2026年股票期权激励计划相关事项的核查意见",
+          "publishedAt": "2026-06-05",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351570.PDF",
+          "fileType": "PDF",
+          "sizeKB": 109,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225337409",
+          "title": "关于使用闲置募集资金进行现金管理到期赎回的公告",
+          "publishedAt": "2026-05-30",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-30/1225337409.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225336296",
+          "title": "2025年年度权益分派实施公告",
+          "publishedAt": "2026-05-29",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-29/1225336296.PDF",
+          "fileType": "PDF",
+          "sizeKB": 129,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225336291",
+          "title": "北京中伦关于上海行动教育科技股份有限公司差异化分红事项的法律意见书",
+          "publishedAt": "2026-05-29",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-29/1225336291.PDF",
+          "fileType": "PDF",
+          "sizeKB": 629,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225315360",
+          "title": "关于召开2025年年度暨2026年第一季度业绩说明会的公告",
+          "publishedAt": "2026-05-20",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-20/1225315360.PDF",
+          "fileType": "PDF",
+          "sizeKB": 69,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225282473",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2025年年度股东会的法律意见书",
+          "publishedAt": "2026-05-08",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-08/1225282473.PDF",
+          "fileType": "PDF",
+          "sizeKB": 5841,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225282457",
+          "title": "2025年年度股东会决议公告",
+          "publishedAt": "2026-05-08",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-08/1225282457.PDF",
+          "fileType": "PDF",
+          "sizeKB": 75,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225278316",
+          "title": "关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+          "publishedAt": "2026-05-07",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225278316.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225234281",
+          "title": "2025年年度股东会会议资料",
+          "publishedAt": "2026-04-29",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225234281.PDF",
+          "fileType": "PDF",
+          "sizeKB": 295,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225200433",
+          "title": "2026年第一季度报告",
+          "publishedAt": "2026-04-28",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225200433.PDF",
+          "fileType": "PDF",
+          "sizeKB": 194,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102684",
+          "title": "独立董事2025年度述职报告（苏涛永）",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102684.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102683",
+          "title": "2025年年度报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102683.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2498,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102682",
+          "title": "2025年度审计报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102682.PDF",
+          "fileType": "PDF",
+          "sizeKB": 24034,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102681",
+          "title": "关于部分首次公开发行股票募投项目延期的公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102681.PDF",
+          "fileType": "PDF",
+          "sizeKB": 102,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102680",
+          "title": "安永华明会计师事务所关于行动教育2025年度非经营性资金占用及其他关联资金往来情况的专项说明",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102680.PDF",
+          "fileType": "PDF",
+          "sizeKB": 826,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102679",
+          "title": "2025年年度报告摘要",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102679.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102678",
+          "title": "2025年环境、社会和治理（ESG）报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102678.PDF",
+          "fileType": "PDF",
+          "sizeKB": 25579,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102677",
+          "title": "2025年度内部控制审计报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102677.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4187,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102676",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102676.PDF",
+          "fileType": "PDF",
+          "sizeKB": 98,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102675",
+          "title": "第五届董事会第十二次会议决议公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102675.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102674",
+          "title": "董事会审计委员会对会计师事务所2025年度履行监督职责情况的报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102674.PDF",
+          "fileType": "PDF",
+          "sizeKB": 71,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102673",
+          "title": "2026年度提质增效重回报行动方案",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102673.PDF",
+          "fileType": "PDF",
+          "sizeKB": 155,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102672",
+          "title": "国投证券关于行动教育2025年度募集资金存放与使用情况的专项核查意见",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102672.PDF",
+          "fileType": "PDF",
+          "sizeKB": 227,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102671",
+          "title": "国投证券关于行动教育使用部分暂时闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102671.PDF",
+          "fileType": "PDF",
+          "sizeKB": 191,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102670",
+          "title": "独立董事2025年度述职报告（叶彦菁）",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102670.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102669",
+          "title": "关于2026年度日常关联交易预计的公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102669.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102668",
+          "title": "2025年年度利润分配预案公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102668.PDF",
+          "fileType": "PDF",
+          "sizeKB": 90,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102666",
+          "title": "2025年度内部控制评价报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102666.PDF",
+          "fileType": "PDF",
+          "sizeKB": 148,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102665",
+          "title": "2025年环境、社会和治理（ESG）报告摘要",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102665.PDF",
+          "fileType": "PDF",
+          "sizeKB": 490,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102664",
+          "title": "安永华明会计师事务所关于行动教育2025年度募集资金存放、管理与实际使用情况专项鉴证报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102664.PDF",
+          "fileType": "PDF",
+          "sizeKB": 6366,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102663",
+          "title": "董事会关于2025年度独立董事独立性情况的专项报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102663.PDF",
+          "fileType": "PDF",
+          "sizeKB": 42,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102662",
+          "title": "董事会审计委员会2025年度履职情况报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102662.PDF",
+          "fileType": "PDF",
+          "sizeKB": 73,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102661",
+          "title": "关于召开2025年年度股东会的通知",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102661.PDF",
+          "fileType": "PDF",
+          "sizeKB": 146,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102660",
+          "title": "公司对会计师事务所2025年度履职情况评估报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102660.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102659",
+          "title": "关于使用暂时闲置募集资金进行现金管理的公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102659.PDF",
+          "fileType": "PDF",
+          "sizeKB": 208,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102658",
+          "title": "2025年年度募集资金存放、管理与实际使用情况的专项报告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102658.PDF",
+          "fileType": "PDF",
+          "sizeKB": 508,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102657",
+          "title": "关于使用闲置自有资金进行委托理财的公告",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102657.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102656",
+          "title": "国投证券关于行动教育部分首次公开发行股票募投项目延期的核查意见",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102656.PDF",
+          "fileType": "PDF",
+          "sizeKB": 179,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102654",
+          "title": "独立董事2025年度述职报告（张轶华）",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102654.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1225102653",
+          "title": "董事、高级管理人员薪酬管理制度",
+          "publishedAt": "2026-04-15",
+          "year": 2026,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102653.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224994501",
+          "title": "关于股份回购实施结果暨股份变动的公告",
+          "publishedAt": "2026-03-04",
+          "year": 2026,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-03-04/1224994501.PDF",
+          "fileType": "PDF",
+          "sizeKB": 116,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224990603",
+          "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+          "publishedAt": "2026-03-03",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-03-03/1224990603.PDF",
+          "fileType": "PDF",
+          "sizeKB": 63,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224961433",
+          "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+          "publishedAt": "2026-02-03",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-02-03/1224961433.PDF",
+          "fileType": "PDF",
+          "sizeKB": 63,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224918135",
+          "title": "2026-002 关于以集中竞价交易方式首次回购公司股份的公告",
+          "publishedAt": "2026-01-06",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-01-06/1224918135.PDF",
+          "fileType": "PDF",
+          "sizeKB": 122,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224917161",
+          "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+          "publishedAt": "2026-01-05",
+          "year": 2026,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2026-01-05/1224917161.PDF",
+          "fileType": "PDF",
+          "sizeKB": 120,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224891426",
+          "title": "关于以集中竞价交易方式回购公司股份的回购报告书的更正公告",
+          "publishedAt": "2025-12-23",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-12-23/1224891426.PDF",
+          "fileType": "PDF",
+          "sizeKB": 81,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513",
+            "012703"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224890438",
+          "title": "关于回购股份事项前十大股东及前十大无限售条件股东持股情况的公告",
+          "publishedAt": "2025-12-23",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-12-23/1224890438.PDF",
+          "fileType": "PDF",
+          "sizeKB": 72,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224890435",
+          "title": "关于以集中竞价交易方式回购公司股份的回购报告书",
+          "publishedAt": "2025-12-23",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-12-23/1224890435.PDF",
+          "fileType": "PDF",
+          "sizeKB": 147,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011513"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224881401",
+          "title": "第五届董事会第十一次会议决议公告",
+          "publishedAt": "2025-12-17",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-12-17/1224881401.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224881399",
+          "title": "关于以集中竞价方式回购公司股份的预案",
+          "publishedAt": "2025-12-17",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-12-17/1224881399.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224829948",
+          "title": "关于召开2025年第三季度业绩说明会的公告",
+          "publishedAt": "2025-11-28",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-28/1224829948.PDF",
+          "fileType": "PDF",
+          "sizeKB": 68,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224816013",
+          "title": "关于持股5%以上股东权益变动触及1%刻度暨减持股份结果公告",
+          "publishedAt": "2025-11-20",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-20/1224816013.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224792927",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2025年第一次临时股东大会的法律意见书",
+          "publishedAt": "2025-11-08",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-08/1224792927.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4903,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224792926",
+          "title": "2025年第一次临时股东大会决议公告",
+          "publishedAt": "2025-11-08",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-08/1224792926.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224780464",
+          "title": "2025年第三季度权益分派实施公告",
+          "publishedAt": "2025-11-01",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-01/1224780464.PDF",
+          "fileType": "PDF",
+          "sizeKB": 73,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224779502",
+          "title": "2025年第一次临时股东大会会议资料",
+          "publishedAt": "2025-11-01",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-11-01/1224779502.PDF",
+          "fileType": "PDF",
+          "sizeKB": 203,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725425",
+          "title": "第五届监事会第十次会议决议公告",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725425.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725424",
+          "title": "2025年第一次临时股东大会通知",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725424.PDF",
+          "fileType": "PDF",
+          "sizeKB": 140,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725423",
+          "title": "2025年第三季度报告",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725423.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010501",
+            "01010503",
+            "010113",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725422",
+          "title": "关于选举职工董事的公告",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725422.PDF",
+          "fileType": "PDF",
+          "sizeKB": 67,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725421",
+          "title": "信息披露管理制度（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725421.PDF",
+          "fileType": "PDF",
+          "sizeKB": 175,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725420",
+          "title": "总经理工作细则（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725420.PDF",
+          "fileType": "PDF",
+          "sizeKB": 145,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725419",
+          "title": "投资者关系管理工作制度（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725419.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725418",
+          "title": "董事会专门委员会议事规则（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725418.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725417",
+          "title": "董事会议事规则（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725417.PDF",
+          "fileType": "PDF",
+          "sizeKB": 167,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725416",
+          "title": "董事、高级管理人员持股变动管理制度",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725416.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725415",
+          "title": "上海行动教育科技股份有限公司章程（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725415.PDF",
+          "fileType": "PDF",
+          "sizeKB": 942,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725414",
+          "title": "内幕信息知情人登记管理制度（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725414.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725413",
+          "title": "内部审计管理制度（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725413.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725412",
+          "title": "募集资金管理制度（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725412.PDF",
+          "fileType": "PDF",
+          "sizeKB": 140,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725411",
+          "title": "股东会议事规则（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725411.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725410",
+          "title": "独立董事专门会议议事规则（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725410.PDF",
+          "fileType": "PDF",
+          "sizeKB": 112,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725409",
+          "title": "独立董事工作制度（2025年修订）",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725409.PDF",
+          "fileType": "PDF",
+          "sizeKB": 163,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725408",
+          "title": "关于修订《公司章程》及部分治理制度并取消监事会的公告",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725408.PDF",
+          "fileType": "PDF",
+          "sizeKB": 339,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725407",
+          "title": "第五届董事会第十次会议决议公告",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725407.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224725406",
+          "title": "2025年第三季度利润分配预案公告",
+          "publishedAt": "2025-10-23",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224725406.PDF",
+          "fileType": "PDF",
+          "sizeKB": 95,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224716497",
+          "title": "关于5%以上股东减持股份计划公告",
+          "publishedAt": "2025-10-17",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-10-17/1224716497.PDF",
+          "fileType": "PDF",
+          "sizeKB": 101,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224685026",
+          "title": "关于召开2025年半年度业绩说明会的公告",
+          "publishedAt": "2025-09-27",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-09-27/1224685026.PDF",
+          "fileType": "PDF",
+          "sizeKB": 68,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224504262",
+          "title": "2025年半年度权益分派实施公告",
+          "publishedAt": "2025-08-19",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-19/1224504262.PDF",
+          "fileType": "PDF",
+          "sizeKB": 116,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224444123",
+          "title": "2025年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2025-08-12",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444123.PDF",
+          "fileType": "PDF",
+          "sizeKB": 116,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224444122",
+          "title": "第五届监事会第九次会议决议公告",
+          "publishedAt": "2025-08-12",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444122.PDF",
+          "fileType": "PDF",
+          "sizeKB": 58,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224444121",
+          "title": "2025年半年度报告摘要",
+          "publishedAt": "2025-08-12",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444121.PDF",
+          "fileType": "PDF",
+          "sizeKB": 385,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224444120",
+          "title": "2025年半年度报告",
+          "publishedAt": "2025-08-12",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444120.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1583,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224444119",
+          "title": "第五届董事会第九次会议决议公告",
+          "publishedAt": "2025-08-12",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444119.PDF",
+          "fileType": "PDF",
+          "sizeKB": 52,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224444118",
+          "title": "2025年半年度利润分配预案公告",
+          "publishedAt": "2025-08-12",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444118.PDF",
+          "fileType": "PDF",
+          "sizeKB": 65,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1224352927",
+          "title": "关于收到实际控制人、董事长提议实施2025年度中期分红暨响应“提质增效重回报”倡议的公告",
+          "publishedAt": "2025-08-01",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-08-01/1224352927.PDF",
+          "fileType": "PDF",
+          "sizeKB": 76,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223932970",
+          "title": "关于召开2024年年度业绩说明会的公告",
+          "publishedAt": "2025-06-20",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-06-20/1223932970.PDF",
+          "fileType": "PDF",
+          "sizeKB": 68,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223543144",
+          "title": "2024年年度权益分派实施公告",
+          "publishedAt": "2025-05-15",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-15/1223543144.PDF",
+          "fileType": "PDF",
+          "sizeKB": 73,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223490160",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2024年年度股东大会的法律意见书",
+          "publishedAt": "2025-05-08",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-08/1223490160.PDF",
+          "fileType": "PDF",
+          "sizeKB": 6412,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223490159",
+          "title": "2024年年度股东大会决议公告",
+          "publishedAt": "2025-05-08",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-05-08/1223490159.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223410944",
+          "title": "关于股东大会开设网络投票提示服务的公告",
+          "publishedAt": "2025-04-30",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223410944.PDF",
+          "fileType": "PDF",
+          "sizeKB": 69,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223410943",
+          "title": "2025年第一季度报告",
+          "publishedAt": "2025-04-30",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223410943.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223410942",
+          "title": "2024年年度股东大会会议资料",
+          "publishedAt": "2025-04-30",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223410942.PDF",
+          "fileType": "PDF",
+          "sizeKB": 406,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094449",
+          "title": "第五届董事会第七次会议决议公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094449.PDF",
+          "fileType": "PDF",
+          "sizeKB": 153,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094448",
+          "title": "2024年年度股东大会通知",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094448.PDF",
+          "fileType": "PDF",
+          "sizeKB": 584,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094447",
+          "title": "公司对会计师事务所2024年度履职情况评估报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094447.PDF",
+          "fileType": "PDF",
+          "sizeKB": 113,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094446",
+          "title": "关于使用闲置自有资金进行现金管理的公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094446.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094445",
+          "title": "独立董事2024年度述职报告（叶彦菁）",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094445.PDF",
+          "fileType": "PDF",
+          "sizeKB": 193,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094444",
+          "title": "独立董事2024年度述职报告（张晓荣）（离任）",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094444.PDF",
+          "fileType": "PDF",
+          "sizeKB": 486,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094443",
+          "title": "关于2025年度日常关联交易预计的公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094443.PDF",
+          "fileType": "PDF",
+          "sizeKB": 213,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094442",
+          "title": "2024年度审计报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094442.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4798,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094441",
+          "title": "2024年年度报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094441.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4906,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094440",
+          "title": "2024环境、社会和治理（ESG）报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094440.PDF",
+          "fileType": "PDF",
+          "sizeKB": 28808,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094439",
+          "title": "2024年年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094439.PDF",
+          "fileType": "PDF",
+          "sizeKB": 271,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094438",
+          "title": "独立董事2024年度述职报告（张轶华）",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094438.PDF",
+          "fileType": "PDF",
+          "sizeKB": 172,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094437",
+          "title": "关于使用暂时闲置募集资金进行现金管理的公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094437.PDF",
+          "fileType": "PDF",
+          "sizeKB": 175,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094436",
+          "title": "2024年年度报告摘要",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094436.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1148,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094435",
+          "title": "第五届监事会第七次会议决议公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094435.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094434",
+          "title": "董事会审计委员会对会计师事务所2024年度履行监督职责情况的报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094434.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094433",
+          "title": "国投证券关于行动教育使用部分暂时闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094433.PDF",
+          "fileType": "PDF",
+          "sizeKB": 246,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094432",
+          "title": "董事会关于2024年度独立董事独立性情况的专项报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094432.PDF",
+          "fileType": "PDF",
+          "sizeKB": 55,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094431",
+          "title": "2024年度内部评价控制报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094431.PDF",
+          "fileType": "PDF",
+          "sizeKB": 819,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094430",
+          "title": "2024年度内部控制审计报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094430.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3341,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094429",
+          "title": "2024年年度利润分配预案公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094429.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094428",
+          "title": "独立董事2024年度述职报告（苏涛永）",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094428.PDF",
+          "fileType": "PDF",
+          "sizeKB": 111,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094427",
+          "title": "独立董事2024年度述职报告（李仲英）（离任）",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094427.PDF",
+          "fileType": "PDF",
+          "sizeKB": 167,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094426",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094426.PDF",
+          "fileType": "PDF",
+          "sizeKB": 155,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094425",
+          "title": "安永华明会计师事务所关于行动教育2024年度非经营性资金占用及其他关联资金往来情况汇总表的专项说明",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094425.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1166,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094424",
+          "title": "国投证券关于行动教育2024年度募集资金存放与使用情况的专项核查意见",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094424.PDF",
+          "fileType": "PDF",
+          "sizeKB": 291,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094423",
+          "title": "安永华明会计师事务所关于行动教育2024年度募集资金存放与实际使用情况的专项鉴证报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094423.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3644,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1223094422",
+          "title": "董事会审计委员会2024年度履职情况报告",
+          "publishedAt": "2025-04-15",
+          "year": 2025,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094422.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222343107",
+          "title": "关于5%以上股东减持股份结果公告",
+          "publishedAt": "2025-01-16",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-16/1222343107.PDF",
+          "fileType": "PDF",
+          "sizeKB": 362,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222297456",
+          "title": "关于5%以上股东减持股份结果公告",
+          "publishedAt": "2025-01-11",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-11/1222297456.PDF",
+          "fileType": "PDF",
+          "sizeKB": 350,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222203582",
+          "title": "股票期权激励计划2024年第四季度自主行权结果暨股份变动公告",
+          "publishedAt": "2025-01-03",
+          "year": 2025,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2025-01-03/1222203582.PDF",
+          "fileType": "PDF",
+          "sizeKB": 177,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088949",
+          "title": "第五届董事会第六次会议决议公告",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088949.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088948",
+          "title": "第五届监事会第六次会议决议公告",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088948.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088947",
+          "title": "上海行动教育科技股份有限公司章程",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088947.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1122,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088946",
+          "title": "国投证券股份有限公司关于上海行动教育科技股份有限公司调整部分募投项目实施地点并增加实施主体的核查意见",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088946.PDF",
+          "fileType": "PDF",
+          "sizeKB": 233,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088945",
+          "title": "内部审计管理制度",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088945.PDF",
+          "fileType": "PDF",
+          "sizeKB": 165,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088944",
+          "title": "关于调整部分募投项目实施地点并增加实施主体的公告",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088944.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1222088943",
+          "title": "关于变更公司注册资本并修订公司章程的公告",
+          "publishedAt": "2024-12-21",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-12-21/1222088943.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221877873",
+          "title": "关于召开2024年第三季度业绩说明会的公告",
+          "publishedAt": "2024-11-29",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-11-29/1221877873.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221571158",
+          "title": "2024年第三季度权益分派实施公告",
+          "publishedAt": "2024-10-31",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-31/1221571158.PDF",
+          "fileType": "PDF",
+          "sizeKB": 552,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221525280",
+          "title": "关于5%以上股东减持股份计划公告",
+          "publishedAt": "2024-10-26",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-26/1221525280.PDF",
+          "fileType": "PDF",
+          "sizeKB": 291,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221525279",
+          "title": "关于5%以上股东减持股份计划公告",
+          "publishedAt": "2024-10-26",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-26/1221525279.PDF",
+          "fileType": "PDF",
+          "sizeKB": 420,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221472892",
+          "title": "2024年第三季度报告",
+          "publishedAt": "2024-10-23",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-23/1221472892.PDF",
+          "fileType": "PDF",
+          "sizeKB": 361,
+          "announcementTypes": [
+            "01010501",
+            "01010503",
+            "010113",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221472891",
+          "title": "2024年第三季度利润分配预案公告",
+          "publishedAt": "2024-10-23",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-23/1221472891.PDF",
+          "fileType": "PDF",
+          "sizeKB": 163,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221472890",
+          "title": "第五届监事会第五次会议决议公告",
+          "publishedAt": "2024-10-23",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-23/1221472890.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221472889",
+          "title": "第五届董事会第五次会议决议公告",
+          "publishedAt": "2024-10-23",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-23/1221472889.PDF",
+          "fileType": "PDF",
+          "sizeKB": 89,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221353739",
+          "title": "股票期权激励计划2024年第三季度自主行权结果暨股份变动公告",
+          "publishedAt": "2024-10-10",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-10-10/1221353739.PDF",
+          "fileType": "PDF",
+          "sizeKB": 177,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221304310",
+          "title": "关于召开2024年半年度业绩说明会的公告",
+          "publishedAt": "2024-09-27",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-27/1221304310.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221203931",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2024年第一次临时股东大会的法律意见书",
+          "publishedAt": "2024-09-12",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-12/1221203931.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4071,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221203930",
+          "title": "2024年第一次临时股东大会决议公告",
+          "publishedAt": "2024-09-12",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-12/1221203930.PDF",
+          "fileType": "PDF",
+          "sizeKB": 365,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221177766",
+          "title": "关于2022年股票期权激励计划第二个行权期自主行权实施公告",
+          "publishedAt": "2024-09-10",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-10/1221177766.PDF",
+          "fileType": "PDF",
+          "sizeKB": 326,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221177765",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年股票期权激励计划调整行权价格、第二个行权期行权条件成就及注销部分股票期权的法律意见书",
+          "publishedAt": "2024-09-10",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-10/1221177765.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7680,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221136761",
+          "title": "2024年第一次临时股东大会会议资料",
+          "publishedAt": "2024-09-05",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-05/1221136761.PDF",
+          "fileType": "PDF",
+          "sizeKB": 493,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221111594",
+          "title": "关于部分股票期权注销完成的公告",
+          "publishedAt": "2024-09-03",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-09-03/1221111594.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1221076055",
+          "title": "关于变更持续督导保荐代表人的公告",
+          "publishedAt": "2024-08-31",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-31/1221076055.PDF",
+          "fileType": "PDF",
+          "sizeKB": 111,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950824",
+          "title": "关于注销部分股票期权的公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950824.PDF",
+          "fileType": "PDF",
+          "sizeKB": 262,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950823",
+          "title": "关于调整2022年股票期权激励计划行权价格的公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950823.PDF",
+          "fileType": "PDF",
+          "sizeKB": 105,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950821",
+          "title": "独立董事提名人声明与承诺（张轶华）",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950821.PDF",
+          "fileType": "PDF",
+          "sizeKB": 164,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950820",
+          "title": "关于2022年股票期权激励计划第二个行权期采用自主行权的提示性公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950820.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950819",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年股票期权激励计划调整行权价格、第二个行权期行权条件成就及注销部分股票期权的法律意见书",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950819.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7680,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950818",
+          "title": "第五届监事会第四次会议决议公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950818.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950817",
+          "title": "独立董事候选人声明与承诺（张轶华）",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950817.PDF",
+          "fileType": "PDF",
+          "sizeKB": 207,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950816",
+          "title": "关于2022年股票期权激励计划第二个行权期符合行权条件的公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950816.PDF",
+          "fileType": "PDF",
+          "sizeKB": 319,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950815",
+          "title": "2024年第一次临时股东大会通知",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950815.PDF",
+          "fileType": "PDF",
+          "sizeKB": 467,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950814",
+          "title": "第五届董事会第四次会议决议公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950814.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220950813",
+          "title": "关于补选独立董事的公告",
+          "publishedAt": "2024-08-23",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-23/1220950813.PDF",
+          "fileType": "PDF",
+          "sizeKB": 234,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220907239",
+          "title": "关于独立董事非因本公司事项收到《行政处罚决定书》的公告",
+          "publishedAt": "2024-08-20",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220907239.PDF",
+          "fileType": "PDF",
+          "sizeKB": 79,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012317"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220907238",
+          "title": "关于独立董事辞职的公告",
+          "publishedAt": "2024-08-20",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220907238.PDF",
+          "fileType": "PDF",
+          "sizeKB": 225,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220881118",
+          "title": "权益分派实施公告",
+          "publishedAt": "2024-08-16",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-16/1220881118.PDF",
+          "fileType": "PDF",
+          "sizeKB": 532,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220823052",
+          "title": "2024年半年度利润分配预案公告",
+          "publishedAt": "2024-08-09",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220823052.PDF",
+          "fileType": "PDF",
+          "sizeKB": 161,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220823051",
+          "title": "2024年半年度报告",
+          "publishedAt": "2024-08-09",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220823051.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3292,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220823050",
+          "title": "2024年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2024-08-09",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220823050.PDF",
+          "fileType": "PDF",
+          "sizeKB": 265,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220823049",
+          "title": "第五届监事会第三次会议决议公告",
+          "publishedAt": "2024-08-09",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220823049.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220823048",
+          "title": "2024年半年度报告摘要",
+          "publishedAt": "2024-08-09",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220823048.PDF",
+          "fileType": "PDF",
+          "sizeKB": 584,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220823047",
+          "title": "第五届董事会第三次会议决议公告",
+          "publishedAt": "2024-08-09",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220823047.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220805737",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2024-08-07",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-07/1220805737.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220805736",
+          "title": "公司控股股东及实控人对《关于上海行动教育科技股份有限公司股票交易异常波动问询函》的回函",
+          "publishedAt": "2024-08-07",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-08-07/1220805736.PDF",
+          "fileType": "PDF",
+          "sizeKB": 250,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220729641",
+          "title": "关于收到实际控制人、董事长提议实施2024年度中期分红暨响应“提质增效重回报”倡议的公告",
+          "publishedAt": "2024-07-26",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-07-26/1220729641.PDF",
+          "fileType": "PDF",
+          "sizeKB": 164,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220587432",
+          "title": "关于调整2022年股票期权激励计划行权价格的公告",
+          "publishedAt": "2024-07-10",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-07-10/1220587432.PDF",
+          "fileType": "PDF",
+          "sizeKB": 104,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220587431",
+          "title": "关于上海行动教育科技股份有限公司2022年股票期权激励计划调整行权价格事项的法律意见书",
+          "publishedAt": "2024-07-10",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-07-10/1220587431.PDF",
+          "fileType": "PDF",
+          "sizeKB": 926,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220519744",
+          "title": "2024年半年度业绩预增公告",
+          "publishedAt": "2024-07-03",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-07-03/1220519744.PDF",
+          "fileType": "PDF",
+          "sizeKB": 95,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220142734",
+          "title": "关于召开2023年年度业绩说明会的公告",
+          "publishedAt": "2024-05-24",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-24/1220142734.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1220121355",
+          "title": "权益分派实施公告",
+          "publishedAt": "2024-05-22",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-22/1220121355.PDF",
+          "fileType": "PDF",
+          "sizeKB": 136,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219998844",
+          "title": "2023年年度股东大会决议公告",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219998844.PDF",
+          "fileType": "PDF",
+          "sizeKB": 371,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219998843",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2023年年度股东大会的法律意见书",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219998843.PDF",
+          "fileType": "PDF",
+          "sizeKB": 955,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219998842",
+          "title": "第五届董事会第一次会议决议公告",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219998842.PDF",
+          "fileType": "PDF",
+          "sizeKB": 147,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219998841",
+          "title": "关于公司董事长兼总经理增持公司股份计划的结果公告",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219998841.PDF",
+          "fileType": "PDF",
+          "sizeKB": 129,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501",
+            "01230350"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219998840",
+          "title": "北京市中伦（南京）律师事务所关于李践先生免于发出要约事宜的法律意见书",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219998840.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4123,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219998839",
+          "title": "第五届监事会第一次会议决议公告",
+          "publishedAt": "2024-05-08",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-05-08/1219998839.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219906131",
+          "title": "2023年年度股东大会会议资料",
+          "publishedAt": "2024-04-30",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219906131.PDF",
+          "fileType": "PDF",
+          "sizeKB": 430,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219854196",
+          "title": "国投证券股份有限公司关于上海行动教育科技股份有限公司首次公开发行A股股票之持续督导保荐总结报告书",
+          "publishedAt": "2024-04-27",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219854196.PDF",
+          "fileType": "PDF",
+          "sizeKB": 269,
+          "announcementTypes": [
+            "01010701",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219786605",
+          "title": "2024年第一季度报告",
+          "publishedAt": "2024-04-25",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-25/1219786605.PDF",
+          "fileType": "PDF",
+          "sizeKB": 360,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624777",
+          "title": "股东大会议事规则（2024年修订）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624777.PDF",
+          "fileType": "PDF",
+          "sizeKB": 404,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624776",
+          "title": "国投证券关于行动教育使用部分暂时闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624776.PDF",
+          "fileType": "PDF",
+          "sizeKB": 191,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624775",
+          "title": "独立董事候选人声明与承诺（苏涛永）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624775.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624774",
+          "title": "2023年年度报告摘要",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624774.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1239,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624773",
+          "title": "独立董事提名人声明与承诺（苏涛永）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624773.PDF",
+          "fileType": "PDF",
+          "sizeKB": 158,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624772",
+          "title": "2023年年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624772.PDF",
+          "fileType": "PDF",
+          "sizeKB": 265,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624771",
+          "title": "未来三年（2024-2026）股东回报计划",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624771.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624770",
+          "title": "董事会议事规则（2024年修订）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624770.PDF",
+          "fileType": "PDF",
+          "sizeKB": 195,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624769",
+          "title": "2023年年度利润分配预案公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624769.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624768",
+          "title": "独立董事候选人声明与承诺（叶彦菁）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624768.PDF",
+          "fileType": "PDF",
+          "sizeKB": 95,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624767",
+          "title": "第四届董事会第十五次会议决议公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624767.PDF",
+          "fileType": "PDF",
+          "sizeKB": 165,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624766",
+          "title": "独立董事提名人声明与承诺（叶彦菁）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624766.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624765",
+          "title": "董事会审计委员会2023年度履职情况报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624765.PDF",
+          "fileType": "PDF",
+          "sizeKB": 367,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624764",
+          "title": "独立董事提名人声明与承诺（张晓荣）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624764.PDF",
+          "fileType": "PDF",
+          "sizeKB": 162,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624763",
+          "title": "董事会审计委员会对会计师事务所2023年度履行监督职责情况的报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624763.PDF",
+          "fileType": "PDF",
+          "sizeKB": 125,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624762",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624762.PDF",
+          "fileType": "PDF",
+          "sizeKB": 156,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624761",
+          "title": "独立董事2023年度述职报告（李仲英）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624761.PDF",
+          "fileType": "PDF",
+          "sizeKB": 368,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624760",
+          "title": "关于使用闲置自有资金进行现金管理的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624760.PDF",
+          "fileType": "PDF",
+          "sizeKB": 139,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624759",
+          "title": "2023环境、社会和治理（ESG）报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624759.PDF",
+          "fileType": "PDF",
+          "sizeKB": 46977,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624758",
+          "title": "2023年度审计报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624758.PDF",
+          "fileType": "PDF",
+          "sizeKB": 16431,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624757",
+          "title": "独立董事候选人声明与承诺（张晓荣）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624757.PDF",
+          "fileType": "PDF",
+          "sizeKB": 99,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624756",
+          "title": "国投证券关于行动教育2023年度持续督导报告书",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624756.PDF",
+          "fileType": "PDF",
+          "sizeKB": 180,
+          "announcementTypes": [
+            "01010701",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624755",
+          "title": "第四届监事会第十四次会议决议",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624755.PDF",
+          "fileType": "PDF",
+          "sizeKB": 137,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624754",
+          "title": "2023年年度报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624754.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4061,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624753",
+          "title": "独立董事2023年度述职报告（苏涛永）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624753.PDF",
+          "fileType": "PDF",
+          "sizeKB": 372,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624752",
+          "title": "国投证券关于行动教育部分首次公开发行股票募投项目延期的核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624752.PDF",
+          "fileType": "PDF",
+          "sizeKB": 182,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624751",
+          "title": "国投证券关于行动教育2024年度日常关联交易预计的核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624751.PDF",
+          "fileType": "PDF",
+          "sizeKB": 169,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624750",
+          "title": "关于修订《公司章程》并办理工商变更登记的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624750.PDF",
+          "fileType": "PDF",
+          "sizeKB": 190,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624749",
+          "title": "安永会计师事务所关于行动教育2023年度募集资金存放与实际使用情况的专项鉴证报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624749.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4515,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624748",
+          "title": "董事会关于2023年度独立董事独立性情况的专项报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624748.PDF",
+          "fileType": "PDF",
+          "sizeKB": 149,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624747",
+          "title": "公司章程（2024年修订）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624747.PDF",
+          "fileType": "PDF",
+          "sizeKB": 564,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624746",
+          "title": "独立董事专门会议议事规则（2024年修订）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624746.PDF",
+          "fileType": "PDF",
+          "sizeKB": 118,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624745",
+          "title": "公司对会计师事务所2023年度履职情况评估报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624745.PDF",
+          "fileType": "PDF",
+          "sizeKB": 114,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624743",
+          "title": "监事会议事规则（2024年修订）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624743.PDF",
+          "fileType": "PDF",
+          "sizeKB": 430,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624742",
+          "title": "2023年度内部控制评价报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624742.PDF",
+          "fileType": "PDF",
+          "sizeKB": 232,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624741",
+          "title": "2023年度内部控制审计报告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624741.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3500,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624740",
+          "title": "职工代表大会公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624740.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624739",
+          "title": "关于部分首次公开发行股票募投项目延期的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624739.PDF",
+          "fileType": "PDF",
+          "sizeKB": 167,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624738",
+          "title": "国投证券关于行动教育2023年度募集资金存放与使用情况的专项核查意见",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624738.PDF",
+          "fileType": "PDF",
+          "sizeKB": 204,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624737",
+          "title": "安永会计师事务所关于行动教育非经营性资金占用及其他关联资金往来情况汇总表的专项说明",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624737.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1081,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624736",
+          "title": "独立董事2023年度述职报告（张晓荣）",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624736.PDF",
+          "fileType": "PDF",
+          "sizeKB": 375,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624735",
+          "title": "关于2024年度日常关联交易预计的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624735.PDF",
+          "fileType": "PDF",
+          "sizeKB": 143,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624734",
+          "title": "2023年年度股东大会通知",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624734.PDF",
+          "fileType": "PDF",
+          "sizeKB": 383,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219624733",
+          "title": "关于使用暂时闲置募集资金进行现金管理的公告",
+          "publishedAt": "2024-04-16",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219624733.PDF",
+          "fileType": "PDF",
+          "sizeKB": 164,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219598001",
+          "title": "国投证券关于行动教育首次公开发行部分限售股上市流通的核查意见",
+          "publishedAt": "2024-04-13",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-13/1219598001.PDF",
+          "fileType": "PDF",
+          "sizeKB": 341,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219598000",
+          "title": "首次公开发行部分限售股上市流通公告",
+          "publishedAt": "2024-04-13",
+          "year": 2024,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-04-13/1219598000.PDF",
+          "fileType": "PDF",
+          "sizeKB": 576,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219240396",
+          "title": "关于变更公司投资者联系电话的公告",
+          "publishedAt": "2024-03-06",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-03-06/1219240396.PDF",
+          "fileType": "PDF",
+          "sizeKB": 74,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219053113",
+          "title": "关于公司董事长兼总经理增持公司股份计划的进展公告",
+          "publishedAt": "2024-02-01",
+          "year": 2024,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-02-01/1219053113.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501",
+            "01230350"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1219010116",
+          "title": "关于签订合作协议的公告",
+          "publishedAt": "2024-01-27",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-27/1219010116.PDF",
+          "fileType": "PDF",
+          "sizeKB": 131,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218931242",
+          "title": "2023年年度业绩预增公告",
+          "publishedAt": "2024-01-18",
+          "year": 2024,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218931242.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218673209",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2023年第二次临时股东大会的法律意见书",
+          "publishedAt": "2023-12-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-21/1218673209.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4432,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218673208",
+          "title": "2023年第二次临时股东大会决议公告",
+          "publishedAt": "2023-12-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-21/1218673208.PDF",
+          "fileType": "PDF",
+          "sizeKB": 269,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218618821",
+          "title": "2023年第二次临时股东大会会议资料",
+          "publishedAt": "2023-12-15",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-15/1218618821.PDF",
+          "fileType": "PDF",
+          "sizeKB": 420,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218604517",
+          "title": "关于公司独立董事任期届满辞任的公告",
+          "publishedAt": "2023-12-14",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-14/1218604517.PDF",
+          "fileType": "PDF",
+          "sizeKB": 224,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218590096",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司持续督导的现场检查报告",
+          "publishedAt": "2023-12-13",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-13/1218590096.PDF",
+          "fileType": "PDF",
+          "sizeKB": 273,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218544555",
+          "title": "关于召开2023年第三季度业绩说明会的公告",
+          "publishedAt": "2023-12-08",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-08/1218544555.PDF",
+          "fileType": "PDF",
+          "sizeKB": 131,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218497685",
+          "title": "关于5%以上股东减持至5%以下权益变动的提示性公告",
+          "publishedAt": "2023-12-02",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-02/1218497685.PDF",
+          "fileType": "PDF",
+          "sizeKB": 166,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218497684",
+          "title": "简式权益变动报告书",
+          "publishedAt": "2023-12-02",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-02/1218497684.PDF",
+          "fileType": "PDF",
+          "sizeKB": 277,
+          "announcementTypes": [
+            "01011101",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483668",
+          "title": "董事会议事规则（2023年修订）",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483668.PDF",
+          "fileType": "PDF",
+          "sizeKB": 193,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483405",
+          "title": "第四届董事会第十四次会议决议公告",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483405.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483404",
+          "title": "第四届监事会第十三次会议决议公告",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483404.PDF",
+          "fileType": "PDF",
+          "sizeKB": 83,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483403",
+          "title": "总经理工作细则（2023年修订）",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483403.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483402",
+          "title": "董事会专门委员会议事规则（2023年修订）",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483402.PDF",
+          "fileType": "PDF",
+          "sizeKB": 168,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483401",
+          "title": "监事会议事规则（2023年修订）",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483401.PDF",
+          "fileType": "PDF",
+          "sizeKB": 428,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013103",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483400",
+          "title": "独立董事工作制度（2023年修订）",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483400.PDF",
+          "fileType": "PDF",
+          "sizeKB": 306,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "013105",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218483399",
+          "title": "2023年第二次临时股东大会通知",
+          "publishedAt": "2023-12-01",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-12-01/1218483399.PDF",
+          "fileType": "PDF",
+          "sizeKB": 350,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218362804",
+          "title": "关于公司董事长兼总经理增持公司股份计划的进展公告",
+          "publishedAt": "2023-11-17",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-11-17/1218362804.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501",
+            "01230350"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218241903",
+          "title": "关于公司董事长兼总经理增持公司股份计划的进展公告",
+          "publishedAt": "2023-11-03",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-11-03/1218241903.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501",
+            "01230350"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218170594",
+          "title": "关于公司董事长兼总经理增持公司股份计划的公告",
+          "publishedAt": "2023-10-27",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-27/1218170594.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501",
+            "01230350"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218147202",
+          "title": "第四届董事会第十三次会议决议公告",
+          "publishedAt": "2023-10-26",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-26/1218147202.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218147201",
+          "title": "2023年第三季度报告",
+          "publishedAt": "2023-10-26",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-26/1218147201.PDF",
+          "fileType": "PDF",
+          "sizeKB": 511,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218147200",
+          "title": "关于调整2022年股票期权激励计划行权价格的公告",
+          "publishedAt": "2023-10-26",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-26/1218147200.PDF",
+          "fileType": "PDF",
+          "sizeKB": 109,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218147199",
+          "title": "第四届监事会第十二次会议决议公告",
+          "publishedAt": "2023-10-26",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-26/1218147199.PDF",
+          "fileType": "PDF",
+          "sizeKB": 86,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218147198",
+          "title": "独立董事关于公司第四届董事会第十三次会议相关议案的意见",
+          "publishedAt": "2023-10-26",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-26/1218147198.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218147197",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年股票期权激励计划调整行权价格事项的法律意见书",
+          "publishedAt": "2023-10-26",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-26/1218147197.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3048,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1218020077",
+          "title": "2023年前三季度业绩预增公告",
+          "publishedAt": "2023-10-13",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-10-13/1218020077.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217919004",
+          "title": "2023年1-8月业绩预增公告",
+          "publishedAt": "2023-09-22",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-09-22/1217919004.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217858667",
+          "title": "关于召开2023年半年度业绩说明会的公告",
+          "publishedAt": "2023-09-15",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-09-15/1217858667.PDF",
+          "fileType": "PDF",
+          "sizeKB": 130,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217858666",
+          "title": "权益分派实施公告",
+          "publishedAt": "2023-09-15",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-09-15/1217858666.PDF",
+          "fileType": "PDF",
+          "sizeKB": 280,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217795906",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2023年第一次临时股东大会的法律意见书",
+          "publishedAt": "2023-09-07",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-09-07/1217795906.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2655,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217795905",
+          "title": "2023年第一次临时股东大会决议公告",
+          "publishedAt": "2023-09-07",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-09-07/1217795905.PDF",
+          "fileType": "PDF",
+          "sizeKB": 372,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217706890",
+          "title": "2023年第一次临时股东大会会议资料",
+          "publishedAt": "2023-08-31",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-31/1217706890.PDF",
+          "fileType": "PDF",
+          "sizeKB": 434,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217670784",
+          "title": "关于2022年股票期权激励计划第一个行权期未达到行权条件期权注销完成的公告",
+          "publishedAt": "2023-08-29",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-29/1217670784.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593354",
+          "title": "第四届监事会第十一次会议决议公告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593354.PDF",
+          "fileType": "PDF",
+          "sizeKB": 97,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593353",
+          "title": "关于2022年股票期权激励计划第一个行权期未达到行权条件期权予以注销的公告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593353.PDF",
+          "fileType": "PDF",
+          "sizeKB": 162,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593352",
+          "title": "独立董事关于公司第四届董事会第十二次会议相关议案的意见",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593352.PDF",
+          "fileType": "PDF",
+          "sizeKB": 184,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593351",
+          "title": "第四届董事会第十二次会议决议公告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593351.PDF",
+          "fileType": "PDF",
+          "sizeKB": 122,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593350",
+          "title": "独立董事关于公司第四届董事会第十二次会议相关事项的事前认可意见",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593350.PDF",
+          "fileType": "PDF",
+          "sizeKB": 124,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593349",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年股票期权激励计划调整行权价格及第一个行权期行权条件未成就暨注销部分股票期权事项的法律意见书",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593349.PDF",
+          "fileType": "PDF",
+          "sizeKB": 5977,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593348",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593348.PDF",
+          "fileType": "PDF",
+          "sizeKB": 163,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593347",
+          "title": "2023年半年度报告摘要",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593347.PDF",
+          "fileType": "PDF",
+          "sizeKB": 402,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593346",
+          "title": "2023年半年度利润分配预案公告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593346.PDF",
+          "fileType": "PDF",
+          "sizeKB": 302,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593345",
+          "title": "2023年半年度报告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593345.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2847,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593344",
+          "title": "2023年第一次临时股东大会通知",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593344.PDF",
+          "fileType": "PDF",
+          "sizeKB": 601,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593343",
+          "title": "2023年半年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593343.PDF",
+          "fileType": "PDF",
+          "sizeKB": 251,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217593342",
+          "title": "关于调整2022年股票期权激励计划行权价格的公告",
+          "publishedAt": "2023-08-22",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-08-22/1217593342.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217291221",
+          "title": "2023年半年度业绩预增公告",
+          "publishedAt": "2023-07-14",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-07-14/1217291221.PDF",
+          "fileType": "PDF",
+          "sizeKB": 96,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217178186",
+          "title": "关于5%以上股东集中竞价减持股份计划公告",
+          "publishedAt": "2023-07-01",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-07-01/1217178186.PDF",
+          "fileType": "PDF",
+          "sizeKB": 497,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217100321",
+          "title": "关于2022年非经营性资金占用及其他关联资金往来情况的专项审计报告的更正公告",
+          "publishedAt": "2023-06-20",
+          "year": 2023,
+          "categoryId": "regulatory",
+          "categoryName": "监管与风险",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-20/1217100321.PDF",
+          "fileType": "PDF",
+          "sizeKB": 85,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012703",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217100096",
+          "title": "安信证券股份有限公司《关于上海行动教育科技股份有限公司2022年年度报告的信息披露监管工作函》相关问题的核查意见",
+          "publishedAt": "2023-06-20",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-20/1217100096.PDF",
+          "fileType": "PDF",
+          "sizeKB": 588,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217100095",
+          "title": "关于上海证券交易所对公司2022年年度报告的信息披露监管工作函的回复公告",
+          "publishedAt": "2023-06-20",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-20/1217100095.PDF",
+          "fileType": "PDF",
+          "sizeKB": 480,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217100094",
+          "title": "2022年非经营性资金占用及其他关联资金往来情况的专项审计报告（更正版）",
+          "publishedAt": "2023-06-20",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-20/1217100094.PDF",
+          "fileType": "PDF",
+          "sizeKB": 376,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "0129",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1217100093",
+          "title": "安永华明会计师事务所（特殊普）就上海证券交易所市公司管理一部《关于上海行动教育科技股份有限公司2022年年度报告的信息披露监管工作函》第1、2、3、4、 5、7中部分涉及财务报表项目问询意见的专项说明",
+          "publishedAt": "2023-06-20",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-06-20/1217100093.PDF",
+          "fileType": "PDF",
+          "sizeKB": 807,
+          "announcementTypes": [
+            "01010503",
+            "010109",
+            "01010903",
+            "010113",
+            "012399",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216866950",
+          "title": "2022年年度权益分派实施公告",
+          "publishedAt": "2023-05-20",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-20/1216866950.PDF",
+          "fileType": "PDF",
+          "sizeKB": 280,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216850377",
+          "title": "关于召开2022年度业绩说明会的公告",
+          "publishedAt": "2023-05-19",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-19/1216850377.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216817310",
+          "title": "关于签订战略合作协议的公告",
+          "publishedAt": "2023-05-16",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-16/1216817310.PDF",
+          "fileType": "PDF",
+          "sizeKB": 131,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216799298",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年年度股东大会的法律意见书",
+          "publishedAt": "2023-05-12",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-12/1216799298.PDF",
+          "fileType": "PDF",
+          "sizeKB": 6665,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216799297",
+          "title": "2022年年度股东大会决议公告",
+          "publishedAt": "2023-05-12",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-12/1216799297.PDF",
+          "fileType": "PDF",
+          "sizeKB": 428,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216746475",
+          "title": "2022年年度股东大会会议资料",
+          "publishedAt": "2023-05-05",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-05-05/1216746475.PDF",
+          "fileType": "PDF",
+          "sizeKB": 739,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216643013",
+          "title": "关于5%以上股东集中竞价减持计划提前终止暨减持股份结果公告",
+          "publishedAt": "2023-04-28",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216643013.PDF",
+          "fileType": "PDF",
+          "sizeKB": 358,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491722",
+          "title": "2022年度审计报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491722.PDF",
+          "fileType": "PDF",
+          "sizeKB": 18513,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491719",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司2023年度日常关联交易预计的核查意见",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491719.PDF",
+          "fileType": "PDF",
+          "sizeKB": 230,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491715",
+          "title": "2022年年度报告摘要",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491715.PDF",
+          "fileType": "PDF",
+          "sizeKB": 877,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491713",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司2022年度持续督导报告书",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491713.PDF",
+          "fileType": "PDF",
+          "sizeKB": 239,
+          "announcementTypes": [
+            "01010701",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491710",
+          "title": "安永会计师事务所关于上海行动教育科技股份有限公司的内部控制审计报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491710.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3799,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491709",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司部分首次公开发行股票募投项目延期的核查意见",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491709.PDF",
+          "fileType": "PDF",
+          "sizeKB": 251,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491708",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司2022年度募集资金存放与使用情况的核查意见",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491708.PDF",
+          "fileType": "PDF",
+          "sizeKB": 248,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491707",
+          "title": "关于部分首次公开发行股票募投项目延期的公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491707.PDF",
+          "fileType": "PDF",
+          "sizeKB": 180,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491706",
+          "title": "关于使用闲置自有资金进行现金管理的公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491706.PDF",
+          "fileType": "PDF",
+          "sizeKB": 147,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491591",
+          "title": "第四届董事会第十一次会议决议公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491591.PDF",
+          "fileType": "PDF",
+          "sizeKB": 146,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491589",
+          "title": "2022年年度募集资金存放与使用情况的专项报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491589.PDF",
+          "fileType": "PDF",
+          "sizeKB": 258,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491585",
+          "title": "2022年内部控制评价报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491585.PDF",
+          "fileType": "PDF",
+          "sizeKB": 721,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491583",
+          "title": "关于监事辞职及补选非职工代表监事的公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491583.PDF",
+          "fileType": "PDF",
+          "sizeKB": 235,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491580",
+          "title": "2023年第一季度报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491580.PDF",
+          "fileType": "PDF",
+          "sizeKB": 363,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491576",
+          "title": "安永会计师事务所关于上海行动教育科技股份有限公司2022年度募集资金存放与使用情况专项报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491576.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4740,
+          "announcementTypes": [
+            "01010503",
+            "01010903",
+            "010113",
+            "012315",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491572",
+          "title": "独立董事关于公司对外担保及关联方资金占用专项情况说明",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491572.PDF",
+          "fileType": "PDF",
+          "sizeKB": 123,
+          "announcementTypes": [
+            "01010503",
+            "01011107",
+            "010113",
+            "012399",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491570",
+          "title": "关于2023年度日常关联交易预计的公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491570.PDF",
+          "fileType": "PDF",
+          "sizeKB": 152,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491568",
+          "title": "第四届监事会第十次会议决议公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491568.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491566",
+          "title": "独立董事关于公司第四届第十一次董事会相关议案的意见",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491566.PDF",
+          "fileType": "PDF",
+          "sizeKB": 182,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491565",
+          "title": "独立董事2022年度述职报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491565.PDF",
+          "fileType": "PDF",
+          "sizeKB": 195,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491564",
+          "title": "2022年年度报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491564.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3747,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491563",
+          "title": "2022年非经营性资金占用及其他关联资金往来情况的专项审计报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491563.PDF",
+          "fileType": "PDF",
+          "sizeKB": 376,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "0129",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491561",
+          "title": "关于使用暂时闲置募集资金进行现金管理的公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491561.PDF",
+          "fileType": "PDF",
+          "sizeKB": 170,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491560",
+          "title": "董事会审计委员会2022年度履职情况报告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491560.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491559",
+          "title": "2022年年度股东大会通知",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491559.PDF",
+          "fileType": "PDF",
+          "sizeKB": 646,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491558",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491558.PDF",
+          "fileType": "PDF",
+          "sizeKB": 192,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1216491557",
+          "title": "2022年度利润分配预案公告",
+          "publishedAt": "2023-04-21",
+          "year": 2023,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216491557.PDF",
+          "fileType": "PDF",
+          "sizeKB": 302,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215747558",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司持续督导的现场检查报告",
+          "publishedAt": "2023-02-02",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-02-02/1215747558.PDF",
+          "fileType": "PDF",
+          "sizeKB": 244,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215625538",
+          "title": "关于5%以上股东减持超过1%的提示性公告",
+          "publishedAt": "2023-01-17",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-17/1215625538.PDF",
+          "fileType": "PDF",
+          "sizeKB": 150,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215589428",
+          "title": "关于5%以上股东集中竞价减持股份进展公告",
+          "publishedAt": "2023-01-13",
+          "year": 2023,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2023-01-13/1215589428.PDF",
+          "fileType": "PDF",
+          "sizeKB": 362,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215210620",
+          "title": "关于5%以上股东集中竞价减持股份计划公告",
+          "publishedAt": "2022-11-26",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-11-26/1215210620.PDF",
+          "fileType": "PDF",
+          "sizeKB": 497,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1215126538",
+          "title": "关于召开2022年第三季度业绩说明会的公告",
+          "publishedAt": "2022-11-17",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-11-17/1215126538.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214899527",
+          "title": "2022年第三季度报告",
+          "publishedAt": "2022-10-26",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-26/1214899527.PDF",
+          "fileType": "PDF",
+          "sizeKB": 375,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "010307"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214840855",
+          "title": "关于2022年股票期权激励计划授予登记完成的公告",
+          "publishedAt": "2022-10-20",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-20/1214840855.PDF",
+          "fileType": "PDF",
+          "sizeKB": 225,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214737339",
+          "title": "2022年股票期权激励计划激励对象名单（调整后）",
+          "publishedAt": "2022-10-11",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-11/1214737339.PDF",
+          "fileType": "PDF",
+          "sizeKB": 292,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214737338",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年股票期权激励计划调整相关事项的法律意见书",
+          "publishedAt": "2022-10-11",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-11/1214737338.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3009,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214737337",
+          "title": "关于调整2022年股票期权激励计划授予激励对象名单及期权数量的公告",
+          "publishedAt": "2022-10-11",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-10-11/1214737337.PDF",
+          "fileType": "PDF",
+          "sizeKB": 147,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555321",
+          "title": "关于调整2022年股票期权激励计划授予激励对象名单及期权数量的公告",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555321.PDF",
+          "fileType": "PDF",
+          "sizeKB": 166,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555320",
+          "title": "监事会关于公司2022年股票期权激励计划调整及授予事项的核查意见",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555320.PDF",
+          "fileType": "PDF",
+          "sizeKB": 67,
+          "announcementTypes": [
+            "01010503",
+            "01010505",
+            "010113",
+            "012325",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555319",
+          "title": "2022年股票期权激励计划激励对象名单（授予日）",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555319.PDF",
+          "fileType": "PDF",
+          "sizeKB": 224,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555318",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年股票期权激励计划调整及授予相关事项的法律意见书",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555318.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4755,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555317",
+          "title": "独立董事关于第四届董事会第九次会议相关议案的独立意见",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555317.PDF",
+          "fileType": "PDF",
+          "sizeKB": 164,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555316",
+          "title": "关于向2022年股票期权激励计划激励对象授予股票期权的公告",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555316.PDF",
+          "fileType": "PDF",
+          "sizeKB": 231,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555315",
+          "title": "第四届监事会第八次会议决议公告",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555315.PDF",
+          "fileType": "PDF",
+          "sizeKB": 88,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214555314",
+          "title": "第四届董事会第九次会议决议公告",
+          "publishedAt": "2022-09-08",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-08/1214555314.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214532529",
+          "title": "关于召开2022年半年度业绩说明会的公告",
+          "publishedAt": "2022-09-05",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-09-05/1214532529.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214419796",
+          "title": "独立董事关于公司第四届董事会第八次会议相关议案的独立意见",
+          "publishedAt": "2022-08-27",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-27/1214419796.PDF",
+          "fileType": "PDF",
+          "sizeKB": 163,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214419794",
+          "title": "第四届董事会第八次会议决议公告",
+          "publishedAt": "2022-08-27",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-27/1214419794.PDF",
+          "fileType": "PDF",
+          "sizeKB": 92,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214419792",
+          "title": "2022年半年度募集资金存放与实际使用情况的专项报告",
+          "publishedAt": "2022-08-27",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-27/1214419792.PDF",
+          "fileType": "PDF",
+          "sizeKB": 248,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214419791",
+          "title": "第四届监事会第七次会议决议公告",
+          "publishedAt": "2022-08-27",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-27/1214419791.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214419790",
+          "title": "2022年半年度报告",
+          "publishedAt": "2022-08-27",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-27/1214419790.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3259,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214419789",
+          "title": "2022年半年度报告摘要",
+          "publishedAt": "2022-08-27",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-27/1214419789.PDF",
+          "fileType": "PDF",
+          "sizeKB": 388,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214287954",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2022年第一次临时股东大会的法律意见书",
+          "publishedAt": "2022-08-13",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-13/1214287954.PDF",
+          "fileType": "PDF",
+          "sizeKB": 2863,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214287953",
+          "title": "2022年第一次临时股东大会决议公告",
+          "publishedAt": "2022-08-13",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-13/1214287953.PDF",
+          "fileType": "PDF",
+          "sizeKB": 529,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214287952",
+          "title": "关于2022年股票期权激励计划内幕信息知情人及激励对象买卖公司股票的自查报告",
+          "publishedAt": "2022-08-13",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-13/1214287952.PDF",
+          "fileType": "PDF",
+          "sizeKB": 110,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012317",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214212028",
+          "title": "监事会关于公司2022年股票期权激励计划激励对象名单审核意见及公示情况的说明",
+          "publishedAt": "2022-08-04",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-04/1214212028.PDF",
+          "fileType": "PDF",
+          "sizeKB": 115,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214212027",
+          "title": "2022年第一次临时股东大会会议资料",
+          "publishedAt": "2022-08-04",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-08-04/1214212027.PDF",
+          "fileType": "PDF",
+          "sizeKB": 458,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094888",
+          "title": "2022年股票期权激励计划（草案）",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094888.PDF",
+          "fileType": "PDF",
+          "sizeKB": 854,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094887",
+          "title": "2022年股票期权激励计划实施考核管理办法",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094887.PDF",
+          "fileType": "PDF",
+          "sizeKB": 409,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094886",
+          "title": "行动教育监事会关于公司2022年股票期权激励计划相关事项的核查意见",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094886.PDF",
+          "fileType": "PDF",
+          "sizeKB": 160,
+          "announcementTypes": [
+            "01010503",
+            "01010505",
+            "010113",
+            "012325",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094885",
+          "title": "北京市中伦(南京)律师事务所关于上海行动教育科技股份有限公司2022 年股票期权激励计划的法律意见书",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094885.PDF",
+          "fileType": "PDF",
+          "sizeKB": 874,
+          "announcementTypes": [
+            "01010503",
+            "01010901",
+            "010113",
+            "012325",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094884",
+          "title": "独立董事关于公司第四届董事会第七次会议相关议案的意见",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094884.PDF",
+          "fileType": "PDF",
+          "sizeKB": 188,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094883",
+          "title": "2022年股票期权激励计划（草案）摘要公告",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094883.PDF",
+          "fileType": "PDF",
+          "sizeKB": 508,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094882",
+          "title": "行动教育2022年股票期权激励计划激励对象名单",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094882.PDF",
+          "fileType": "PDF",
+          "sizeKB": 254,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012325"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094881",
+          "title": "第四届监事会第六次会议决议公告",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094881.PDF",
+          "fileType": "PDF",
+          "sizeKB": 91,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094880",
+          "title": "第四届董事会第七次会议决议公告",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094880.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094879",
+          "title": "关于独立董事公开征集投票权的公告",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094879.PDF",
+          "fileType": "PDF",
+          "sizeKB": 181,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1214094878",
+          "title": "关于召开2022年第一次临时股东大会的通知",
+          "publishedAt": "2022-07-21",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214094878.PDF",
+          "fileType": "PDF",
+          "sizeKB": 174,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213274408",
+          "title": "2021年年度权益分派实施公告",
+          "publishedAt": "2022-05-05",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-05-05/1213274408.PDF",
+          "fileType": "PDF",
+          "sizeKB": 296,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1213159353",
+          "title": "2022年第一季度报告",
+          "publishedAt": "2022-04-28",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-28/1213159353.PDF",
+          "fileType": "PDF",
+          "sizeKB": 382,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010305"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212939219",
+          "title": "关于变更持续督导保荐代表人的公告",
+          "publishedAt": "2022-04-16",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-16/1212939219.PDF",
+          "fileType": "PDF",
+          "sizeKB": 103,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212913533",
+          "title": "关于召开2021年度业绩说明会的公告",
+          "publishedAt": "2022-04-14",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-14/1212913533.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212913532",
+          "title": "安信证券股份有限公司关于上海行动教育科技股份有限公司首次公开发行部分限售股上市流通的核查意见",
+          "publishedAt": "2022-04-14",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-14/1212913532.PDF",
+          "fileType": "PDF",
+          "sizeKB": 495,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212913531",
+          "title": "首次公开发行部分限售股上市流通公告",
+          "publishedAt": "2022-04-14",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-14/1212913531.PDF",
+          "fileType": "PDF",
+          "sizeKB": 260,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212837769",
+          "title": "北京市中伦（南京）律师事务所关于上海行动教育科技股份有限公司2021 年年度股东大会的法律意见书",
+          "publishedAt": "2022-04-08",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-08/1212837769.PDF",
+          "fileType": "PDF",
+          "sizeKB": 759,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "011999",
+            "012903"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212837768",
+          "title": "2021年年度股东大会决议公告",
+          "publishedAt": "2022-04-08",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-04-08/1212837768.PDF",
+          "fileType": "PDF",
+          "sizeKB": 639,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011905"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212667497",
+          "title": "2021年年度股东大会会议资料",
+          "publishedAt": "2022-03-25",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-25/1212667497.PDF",
+          "fileType": "PDF",
+          "sizeKB": 735,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212607200",
+          "title": "关于接待机构调研情况的公告",
+          "publishedAt": "2022-03-18",
+          "year": 2022,
+          "categoryId": "investor",
+          "categoryName": "投资者关系",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-18/1212607200.PDF",
+          "fileType": "PDF",
+          "sizeKB": 259,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593926",
+          "title": "安永会计师事务所对上海行动教育科技股份有限公司2021年度募集资金存放与实际使用情况的专项鉴证报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593926.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4864,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593925",
+          "title": "2021年年度募集资金存放与实际使用情况的专项报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593925.PDF",
+          "fileType": "PDF",
+          "sizeKB": 246,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593924",
+          "title": "独立董事2021年度述职报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593924.PDF",
+          "fileType": "PDF",
+          "sizeKB": 295,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593923",
+          "title": "安永会计师事务所关于上海行动教育科技股份有限公司非经营性资金占用及其他关联资金往来情况汇总表的专项审计报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593923.PDF",
+          "fileType": "PDF",
+          "sizeKB": 752,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593922",
+          "title": "2021年度审计报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593922.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7545,
+          "announcementTypes": [
+            "01010903",
+            "010113",
+            "012913"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593921",
+          "title": "独立董事关于公司对外担保及关联方资金占用专项情况说明",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593921.PDF",
+          "fileType": "PDF",
+          "sizeKB": 61,
+          "announcementTypes": [
+            "01010903",
+            "01011107",
+            "010113",
+            "0129",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593920",
+          "title": "2021年年度报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593920.PDF",
+          "fileType": "PDF",
+          "sizeKB": 4037,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593919",
+          "title": "2021年年度报告摘要",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593919.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1147,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "010301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593918",
+          "title": "关于监事辞职及补选非职工代表监事的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593918.PDF",
+          "fileType": "PDF",
+          "sizeKB": 241,
+          "announcementTypes": [
+            "01010503",
+            "01010505",
+            "010113",
+            "012303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593917",
+          "title": "行动教育章程",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593917.PDF",
+          "fileType": "PDF",
+          "sizeKB": 784,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593916",
+          "title": "关于变更公司注册地址及修订《公司章程》并办理工商变更登记的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593916.PDF",
+          "fileType": "PDF",
+          "sizeKB": 93,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593915",
+          "title": "安信证券关于行动教育使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593915.PDF",
+          "fileType": "PDF",
+          "sizeKB": 157,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593914",
+          "title": "关于使用暂时闲置募集资金进行现金管理的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593914.PDF",
+          "fileType": "PDF",
+          "sizeKB": 284,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012315"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593913",
+          "title": "关于使用闲置自有资金进行现金管理的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593913.PDF",
+          "fileType": "PDF",
+          "sizeKB": 151,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011705"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593912",
+          "title": "安信证券关于行动教育2022年度日常关联交易预计的核查意见",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593912.PDF",
+          "fileType": "PDF",
+          "sizeKB": 209,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593911",
+          "title": "关于2022年度日常关联交易预计的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593911.PDF",
+          "fileType": "PDF",
+          "sizeKB": 169,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011719"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593910",
+          "title": "独立董事关于公司第四届董事会第五次会议相关事项的事前认可意见",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593910.PDF",
+          "fileType": "PDF",
+          "sizeKB": 76,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593909",
+          "title": "独立董事关于公司第四届第五次董事会相关议案的意见",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593909.PDF",
+          "fileType": "PDF",
+          "sizeKB": 180,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "013105"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593908",
+          "title": "关于续聘会计师事务所的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593908.PDF",
+          "fileType": "PDF",
+          "sizeKB": 159,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593907",
+          "title": "第四届董事会第五次会议决议公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593907.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593906",
+          "title": "关于召开2021年年度股东大会的通知",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593906.PDF",
+          "fileType": "PDF",
+          "sizeKB": 357,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593905",
+          "title": "2021年年度利润分配方案的公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593905.PDF",
+          "fileType": "PDF",
+          "sizeKB": 307,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "011301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593904",
+          "title": "安信证券关于行动教育2021年度持续督导报告书",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593904.PDF",
+          "fileType": "PDF",
+          "sizeKB": 257,
+          "announcementTypes": [
+            "01010701",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593903",
+          "title": "董事会审计委员会2021年度履职情况报告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593903.PDF",
+          "fileType": "PDF",
+          "sizeKB": 144,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "012399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212593902",
+          "title": "安信证券关于行动教育2021年度募集资金存放与使用情况的核查意见",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212593902.PDF",
+          "fileType": "PDF",
+          "sizeKB": 245,
+          "announcementTypes": [
+            "010109",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212591559",
+          "title": "第四届监事会第四次会议决议公告",
+          "publishedAt": "2022-03-17",
+          "year": 2022,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-17/1212591559.PDF",
+          "fileType": "PDF",
+          "sizeKB": 100,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212519071",
+          "title": "2021年度业绩快报公告",
+          "publishedAt": "2022-03-08",
+          "year": 2022,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-03-08/1212519071.PDF",
+          "fileType": "PDF",
+          "sizeKB": 126,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012111"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1212127048",
+          "title": "2021年年度业绩预增公告",
+          "publishedAt": "2022-01-10",
+          "year": 2022,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2022-01-10/1212127048.PDF",
+          "fileType": "PDF",
+          "sizeKB": 94,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01211120"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211931480",
+          "title": "安信证券关于行动教育2021年度持续督导的现场检查报告",
+          "publishedAt": "2021-12-17",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-12-17/1211931480.PDF",
+          "fileType": "PDF",
+          "sizeKB": 597,
+          "announcementTypes": [
+            "01010701",
+            "010113",
+            "0129"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211624098",
+          "title": "关于对外投资设立投资基金完成私募投资基金备案的进展公告",
+          "publishedAt": "2021-11-19",
+          "year": 2021,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-11-19/1211624098.PDF",
+          "fileType": "PDF",
+          "sizeKB": 183,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01170510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211400726",
+          "title": "2021年第三季度报告",
+          "publishedAt": "2021-10-28",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-28/1211400726.PDF",
+          "fileType": "PDF",
+          "sizeKB": 430,
+          "announcementTypes": [
+            "010113",
+            "01010503",
+            "01030701"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211287212",
+          "title": "关于变更持续督导保荐代表人的公告",
+          "publishedAt": "2021-10-16",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-10-16/1211287212.PDF",
+          "fileType": "PDF",
+          "sizeKB": 191,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01230103"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211127933",
+          "title": "关于公司对外投资设立投资基金进展的公告",
+          "publishedAt": "2021-09-23",
+          "year": 2021,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-09-23/1211127933.PDF",
+          "fileType": "PDF",
+          "sizeKB": 199,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01170510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1211045541",
+          "title": "2021年半年度权益分派实施公告",
+          "publishedAt": "2021-09-14",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-09-14/1211045541.PDF",
+          "fileType": "PDF",
+          "sizeKB": 610,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01130120"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210976887",
+          "title": "2021年第三次临时股东大会法律意见书",
+          "publishedAt": "2021-09-07",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-09-07/1210976887.PDF",
+          "fileType": "PDF",
+          "sizeKB": 734,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210976886",
+          "title": "2021年第三次临时股东大会决议公告",
+          "publishedAt": "2021-09-07",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-09-07/1210976886.PDF",
+          "fileType": "PDF",
+          "sizeKB": 557,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210871639",
+          "title": "行动教育2021年第三次临时股东大会会议资料",
+          "publishedAt": "2021-08-27",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-27/1210871639.PDF",
+          "fileType": "PDF",
+          "sizeKB": 680,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795751",
+          "title": "第四届董事会第三次会议决议公告（更正）",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795751.PDF",
+          "fileType": "PDF",
+          "sizeKB": 226,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795750",
+          "title": "行动教育独立董事关于公司第四届第三次董事会相关议案的独立意见",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795750.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795332",
+          "title": "2021年半年度募集资金存放与实际使用情况的专项报告",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795332.PDF",
+          "fileType": "PDF",
+          "sizeKB": 351,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01231530"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795331",
+          "title": "2021年第三次临时股东大会通知",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795331.PDF",
+          "fileType": "PDF",
+          "sizeKB": 601,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01190110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795330",
+          "title": "2021年半年度利润分配方案公告",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "performance",
+          "categoryName": "业绩与分红",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795330.PDF",
+          "fileType": "PDF",
+          "sizeKB": 395,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01130101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795329",
+          "title": "第四届监事会第二次会议决议公告",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795329.PDF",
+          "fileType": "PDF",
+          "sizeKB": 191,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795328",
+          "title": "行动教育独立董事关于公司第四届第三次董事会相关议案的独立意见",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795328.PDF",
+          "fileType": "PDF",
+          "sizeKB": 87,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795327",
+          "title": "第四届董事会第三次会议决议公告",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795327.PDF",
+          "fileType": "PDF",
+          "sizeKB": 191,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795326",
+          "title": "行动教育2021年半年度报告",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795326.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3232,
+          "announcementTypes": [
+            "010113",
+            "01010503",
+            "01030301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210795325",
+          "title": "行动教育2021年半年度报告",
+          "publishedAt": "2021-08-20",
+          "year": 2021,
+          "categoryId": "periodic",
+          "categoryName": "定期报告",
+          "isPeriodic": true,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-08-20/1210795325.PDF",
+          "fileType": "PDF",
+          "sizeKB": 532,
+          "announcementTypes": [
+            "010113",
+            "01010503",
+            "01030301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210580037",
+          "title": "关于教育行业双减意见对公司主营业务不构成重大影响的公告",
+          "publishedAt": "2021-07-28",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-07-28/1210580037.PDF",
+          "fileType": "PDF",
+          "sizeKB": 173,
+          "announcementTypes": [
+            "010113",
+            "01010501",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210460471",
+          "title": "关于签订项目合作协议的公告",
+          "publishedAt": "2021-07-12",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-07-12/1210460471.PDF",
+          "fileType": "PDF",
+          "sizeKB": 294,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "012327"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210216110",
+          "title": "关于公司对外投资设立投资基金的公告",
+          "publishedAt": "2021-06-11",
+          "year": 2021,
+          "categoryId": "transaction",
+          "categoryName": "交易与投资",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-11/1210216110.PDF",
+          "fileType": "PDF",
+          "sizeKB": 359,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01170510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210130542",
+          "title": "关于使用暂时闲置募集资金进行现金管理的进展公告",
+          "publishedAt": "2021-06-01",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-06-01/1210130542.PDF",
+          "fileType": "PDF",
+          "sizeKB": 399,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210121673",
+          "title": "独立董事关于第四届董事会第一次会议相关事项的独立意见",
+          "publishedAt": "2021-05-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-29/1210121673.PDF",
+          "fileType": "PDF",
+          "sizeKB": 208,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210121672",
+          "title": "第四届董事会第一次会议决议公告",
+          "publishedAt": "2021-05-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-29/1210121672.PDF",
+          "fileType": "PDF",
+          "sizeKB": 267,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210121671",
+          "title": "第四届监事会第一次会议决议公告",
+          "publishedAt": "2021-05-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-29/1210121671.PDF",
+          "fileType": "PDF",
+          "sizeKB": 170,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210121670",
+          "title": "行动教育2021年第二次临时股东大会法律意见书",
+          "publishedAt": "2021-05-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-29/1210121670.PDF",
+          "fileType": "PDF",
+          "sizeKB": 750,
+          "announcementTypes": [
+            "01010901",
+            "010113",
+            "01199901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210121668",
+          "title": "2021年第二次临时股东大会决议公告",
+          "publishedAt": "2021-05-29",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-29/1210121668.PDF",
+          "fileType": "PDF",
+          "sizeKB": 615,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01190501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1210025639",
+          "title": "行动教育2021年第二次临时股东大会会议资料",
+          "publishedAt": "2021-05-21",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-21/1210025639.PDF",
+          "fileType": "PDF",
+          "sizeKB": 610,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "011906"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948126",
+          "title": "独立董事关于第三届董事会第十八次会议的独立意见",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948126.PDF",
+          "fileType": "PDF",
+          "sizeKB": 101,
+          "announcementTypes": [
+            "01011107",
+            "010113",
+            "01310565"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948125",
+          "title": "董事会提名委员会审核意见",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948125.PDF",
+          "fileType": "PDF",
+          "sizeKB": 65,
+          "announcementTypes": [
+            "010113",
+            "01010501",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948124",
+          "title": "第三届董事会第十八次会议决议公告",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948124.PDF",
+          "fileType": "PDF",
+          "sizeKB": 215,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01239901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948121",
+          "title": "上海行动教育科技股份有限公司章程",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948121.PDF",
+          "fileType": "PDF",
+          "sizeKB": 681,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948120",
+          "title": "关于修订公司章程的公告",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948120.PDF",
+          "fileType": "PDF",
+          "sizeKB": 172,
+          "announcementTypes": [
+            "010113",
+            "01010503",
+            "01230101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948119",
+          "title": "安信证券关于行动教育使用部分闲置募集资金进行现金管理的核查意见",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948119.PDF",
+          "fileType": "PDF",
+          "sizeKB": 333,
+          "announcementTypes": [
+            "010113",
+            "010109",
+            "0129",
+            "01010503",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948118",
+          "title": "关于使用闲置募集资金进行现金管理的公告",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948118.PDF",
+          "fileType": "PDF",
+          "sizeKB": 331,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948117",
+          "title": "2021年第二次临时股东大会通知",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948117.PDF",
+          "fileType": "PDF",
+          "sizeKB": 747,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01190110"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948116",
+          "title": "职工代表大会决议公告",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948116.PDF",
+          "fileType": "PDF",
+          "sizeKB": 191,
+          "announcementTypes": [
+            "010113",
+            "01010501",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948115",
+          "title": "监事会对公司使用暂时闲置募集资金进行现金管理的审核意见",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948115.PDF",
+          "fileType": "PDF",
+          "sizeKB": 57,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01231510"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948114",
+          "title": "重大信息内部报告制度",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948114.PDF",
+          "fileType": "PDF",
+          "sizeKB": 172,
+          "announcementTypes": [
+            "010113",
+            "01010501",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948113",
+          "title": "预算管理制度",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948113.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948112",
+          "title": "内部审计基本制度",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948112.PDF",
+          "fileType": "PDF",
+          "sizeKB": 177,
+          "announcementTypes": [
+            "010113",
+            "01010501",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948111",
+          "title": "内部控制评价管理办法",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948111.PDF",
+          "fileType": "PDF",
+          "sizeKB": 154,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "013199"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948110",
+          "title": "独立董事提名人声明（张晓荣）",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948110.PDF",
+          "fileType": "PDF",
+          "sizeKB": 132,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01230330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948109",
+          "title": "独立董事提名人声明（苏涛永）",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948109.PDF",
+          "fileType": "PDF",
+          "sizeKB": 127,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01230330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948108",
+          "title": "独立董事提名人声明（李仲英）",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948108.PDF",
+          "fileType": "PDF",
+          "sizeKB": 128,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01230330"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948107",
+          "title": "独立董事候选人声明（张晓荣）",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948107.PDF",
+          "fileType": "PDF",
+          "sizeKB": 148,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "01230340"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948106",
+          "title": "独立董事候选人声明（苏涛永）",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948106.PDF",
+          "fileType": "PDF",
+          "sizeKB": 137,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "01230340"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948105",
+          "title": "独立董事候选人声明（李仲英）",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948105.PDF",
+          "fileType": "PDF",
+          "sizeKB": 142,
+          "announcementTypes": [
+            "01011199",
+            "010113",
+            "01230340"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209948103",
+          "title": "第三届监事会第十次会议决议公告",
+          "publishedAt": "2021-05-11",
+          "year": 2021,
+          "categoryId": "meeting",
+          "categoryName": "三会公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-05-11/1209948103.PDF",
+          "fileType": "PDF",
+          "sizeKB": 169,
+          "announcementTypes": [
+            "01010505",
+            "010113",
+            "01239910"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209859910",
+          "title": "公司控股股东及实际控制人对《上海行动教育科技股份有限公司股票交易异常波动问询函》的回函",
+          "publishedAt": "2021-04-29",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-29/1209859910.PDF",
+          "fileType": "PDF",
+          "sizeKB": 256,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209859909",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-04-29",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-29/1209859909.PDF",
+          "fileType": "PDF",
+          "sizeKB": 228,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209810593",
+          "title": "公司控股股东及实际控制人对《上海行动教育科技股份有限公司股票交易异常波动问询函》的回函",
+          "publishedAt": "2021-04-27",
+          "year": 2021,
+          "categoryId": "equity",
+          "categoryName": "股东与股份",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-27/1209810593.PDF",
+          "fileType": "PDF",
+          "sizeKB": 264,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "01239999"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209810592",
+          "title": "股票交易异常波动公告",
+          "publishedAt": "2021-04-27",
+          "year": 2021,
+          "categoryId": "other",
+          "categoryName": "其他公告",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-27/1209810592.PDF",
+          "fileType": "PDF",
+          "sizeKB": 229,
+          "announcementTypes": [
+            "01010503",
+            "010113",
+            "01210399"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209728466",
+          "title": "行动教育公司章程",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "governance",
+          "categoryName": "治理与制度",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209728466.PDF",
+          "fileType": "PDF",
+          "sizeKB": 10770,
+          "announcementTypes": [
+            "01010501",
+            "010113",
+            "010215",
+            "013101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209728465",
+          "title": "行动教育首次公开发行股票上市公告书",
+          "publishedAt": "2021-04-20",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-20/1209728465.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1439,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "010213"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209672033",
+          "title": "首次公开发行股票发行结果公告",
+          "publishedAt": "2021-04-12",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-12/1209672033.PDF",
+          "fileType": "PDF",
+          "sizeKB": 500,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "010211"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209649708",
+          "title": "行动教育首次公开发行股票网下初步配售结果及网上中签结果公告",
+          "publishedAt": "2021-04-08",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-08/1209649708.PDF",
+          "fileType": "PDF",
+          "sizeKB": 3536,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01021110",
+            "01021120"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209642690",
+          "title": "行动教育首次公开发行股票网上发行申购情况及中签率公告",
+          "publishedAt": "2021-04-07",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-07/1209642690.PDF",
+          "fileType": "PDF",
+          "sizeKB": 488,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01021101"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209630297",
+          "title": "行动教育首次公开发行股票发行公告",
+          "publishedAt": "2021-04-02",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-02/1209630297.PDF",
+          "fileType": "PDF",
+          "sizeKB": 5411,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01020501"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209630296",
+          "title": "行动教育首次公开发行股票招股说明书摘要",
+          "publishedAt": "2021-04-02",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-02/1209630296.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1864,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01020320"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209630295",
+          "title": "行动教育首次公开发行股票招股说明书",
+          "publishedAt": "2021-04-02",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-02/1209630295.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7506,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01020301"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209630294",
+          "title": "行动教育首次公开发行股票投资风险特别公告",
+          "publishedAt": "2021-04-02",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-02/1209630294.PDF",
+          "fileType": "PDF",
+          "sizeKB": 548,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209567478",
+          "title": "行动教育首次公开发行股票网上路演公告",
+          "publishedAt": "2021-04-01",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-04-01/1209567478.PDF",
+          "fileType": "PDF",
+          "sizeKB": 464,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01029901"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209456032",
+          "title": "行动教育首次公开发行股票招股意向书附录",
+          "publishedAt": "2021-03-26",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-26/1209456032.PDF",
+          "fileType": "PDF",
+          "sizeKB": 78882,
+          "announcementTypes": [
+            "010113",
+            "01010701",
+            "010215"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209456031",
+          "title": "行动教育首次公开发行股票招股意向书摘要",
+          "publishedAt": "2021-03-26",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-26/1209456031.PDF",
+          "fileType": "PDF",
+          "sizeKB": 1601,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01020321"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209456030",
+          "title": "行动教育首次公开发行股票招股意向书",
+          "publishedAt": "2021-03-26",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-26/1209456030.PDF",
+          "fileType": "PDF",
+          "sizeKB": 7605,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01020303"
+          ],
+          "source": "巨潮资讯网"
+        },
+        {
+          "id": "1209456029",
+          "title": "行动教育首次公开发行股票发行安排及初步询价公告",
+          "publishedAt": "2021-03-26",
+          "year": 2021,
+          "categoryId": "capital",
+          "categoryName": "资本运作",
+          "isPeriodic": false,
+          "pdfUrl": "https://static.cninfo.com.cn/finalpage/2021-03-26/1209456029.PDF",
+          "fileType": "PDF",
+          "sizeKB": 478,
+          "announcementTypes": [
+            "01010501",
+            "01010701",
+            "010113",
+            "01020910"
+          ],
+          "source": "巨潮资讯网"
+        }
+      ]
+    }
+  ]
+};

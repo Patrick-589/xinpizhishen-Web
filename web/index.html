@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="上市公司证券部 AI 合规与风险管控工作台">
+  <title>信披智审 · AI 合规与风险管控</title>
+  <script src="redirect-local.js?v=20260821-compliance-1"></script>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css?v=20260902-bulk-task-delete-2">
+  <script defer src="assets/lucide.min.js?v=20260821-compliance-1"></script>
+  <script defer src="company-data.js?v=20260821-compliance-1"></script>
+  <script defer src="peer-data.js?v=20260821-compliance-1"></script>
+  <script defer src="rules-data.js?v=20260825-periodic-1"></script>
+  <script defer src="csrc-rules-data.js?v=20260821-compliance-1"></script>
+  <script defer src="mof-rules-data.js?v=20260901-mof-1"></script>
+  <script defer src="app.js?v=20260902-bulk-task-delete-2"></script>
+</head>
+<body>
+  <section class="auth-gate" id="auth-gate" hidden aria-labelledby="login-title">
+    <div class="auth-panel">
+      <div class="auth-brand"><span class="brand-mark"><i data-lucide="scan-text" aria-hidden="true"></i></span><span><strong>信披智审</strong><small>证券合规风险管理与智能审阅平台</small></span></div>
+      <div class="auth-copy"><span class="eyebrow">PERSONAL WORKSPACE</span><h1 id="login-title">进入个人审阅空间</h1><p>你的材料、任务、对话和用量只在当前账号内保存。</p></div>
+      <div class="auth-form-stack">
+        <div class="auth-switch" role="tablist" aria-label="账号操作">
+          <button class="auth-tab is-active" type="button" role="tab" aria-selected="true" data-auth-mode="login">登录</button>
+          <button class="auth-tab" type="button" role="tab" aria-selected="false" data-auth-mode="register">注册</button>
+        </div>
+        <form id="login-form" class="auth-form" data-auth-form="login">
+          <label class="form-field"><span>用户名</span><input name="username" autocomplete="username" required></label>
+          <label class="form-field"><span>密码</span><input name="password" type="password" autocomplete="current-password" required></label>
+          <button class="button button-primary" type="submit"><i data-lucide="log-in" aria-hidden="true"></i><span>登录</span></button>
+        </form>
+        <form id="register-form" class="auth-form" data-auth-form="register" hidden>
+          <label class="form-field"><span>姓名或昵称</span><input name="display_name" autocomplete="name" maxlength="40" required></label>
+          <label class="form-field"><span>用户名</span><input name="username" autocomplete="username" minlength="3" maxlength="32" required></label>
+          <label class="form-field"><span>密码</span><input name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label>
+          <label class="form-field"><span>确认密码</span><input name="password_confirm" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label>
+          <button class="button button-primary" type="submit"><i data-lucide="user-plus" aria-hidden="true"></i><span>创建账号</span></button>
+        </form>
+        <p class="auth-error" id="auth-error" role="alert" hidden></p>
+      </div>
+      <p class="auth-note"><i data-lucide="shield-check" aria-hidden="true"></i>公开法规作为共同底库；个人上传资料不会对其他账号开放。</p>
+    </div>
+  </section>
+  <div class="app-shell" id="app-shell">
+    <aside class="app-sidebar" aria-label="主导航">
+      <a class="brand" href="#tasks" data-nav-view="tasks" aria-label="信披智审首页">
+        <span class="brand-mark"><i data-lucide="scan-text" aria-hidden="true"></i></span>
+        <span class="brand-copy"><strong>信披智审</strong><small>证券合规审阅与风控</small></span>
+      </a>
+
+      <nav class="primary-nav">
+        <div class="nav-group nav-group-doc-review" aria-label="文档审查">
+          <button class="nav-item is-active" type="button" data-view="tasks">
+            <i data-lucide="file-search-2" aria-hidden="true"></i><span>文档审查</span><span class="nav-count" id="task-nav-count">0</span>
+          </button>
+          <button class="nav-item nav-subitem" type="button" data-view="review">
+            <i data-lucide="shield-check" aria-hidden="true"></i><span>审阅结果</span>
+          </button>
+          <button class="nav-item nav-subitem" type="button" data-view="financial-audit">
+            <i data-lucide="calculator" aria-hidden="true"></i><span>财务勾稽</span>
+          </button>
+        </div>
+        <button class="nav-item" type="button" data-view="drafting" data-analyze-only>
+          <i data-lucide="file-pen-line" aria-hidden="true"></i><span>文书起草</span><span class="nav-count" id="draft-nav-count">0</span>
+        </button>
+        <button class="nav-item" type="button" data-view="chat" data-analyze-only>
+          <i data-lucide="messages-square" aria-hidden="true"></i><span>AI 对话</span>
+        </button>
+        <button class="nav-item" type="button" data-view="decision">
+          <i data-lucide="scale" aria-hidden="true"></i><span>事项判断</span>
+        </button>
+        <button class="nav-item" type="button" data-view="rules">
+          <i data-lucide="library-big" aria-hidden="true"></i><span>资料与规则库</span>
+        </button>
+        <button class="nav-item" type="button" data-view="usage">
+          <i data-lucide="chart-no-axes-combined" aria-hidden="true"></i><span>我的用量</span>
+        </button>
+        <button class="nav-item" type="button" data-view="accounts" data-users-only>
+          <i data-lucide="users" aria-hidden="true"></i><span>账号管理</span><span class="nav-count" id="account-nav-count">0</span>
+        </button>
+      </nav>
+    </aside>
+
+    <div class="app-workspace">
+      <header class="app-topbar">
+        <div class="page-heading">
+          <span class="eyebrow" id="page-eyebrow">证券资本市场</span>
+          <h1 id="page-title">事项合规适用性与义务判断</h1>
+        </div>
+        <div class="topbar-actions">
+          <span class="mode-chip" id="ai-mode-chip"><i data-lucide="database" aria-hidden="true"></i><span>本地 RAG</span></span>
+          <div class="user-chip"><span class="user-avatar" id="current-user-avatar">管</span><span><strong id="current-user-name">未登录</strong><small id="current-user-role">等待身份验证</small></span></div>
+          <button class="icon-button" type="button" id="open-password-dialog" aria-label="修改密码" data-tip="修改密码"><i data-lucide="key-round" aria-hidden="true"></i></button>
+          <button class="icon-button danger-icon-button" type="button" id="open-delete-account-dialog" aria-label="注销账号" data-tip="注销账号"><i data-lucide="user-x" aria-hidden="true"></i></button>
+          <button class="icon-button" type="button" id="logout-button" aria-label="退出登录" data-tip="退出登录"><i data-lucide="log-out" aria-hidden="true"></i></button>
+        </div>
+      </header>
+
+      <section class="compliance-framework-bar" aria-label="证券合规工作框架">
+        <div class="practice-focus">
+          <strong>证券资本市场</strong>
+          <span>证券合规 · 公司治理 · 信息披露</span>
+        </div>
+        <ol class="compliance-lifecycle">
+          <li><strong>01</strong><span>合规适用性</span></li>
+          <li><strong>02</strong><span>义务识别</span></li>
+          <li><strong>03</strong><span>风险评估</span></li>
+          <li><strong>04</strong><span>风险防控</span></li>
+          <li><strong>05</strong><span>自查整改</span></li>
+        </ol>
+        <a class="framework-reference" href="https://www.grandwaylaw.com/hegui/?t1=2" target="_blank" rel="noreferrer"><span>《上市公司信息披露红宝书》</span><small>参考资料 · 不作为规则依据</small><i data-lucide="external-link" aria-hidden="true"></i></a>
+      </section>
+
+      <main class="app-main">
+        <section class="app-view decision-view" id="view-decision" data-view-panel="decision">
+          <header class="company-strip">
+            <div class="company-identity">
+              <span class="company-code">SZ 300688</span>
+              <div><h2>创业黑马科技集团股份有限公司</h2><p>创业板 · 证券事务部合规决策台</p></div>
+            </div>
+            <div class="company-strip-actions">
+              <span class="status-chip success"><i data-lucide="badge-check" aria-hidden="true"></i>公司规则包已载入</span>
+              <a class="button" href="https://www.cninfo.com.cn/new/disclosure/stock?orgId=9900032726&amp;stockCode=300688#periodicReports" target="_blank" rel="noreferrer"><i data-lucide="external-link" aria-hidden="true"></i>巨潮公告</a>
+            </div>
+          </header>
+
+          <div class="decision-source-bar" role="note">
+            <i data-lucide="database" aria-hidden="true"></i>
+            <span>计算口径：2025 年审计数据；规则版本：创业板现行规则及规范运作指引（2026 年修订）</span>
+            <time>资料检索：2026-08-18</time>
+          </div>
+
+          <section class="baseline-band" aria-labelledby="baseline-title">
+            <div class="baseline-heading"><span><strong id="baseline-title">审计财务基准</strong><small>单位：人民币元 · 可在事项录入区调整</small></span><a href="https://static.cninfo.com.cn/finalpage/2026-04-08/1225082514.PDF" target="_blank" rel="noreferrer">2025 年年度报告 <i data-lucide="external-link" aria-hidden="true"></i></a></div>
+            <div class="baseline-metrics">
+              <div><span>审计总资产</span><strong id="baseline-assets-display">497,518,543.50</strong><small>披露线 10%：49,751,854.35</small></div>
+              <div><span>归母净资产</span><strong id="baseline-net-assets-display">370,169,805.58</strong><small>成交额披露线：37,016,980.56</small></div>
+              <div><span>营业收入</span><strong id="baseline-revenue-display">141,062,775.50</strong><small>标的收入披露线：14,106,277.55</small></div>
+              <div><span>归母净利润</span><strong id="baseline-profit-display">-49,090,350.56</strong><small>负值按绝对值计算</small></div>
+            </div>
+          </section>
+
+          <div class="policy-conflict" role="alert">
+            <i data-lucide="triangle-alert" aria-hidden="true"></i>
+            <div><strong>公司制度口径冲突待处理</strong><span>《对外投资管理制度》第六条（二）载明“超过人民币 1,000,000 元”，与《公司章程》第一百一十五条及现行上市规则第 7.1.2 条的“超过人民币 10,000,000 元”不一致。本工具按现行上市规则计算法定披露线，并单独提示内部制度风险。</span></div>
+            <a href="https://static.cninfo.com.cn/finalpage/2025-08-26/1224568799.PDF" target="_blank" rel="noreferrer">查看制度</a>
+          </div>
+
+          <div class="decision-layout">
+            <aside class="decision-input-panel" aria-label="事项录入">
+              <div class="decision-panel-head"><div><span class="eyebrow">MATTER INPUT</span><h3>事项录入</h3></div><button class="icon-button" type="button" id="reset-decision" aria-label="恢复示例" data-tip="恢复示例"><i data-lucide="rotate-ccw" aria-hidden="true"></i></button></div>
+              <div class="decision-type-switch" role="tablist" aria-label="事项类型">
+                <button type="button" role="tab" aria-selected="false" data-decision-type="contract"><i data-lucide="file-signature" aria-hidden="true"></i>日常经营合同</button>
+                <button class="is-active" type="button" role="tab" aria-selected="true" data-decision-type="equity"><i data-lucide="landmark" aria-hidden="true"></i>买卖股权</button>
+                <button type="button" role="tab" aria-selected="false" data-decision-type="investment"><i data-lucide="building-2" aria-hidden="true"></i>对外投资</button>
+              </div>
+
+              <form id="decision-form">
+                <label class="decision-field full"><span>事项名称</span><input id="matter-name" name="matterName" value="收购某科技公司 100% 股权"></label>
+                <label class="decision-field"><span>成交金额 <small>人民币元</small></span><input id="transaction-amount" name="transactionAmount" type="number" min="0" step="1" value="45000000"></label>
+                <label class="decision-field"><span>关联关系</span><select id="related-kind" name="relatedKind"><option value="none">非关联方</option><option value="person">关联自然人</option><option value="entity">关联法人/组织</option></select></label>
+
+                <div class="type-fields contract-fields" hidden>
+                  <label class="decision-field full"><span>合同业务类型</span><select id="contract-category" name="contractCategory"><option value="sales">销售产品/商品、工程承包或提供劳务</option><option value="purchase">购买原材料/燃料/动力或接受劳务</option><option value="other">其他可能产生重大影响的日常经营合同</option></select></label>
+                  <div class="decision-auto-field full" id="material-impact-auto" role="status" aria-live="polite"><span class="auto-field-icon"><i data-lucide="scan-search" aria-hidden="true"></i></span><span><strong>预计重大影响：系统自动判断</strong><small id="material-impact-auto-text">输入金额和合同类别后自动评估，无需手工勾选</small></span><b id="material-impact-auto-badge" class="auto-field-badge pending">待计算</b></div>
+                  <label class="check-line full"><input id="new-business" name="newBusiness" type="checkbox"><span><strong>新业务或首次重大合作</strong><small>用于触发定性复核，不单独形成自动结论</small></span></label>
+                </div>
+
+                <div class="type-fields equity-fields">
+                  <label class="decision-field"><span>交易方向</span><select id="deal-direction" name="dealDirection"><option value="buy">购买股权</option><option value="sell">出售股权</option></select></label>
+                  <label class="decision-field"><span>权益变动比例 <small>%</small></span><input id="equity-change" name="equityChange" type="number" min="0" max="100" step="0.01" value="100"></label>
+                  <label class="check-line full"><input id="scope-change" name="scopeChange" type="checkbox" checked><span><strong>导致合并报表范围变化</strong><small>勾选后按标的公司全量财务指标计算；否则按权益变动比例计算</small></span></label>
+                  <label class="decision-field"><span>标的资产总额 <small>人民币元</small></span><input id="target-assets" name="targetAssets" type="number" min="0" step="1" value="50000000"></label>
+                  <label class="decision-field"><span>标的年度营业收入 <small>人民币元</small></span><input id="target-revenue" name="targetRevenue" type="number" min="0" step="1" value="18000000"></label>
+                  <label class="decision-field"><span>标的年度净利润 <small>人民币元</small></span><input id="target-profit" name="targetProfit" type="number" step="1" value="3000000"></label>
+                  <label class="decision-field"><span>本次交易产生利润 <small>人民币元</small></span><input id="transaction-profit" name="transactionProfit" type="number" step="1" value="2000000"></label>
+                  <label class="decision-field full"><span>近 12 个月同类购买/出售资产累计高值 <small>人民币元，不含本次</small></span><input id="prior-asset-cumulative" name="priorAssetCumulative" type="number" min="0" step="1" value="0"></label>
+                </div>
+
+                <div class="type-fields investment-fields" hidden>
+                  <label class="decision-field full"><span>投资事项类型</span><select id="investment-kind" name="investmentKind"><option value="new_company">新设公司/合伙企业</option><option value="acquire_equity">取得或增加股权</option><option value="project_cooperation">项目合作投资</option><option value="stock_fund">股票或基金投资</option><option value="debt_investment">债券/委托贷款/其他债权投资</option></select></label>
+                  <label class="decision-field"><span>标的资产总额 <small>人民币元，可留空</small></span><input id="investment-target-assets" name="investmentTargetAssets" type="number" min="0" step="1" placeholder="资料未提供"></label>
+                  <label class="decision-field"><span>标的年度营业收入 <small>人民币元，可留空</small></span><input id="investment-target-revenue" name="investmentTargetRevenue" type="number" min="0" step="1" placeholder="资料未提供"></label>
+                  <label class="decision-field"><span>标的年度净利润 <small>人民币元，可留空</small></span><input id="investment-target-profit" name="investmentTargetProfit" type="number" step="1" placeholder="资料未提供"></label>
+                  <label class="decision-field"><span>交易产生利润 <small>人民币元，可留空</small></span><input id="investment-profit" name="investmentProfit" type="number" step="1" placeholder="资料未提供"></label>
+                  <div class="decision-auto-field full investment-rule-note" role="note"><span class="auto-field-icon"><i data-lucide="book-check" aria-hidden="true"></i></span><span><strong>系统自动核对《对外投资管理制度》第五、六、七、九、十条</strong><small>同时核对创业板交易披露标准和关联交易管理口径；未提供的标的财务数据会列为“资料不足”，不会默认为未触发。</small></span></div>
+                </div>
+
+                <label class="decision-field full"><span>近 12 个月同一关联人/同一标的累计金额 <small>人民币元，不含本次</small></span><input id="prior-related-amount" name="priorRelatedAmount" type="number" min="0" step="1" value="0"></label>
+
+                <details class="baseline-editor full">
+                  <summary><span><i data-lucide="settings-2" aria-hidden="true"></i>调整财务基准</span><small>仅用于本机测算</small></summary>
+                  <div class="baseline-editor-grid">
+                    <label><span>审计总资产（元）</span><input id="base-assets" type="number" min="0" step="any" value="497518543.5"></label>
+                    <label><span>归母净资产（元）</span><input id="base-net-assets" type="number" min="0" step="any" value="370169805.58"></label>
+                    <label><span>营业收入（元）</span><input id="base-revenue" type="number" min="0" step="any" value="141062775.5"></label>
+                    <label><span>归母净利润（元）</span><input id="base-profit" type="number" step="any" value="-49090350.56"></label>
+                  </div>
+                </details>
+
+                <button class="button button-primary decision-submit full" type="submit"><i data-lucide="scan-search" aria-hidden="true"></i>生成合规判断</button>
+              </form>
+              <p class="form-note"><i data-lucide="info" aria-hidden="true"></i>金额均按人民币元输入，例如 1 亿元填写 100000000；交易指标为负值时自动取绝对值。</p>
+            </aside>
+
+            <section class="decision-result-panel" aria-live="polite">
+              <header class="result-hero">
+                <div class="result-status-icon" id="result-status-icon"><i data-lucide="megaphone" aria-hidden="true"></i></div>
+                <div><span class="eyebrow">01 · 合规适用性结论</span><h3 id="result-title">达到披露标准 · 需董事会审议</h3><p id="result-summary">本次股权购买触发资产总额、标的营业收入和成交金额三项披露指标，暂未达到股东会审议线。</p><a class="result-source-link" id="result-source-link" href="#" target="_blank" rel="noreferrer" hidden><i data-lucide="book-open-check" aria-hidden="true"></i><span id="result-source-link-text">查看规则原文</span></a></div>
+                <div class="result-hero-actions"><span class="decision-badge disclosure" id="result-badge">需要披露</span><div class="result-font-controls" role="group" aria-label="调整结果字号"><button class="icon-button" type="button" data-result-font="small" aria-label="缩小结果字号" aria-pressed="false" data-tip="缩小字号"><i data-lucide="minus" aria-hidden="true"></i></button><button class="icon-button is-active" type="button" data-result-font="normal" aria-label="恢复标准结果字号" aria-pressed="true" data-tip="标准字号"><i data-lucide="type" aria-hidden="true"></i></button><button class="icon-button" type="button" data-result-font="large" aria-label="放大结果字号" aria-pressed="false" data-tip="放大字号"><i data-lucide="plus" aria-hidden="true"></i></button></div></div>
+              </header>
+
+              <div class="result-disclaimer"><i data-lucide="shield-alert" aria-hidden="true"></i><strong>系统自动识别合规义务，最终由证券部人工确认。</strong><span>系统会根据金额、审计基准和合同类别判断重大影响；特殊履约、减值或经营模式影响仍需复核。</span></div>
+
+              <section class="result-section approval-section">
+                <div class="result-section-title"><span><b class="stage-number">02</b><i data-lucide="git-pull-request-arrow" aria-hidden="true"></i>合规义务与审批路径</span><small id="approval-note">依据公司章程第 49、115 条及现行交易规则</small></div>
+                <div class="approval-path" id="approval-path">
+                  <div class="approval-step is-complete"><span><i data-lucide="user-check" aria-hidden="true"></i></span><strong>业务初审</strong><small>材料齐备</small></div>
+                  <i data-lucide="chevron-right" aria-hidden="true"></i>
+                  <div class="approval-step is-current"><span><i data-lucide="users" aria-hidden="true"></i></span><strong>董事会</strong><small>应审议并披露</small></div>
+                  <i data-lucide="chevron-right" aria-hidden="true"></i>
+                  <div class="approval-step"><span><i data-lucide="landmark" aria-hidden="true"></i></span><strong>股东会</strong><small>本例未触发</small></div>
+                </div>
+              </section>
+
+              <section class="result-section">
+                <div class="result-section-title"><span><b class="stage-number">03</b><i data-lucide="calculator" aria-hidden="true"></i>风险评估与量化判断</span><small>命中任一项即触发相应层级</small></div>
+                <div class="calculation-table-wrap"><table class="calculation-table"><thead><tr><th>指标</th><th>本次口径</th><th>占比</th><th>披露线</th><th>股东会线</th><th>判断</th></tr></thead><tbody id="calculation-body"></tbody></table></div>
+              </section>
+
+              <section class="result-section review-flags" id="review-flags-section">
+                <div class="result-section-title"><span><b class="stage-number">04-05</b><i data-lucide="list-checks" aria-hidden="true"></i>风险防控与自查整改</span><small id="review-flag-count">3 项</small></div>
+                <div id="review-flags"></div>
+              </section>
+
+              <section class="result-section">
+                <div class="result-section-title"><span><i data-lucide="book-open-check" aria-hidden="true"></i>规则依据与来源</span><small>点击核对官方原文</small></div>
+                <div class="decision-evidence" id="decision-evidence"></div>
+              </section>
+            </section>
+          </div>
+
+        </section>
+
+        <section class="app-view data-view" id="view-data" data-view-panel="data">
+          <header class="data-center-head">
+            <div>
+              <span class="eyebrow">DISCLOSURE DATA HUB</span>
+              <h2>公告与监管规则更新中心</h2>
+              <p>公告来自巨潮资讯网，监管规则来自深圳证券交易所、中国证监会和财政部会计司官方页面。</p>
+            </div>
+            <div class="data-head-actions">
+              <button class="button" type="button" id="reload-data-page"><i data-lucide="refresh-cw" aria-hidden="true"></i>刷新页面</button>
+              <a class="button" href="https://www.cninfo.com.cn/new/disclosure/stock?orgId=9900032726&amp;stockCode=300688" target="_blank" rel="noreferrer"><i data-lucide="external-link" aria-hidden="true"></i>巨潮原站</a>
+              <a class="button" href="https://www.szse.cn/index/index.html" target="_blank" rel="noreferrer"><i data-lucide="external-link" aria-hidden="true"></i>深交所</a>
+              <a class="button" href="https://neris.csrc.gov.cn/falvfagui/" target="_blank" rel="noreferrer"><i data-lucide="external-link" aria-hidden="true"></i>证监会</a>
+              <a class="button" href="https://kjs.mof.gov.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link" aria-hidden="true"></i>财政部会计司</a>
+            </div>
+          </header>
+
+          <section class="data-overview" aria-label="数据覆盖情况">
+            <div class="data-kpi"><span>公司公告总量</span><strong id="announcement-total">1,272</strong><small id="announcement-range">2017-07-27 至 2026-08-07</small></div>
+            <div class="data-kpi"><span>对标公司公告</span><strong id="peer-announcement-total">—</strong><small id="peer-announcement-note">公开信息对比参考</small></div>
+            <div class="data-kpi"><span>深交所规则索引</span><strong id="data-rule-total">508</strong><small>19 个官方规则栏目</small></div>
+            <div class="data-kpi"><span>证监会官方法规</span><strong id="csrc-rule-total">—</strong><small>上市公司相关聚焦范围</small></div>
+            <div class="data-kpi"><span>财政部会计司</span><strong id="mof-rule-total">—</strong><small>会计准则与财务报告</small></div>
+            <div class="data-kpi"><span>最新公司公告</span><strong id="latest-announcement-date">2026-08-07</strong><small id="latest-announcement-name">以巨潮资讯公开披露为准</small></div>
+          </section>
+
+          <section class="sync-status-band" aria-labelledby="sync-status-title">
+            <div class="sync-band-title"><span><i data-lucide="activity" aria-hidden="true"></i><strong id="sync-status-title">数据源状态</strong></span><small>自动检查计划：每日 09:00（Asia/Shanghai）</small></div>
+            <div class="source-status-grid">
+              <article>
+                <span class="source-logo cninfo">CN</span>
+                <div><strong>巨潮资讯网 · 创业黑马 300688</strong><small id="company-sync-meta">正在读取本地数据版本</small></div>
+                <span class="source-health" id="company-source-health"><i data-lucide="check-circle-2" aria-hidden="true"></i>已同步</span>
+              </article>
+              <article>
+                <span class="source-logo peer">PB</span>
+                <div><strong>巨潮资讯网 · 两家对标公司</strong><small id="peer-sync-meta">正在读取本地数据版本</small></div>
+                <span class="source-health" id="peer-source-health"><i data-lucide="check-circle-2" aria-hidden="true"></i>已同步</span>
+              </article>
+              <article>
+                <span class="source-logo szse">深</span>
+                <div><strong>深圳证券交易所 · 法律规则</strong><small id="rules-sync-meta">正在读取本地数据版本</small></div>
+                <span class="source-health" id="rules-source-health"><i data-lucide="check-circle-2" aria-hidden="true"></i>已同步</span>
+              </article>
+              <article>
+                <span class="source-logo csrc">证</span>
+                <div><strong>中国证监会 · 官方法规数据库</strong><small id="csrc-sync-meta">正在读取本地数据版本</small></div>
+                <span class="source-health" id="csrc-source-health"><i data-lucide="check-circle-2" aria-hidden="true"></i>已同步</span>
+              </article>
+            </div>
+            <div class="sync-pipeline" aria-label="自动更新流程">
+              <span><i data-lucide="clock-3" aria-hidden="true"></i>定时检查</span><i data-lucide="chevron-right" aria-hidden="true"></i>
+              <span><i data-lucide="download" aria-hidden="true"></i>分页拉取</span><i data-lucide="chevron-right" aria-hidden="true"></i>
+              <span><i data-lucide="shield-check" aria-hidden="true"></i>数量校验</span><i data-lucide="chevron-right" aria-hidden="true"></i>
+              <span><i data-lucide="copy-check" aria-hidden="true"></i>按 ID 去重</span><i data-lucide="chevron-right" aria-hidden="true"></i>
+              <span><i data-lucide="database-backup" aria-hidden="true"></i>原子更新</span>
+            </div>
+          </section>
+
+          <div class="announcement-source-bar" role="group" aria-label="公告数据来源">
+            <button class="segment is-active" type="button" data-announcement-source="company">创业黑马公告</button>
+            <button class="segment" type="button" data-announcement-source="peer">对标公司公告</button>
+            <span id="announcement-source-note">创业黑马公司公开披露公告索引。</span>
+          </div>
+
+          <div class="peer-company-switch" id="peer-company-switch" hidden aria-label="选择对标公司"></div>
+
+          <div class="announcement-layout">
+            <aside class="announcement-taxonomy" aria-label="公告分类">
+              <div class="panel-title-row"><h3 id="announcement-taxonomy-title">公告分类</h3><button class="text-button" type="button" id="clear-announcement-filter">查看全部</button></div>
+              <button class="announcement-category is-active" type="button" data-announcement-category="all"><span>全部公告</span><small id="category-count-all">0</small></button>
+              <div id="announcement-categories"></div>
+              <div class="year-filter-block">
+                <span>披露年度</span>
+                <div id="announcement-years"></div>
+              </div>
+            </aside>
+
+            <section class="announcement-catalog" aria-label="公告档案">
+              <div class="announcement-toolbar">
+                <label class="search-field" for="announcement-search"><i data-lucide="search" aria-hidden="true"></i><input id="announcement-search" type="search" placeholder="搜索公告标题，例如：年度报告、股权、合同" autocomplete="off"></label>
+                <label class="select-field"><span class="sr-only">公告年度</span><select id="announcement-year-select"><option value="all">全部年度</option></select></label>
+                <label class="select-field"><span class="sr-only">排序方式</span><select id="announcement-sort"><option value="newest">最新披露优先</option><option value="oldest">最早披露优先</option></select></label>
+              </div>
+              <div class="announcement-segments" role="group" aria-label="公告范围">
+                <button class="segment is-active" type="button" data-announcement-scope="all">全部公告</button>
+                <button class="segment" type="button" data-announcement-scope="periodic">仅定期报告</button>
+                <span><strong id="announcement-result-count">0</strong> 条结果</span>
+              </div>
+              <div class="announcement-list" id="announcement-list" aria-live="polite"></div>
+              <div class="catalog-pagination" id="announcement-pagination">
+                <button class="icon-button" type="button" id="announcement-page-prev" aria-label="上一页" data-tip="上一页"><i data-lucide="chevron-left" aria-hidden="true"></i></button>
+                <span>第 <strong id="announcement-page-current">1</strong> / <strong id="announcement-page-total">1</strong> 页</span>
+                <button class="icon-button" type="button" id="announcement-page-next" aria-label="下一页" data-tip="下一页"><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+              </div>
+              <div class="empty-state" id="announcement-empty" hidden><i data-lucide="file-question" aria-hidden="true"></i><strong>没有匹配公告</strong><span>请调整关键词、分类或年度。</span></div>
+            </section>
+          </div>
+
+          <footer class="data-source-footnote"><i data-lucide="info" aria-hidden="true"></i><span id="company-data-note">公告正文、披露时间及效力以巨潮资讯网原始 PDF 为准。</span></footer>
+        </section>
+
+        <section class="app-view" id="view-rules" data-view-panel="rules">
+          <div class="section-toolbar">
+            <div><h2>资料与规则库</h2><p>统一查看官方规则和已完成本地 Embedding 的公司资料。</p></div>
+          </div>
+          <div class="library-mode-switch" role="tablist" aria-label="资料与规则库视图">
+            <button class="segment is-active" type="button" role="tab" aria-selected="true" data-library-tab="rules"><i data-lucide="book-open-check" aria-hidden="true"></i>官方规则</button>
+            <button class="segment" type="button" role="tab" aria-selected="false" data-library-tab="knowledge" data-admin-only><i data-lucide="database" aria-hidden="true"></i>已入库资料</button>
+          </div>
+          <div class="library-shared-status" id="library-shared-status"><i data-lucide="database-zap" aria-hidden="true"></i><span>本地向量库正在读取状态</span></div>
+
+          <div class="library-panel" data-library-panel="rules">
+          <div class="rule-banner">
+            <img src="assets/legalrules-banner.jpg" alt="深交所法律规则栏目背景">
+            <div class="rule-banner-overlay"></div>
+            <div class="rule-banner-content">
+              <div>
+                <span class="banner-kicker">OFFICIAL REGULATORY SOURCES</span>
+                <h2>权威规则索引与审查规则包</h2>
+                <p>按证监会法规、深交所业务规则及财政部会计准则统一管理。</p>
+              </div>
+              <a class="button button-light" href="https://www.szse.cn/lawrules/rule/new/index.html" target="_blank" rel="noreferrer">
+                <i data-lucide="external-link" aria-hidden="true"></i>深交所规则原站
+              </a>
+            </div>
+          </div>
+
+          <div class="source-notice" role="note">
+            <i data-lucide="info" aria-hidden="true"></i>
+            <span id="source-note">规则正文、效力与最新版本以各官方页面为准。</span>
+            <time id="rules-generated-at"></time>
+          </div>
+
+          <div class="rule-source-switch" role="group" aria-label="规则数据来源">
+            <button class="segment is-active" type="button" data-rule-source="all">全部官方来源</button>
+            <button class="segment" type="button" data-rule-source="csrc">证监会官方</button>
+            <button class="segment" type="button" data-rule-source="szse">深交所</button>
+            <button class="segment" type="button" data-rule-source="mof">财政部会计司</button>
+            <button class="segment rule-preset-button" type="button" data-rule-preset="periodic-report"><i data-lucide="calendar-check-2" aria-hidden="true"></i>定期报告审查规则</button>
+            <button class="segment rule-preset-button" type="button" data-rule-preset="financial-accounting"><i data-lucide="landmark" aria-hidden="true"></i>财务会计审查规则</button>
+          </div>
+
+          <div class="rules-layout">
+            <aside class="taxonomy-panel" aria-label="规则分类">
+              <div class="panel-title-row">
+                <h3>规则分类</h3>
+                <button class="text-button" id="clear-rule-filter" type="button">查看全部</button>
+              </div>
+              <div id="rule-taxonomy"></div>
+            </aside>
+
+            <section class="rule-catalog" aria-label="规则列表">
+              <div class="catalog-toolbar">
+                <label class="search-field" for="rule-search">
+                  <i data-lucide="search" aria-hidden="true"></i>
+                  <input id="rule-search" type="search" placeholder="搜索规则名称、分类或正文摘要" autocomplete="off">
+                  <kbd>Ctrl K</kbd>
+                </label>
+                <label class="select-field">
+                  <span class="sr-only">规则状态</span>
+                  <select id="rule-status-filter">
+                    <option value="all">全部状态</option>
+                    <option value="official-list">官网收录</option>
+                    <option value="current-effective">现行有效</option>
+                    <option value="pending-effective">已颁布未施行</option>
+                    <option value="amended">已被修改</option>
+                    <option value="repealed-list">废止清单</option>
+                    <option value="repealed">已被废止</option>
+                    <option value="saved">已加入规则包</option>
+                  </select>
+                </label>
+                <label class="select-field">
+                  <span class="sr-only">排序方式</span>
+                  <select id="rule-sort">
+                    <option value="newest">发布日期从新到旧</option>
+                    <option value="oldest">发布日期从旧到新</option>
+                    <option value="title">规则名称排序</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="catalog-meta">
+                <div><strong id="rule-result-count">0</strong> 条结果 <span id="active-category-name">· 全部分类</span></div>
+                <div class="legend"><span><i class="legend-dot official"></i>官方页面收录</span><span><i class="legend-dot repealed"></i>废止清单</span></div>
+              </div>
+
+              <div class="rule-list" id="rule-list" aria-live="polite"></div>
+              <div class="catalog-pagination" id="rule-pagination">
+                <button class="icon-button" type="button" id="rule-page-prev" aria-label="上一页" data-tip="上一页"><i data-lucide="chevron-left" aria-hidden="true"></i></button>
+                <span>第 <strong id="rule-page-current">1</strong> / <strong id="rule-page-total">1</strong> 页</span>
+                <button class="icon-button" type="button" id="rule-page-next" aria-label="下一页" data-tip="下一页"><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+              </div>
+              <div class="empty-state" id="rule-empty" hidden>
+                <i data-lucide="file-question" aria-hidden="true"></i>
+                <strong>没有匹配的规则</strong>
+                <span>请调整关键词或筛选条件。</span>
+              </div>
+            </section>
+
+            <aside class="rule-detail-panel" id="rule-detail" aria-label="规则详情">
+              <div class="detail-placeholder">
+                <i data-lucide="mouse-pointer-click" aria-hidden="true"></i>
+                <strong>选择一条规则</strong>
+                <span>查看来源、分类和官方原文入口。</span>
+              </div>
+            </aside>
+          </div>
+          </div>
+
+          <div class="library-panel" data-library-panel="knowledge" hidden>
+            <div class="section-toolbar library-knowledge-toolbar">
+              <div><h2>已入库资料</h2><p>公司资料、法规、公告、案例和起草文书资料统一进入本地 RAG。</p></div>
+              <div class="toolbar-actions">
+                <button class="button" type="button" id="open-knowledge-category-dialog" data-admin-only><i data-lucide="tag" aria-hidden="true"></i>管理分类</button>
+                <button class="button" type="button" id="open-drafting-material-dialog"><i data-lucide="file-pen-line" aria-hidden="true"></i>导入起草文书</button>
+                <button class="button button-primary" type="button" id="open-knowledge-dialog"><i data-lucide="file-up" aria-hidden="true"></i>导入资料</button>
+              </div>
+            </div>
+            <div class="knowledge-status-band"><span><i data-lucide="binary" aria-hidden="true"></i><strong id="knowledge-embedding-model">等待服务状态</strong></span><span id="knowledge-total">0 份文档</span><span id="knowledge-embedded-count">已 Embedding 0</span><span id="knowledge-pending-count">待处理 0</span><span id="knowledge-failed-count">失败 0</span><small>相同文件哈希自动跳过，更新文件后可增量重新索引。</small></div>
+            <div class="knowledge-search-row">
+              <label class="search-field" for="knowledge-search"><i data-lucide="search" aria-hidden="true"></i><input id="knowledge-search" type="search" placeholder="搜索资料名称、来源、版本、公司或公告编号" autocomplete="off"></label>
+            </div>
+            <div class="knowledge-filters" role="group" aria-label="已入库资料分类">
+              <button class="segment is-active" type="button" data-knowledge-type="all">全部</button>
+              <button class="segment" type="button" data-knowledge-type="company_profile">公司画像</button>
+              <button class="segment" type="button" data-knowledge-type="internal_rules">内部制度</button>
+              <button class="segment" type="button" data-knowledge-type="regulations">法规规则</button>
+              <button class="segment" type="button" data-knowledge-type="announcements">历史公告</button>
+              <button class="segment" type="button" data-knowledge-type="cases">历史案例</button>
+              <button class="segment" type="button" data-knowledge-type="drafting_materials">起草文书资料</button>
+              <span id="knowledge-custom-filters"></span>
+            </div>
+            <div class="table-wrap"><table class="data-table"><thead><tr><th>文档</th><th>类型</th><th>来源 / 版本</th><th>页数</th><th>Chunk</th><th>状态</th><th>操作</th></tr></thead><tbody id="knowledge-table-body"></tbody></table></div>
+            <div class="empty-state" id="knowledge-empty" hidden><i data-lucide="folder-open" aria-hidden="true"></i><strong>当前分类暂无资料</strong><span>通过“导入资料”上传 PDF、Word、XLS/XLSX、CSV、TXT、MD 或 JSON。</span></div>
+          </div>
+        </section>
+
+        <section class="app-view is-active" id="view-tasks" data-view-panel="tasks">
+          <div class="section-toolbar">
+            <div>
+              <h2>文档审查</h2>
+              <p>上传材料，集中查看风险和人工复核状态。</p>
+            </div>
+            <div class="toolbar-actions task-toolbar-actions">
+              <span class="task-selection-summary" id="task-selection-summary" hidden>已选 0 项</span>
+              <button class="button button-danger" type="button" id="bulk-delete-tasks" disabled>
+                <i data-lucide="trash-2" aria-hidden="true"></i><span>批量删除</span>
+              </button>
+              <button class="button button-primary" type="button" id="open-task-dialog">
+                <i data-lucide="file-up" aria-hidden="true"></i>上传材料
+              </button>
+            </div>
+          </div>
+
+          <div class="task-filters" role="group" aria-label="任务状态筛选">
+            <button type="button" class="segment is-active" data-task-filter="all">全部 <span id="task-count-all">3</span></button>
+            <button type="button" class="segment" data-task-filter="processing">审查中 <span id="task-count-processing">1</span></button>
+            <button type="button" class="segment" data-task-filter="review">待复核 <span id="task-count-review">1</span></button>
+            <button type="button" class="segment" data-task-filter="completed">已完成 <span id="task-count-completed">1</span></button>
+          </div>
+
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead><tr><th class="task-select-column"><input id="select-all-tasks" type="checkbox" aria-label="全选当前文档审查" disabled></th><th>任务 / 文件</th><th>审查类型</th><th>状态</th><th>风险</th><th>负责人</th><th>更新时间（北京时间）</th><th><span class="sr-only">操作</span></th></tr></thead>
+              <tbody id="task-table-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="app-view drafting-view" id="view-drafting" data-view-panel="drafting">
+          <div class="section-toolbar drafting-toolbar">
+            <div>
+              <span class="eyebrow">LOCAL RAG DRAFTING</span>
+              <h2>文书起草</h2>
+              <p>先检索本地公司资料、监管规则和历史案例，再生成可编辑工作草稿。</p>
+            </div>
+            <span class="status-chip neutral"><i data-lucide="database" aria-hidden="true"></i>仅使用本地 RAG</span>
+          </div>
+          <div class="drafting-layout">
+            <form class="draft-form panel" id="draft-form">
+              <div class="draft-form-head"><div><h3>起草信息</h3><small>主题、事实或起草要求任填其一；未知事实会保留“待补充”。会议文书可只导入本次使用，不会自动混入其他资料。</small></div></div>
+              <label class="form-field"><span>文书类型</span><select id="draft-document-type" name="document_type" required>
+                <option value="auto">自动识别文书类型</option>
+                <option value="temporary_announcement">临时公告</option>
+                <option value="board_resolution">董事会决议公告</option>
+                <option value="shareholder_resolution">股东会决议公告</option>
+                <option value="meeting_notice">会议通知</option>
+                <option value="meeting_sign_in">会议签到表</option>
+                <option value="meeting_proposal">会议议程/议案</option>
+                <option value="meeting_agenda_summary">主要议案概述</option>
+                <option value="meeting_record">会议记录</option>
+                <option value="general_manager_meeting">总经理会议</option>
+                <option value="proxy_authorization">授权委托书</option>
+                <option value="legal_opinion">法律意见书</option>
+                <option value="committee_record">专门委员会会议记录</option>
+                <option value="committee_resolution">专门委员会会议决议</option>
+                <option value="independent_director_resolution">独立董事专门会议决议</option>
+                <option value="ballot">会议表决票</option>
+                <option value="related_transaction">关联交易公告</option>
+                <option value="investment_announcement">对外投资公告</option>
+                <option value="periodic_report_notice">定期报告风险提示</option>
+              </select></label>
+              <label class="form-field"><span>文书标题 <small>可留空自动生成</small></span><input id="draft-title" name="title" maxlength="120" placeholder="例如：关于对外投资暨关联交易的公告"></label>
+              <label class="form-field"><span>事项主题 <small>可选</small></span><input id="draft-subject" name="subject" maxlength="4000" placeholder="例如：拟向某子公司增资 8,000 万元"></label>
+              <label class="form-field draft-reference-field" id="draft-reference-field"><span>本次会议参考文书 <small>议案、通知或决议，选填</small></span><input id="draft-reference-document" name="reference_document" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.md"><small class="draft-reference-help">只用于生成当前草稿，不进入共享资料库；未从原文识别的日期、地点和人员保留“待补充”。</small></label>
+              <label class="form-field"><span>已确认事实</span><textarea id="draft-facts" name="facts" rows="8" maxlength="12000" placeholder="填写金额、日期、交易对方、关联关系、审批状态、资金来源等已确认事实。未知项目不要猜测。"></textarea></label>
+              <label class="form-field"><span>起草要求 / 已知问题</span><textarea id="draft-requirements" name="requirements" rows="4" maxlength="6000" placeholder="例如：需要突出回避表决、补充风险提示，或沿用公司现行公告结构。"></textarea></label>
+              <div class="draft-rag-note"><i data-lucide="shield-check" aria-hidden="true"></i><span>服务端会把事项主题和事实送入本地向量检索；不会把材料直接发送给外部 Embedding API。</span></div>
+              <button class="button button-primary" type="submit" id="draft-submit"><i data-lucide="sparkles" aria-hidden="true"></i><span>检索资料并生成草稿</span></button>
+              <p class="draft-form-status" id="draft-form-status" role="status"></p>
+            </form>
+
+            <section class="draft-result panel" aria-live="polite">
+              <header class="draft-result-head"><div><span class="eyebrow">DRAFT OUTPUT</span><h3 id="draft-result-title">等待生成草稿</h3><small id="draft-result-meta">生成结果会显示本地 RAG 来源和待确认项。</small></div><div class="draft-result-actions"><button class="button" type="button" id="draft-save" disabled><i data-lucide="save" aria-hidden="true"></i>保存修改</button><button class="button" type="button" id="draft-download" disabled><i data-lucide="file-down" aria-hidden="true"></i>下载 Word</button></div></header>
+              <div class="draft-warning-list" id="draft-warning-list"></div>
+              <div class="draft-result-grid">
+                <div class="draft-editor-wrap"><label for="draft-content">可编辑草稿正文</label><textarea id="draft-content" rows="28" placeholder="生成后可在此直接修改"></textarea></div>
+                <aside class="draft-sources-wrap"><div class="draft-sources-head"><strong>本地 RAG 依据</strong><span id="draft-source-count">0 个来源</span></div><div id="draft-sources" class="draft-sources"><div class="draft-empty"><i data-lucide="search" aria-hidden="true"></i><span>生成后显示引用来源。</span></div></div></aside>
+              </div>
+            </section>
+          </div>
+          <section class="draft-history panel"><div class="draft-history-head"><div><h3>我的草稿</h3><small>只显示当前账号创建的草稿。</small></div><button class="icon-button" type="button" id="draft-refresh" aria-label="刷新草稿列表" data-tip="刷新草稿列表"><i data-lucide="refresh-cw" aria-hidden="true"></i></button></div><div class="draft-history-list" id="draft-history-list"><div class="draft-empty"><i data-lucide="file-plus-2" aria-hidden="true"></i><span>还没有保存的草稿。</span></div></div></section>
+        </section>
+
+        <section class="app-view chat-view" id="view-chat" data-view-panel="chat">
+          <div class="section-toolbar chat-toolbar">
+            <div><span class="eyebrow">LOCAL RAG CHAT</span><h2>AI 对话</h2><p>独立查询公司资料、法规和历史公告；当前仅返回本地检索结果与出处。</p></div>
+            <button class="button" type="button" id="new-workspace-conversation"><i data-lucide="square-pen" aria-hidden="true"></i>新建对话</button>
+          </div>
+          <div class="workspace-chat-layout">
+            <aside class="workspace-chat-history" aria-label="独立对话列表">
+              <div class="workspace-chat-history-head"><strong>历史对话</strong><button class="icon-button" type="button" id="refresh-workspace-conversations" aria-label="刷新对话" data-tip="刷新对话"><i data-lucide="refresh-cw" aria-hidden="true"></i></button></div>
+              <div id="workspace-conversation-list"><div class="chat-empty">还没有独立对话。</div></div>
+            </aside>
+            <section class="workspace-chat-panel" aria-label="本地 RAG 对话">
+              <div class="assistant-head"><div><h3>本地资料助手</h3><span>不调用外部 LLM 或 API；每次回答附带检索来源。</span></div></div>
+              <div class="assistant-messages workspace-chat-messages" id="workspace-chat-messages" aria-live="polite"><div class="assistant-empty"><i data-lucide="messages-square" aria-hidden="true"></i><strong>输入问题开始检索</strong><span>例如：公司关联交易制度有哪些审批要求？</span></div></div>
+              <form class="assistant-form" id="workspace-chat-form"><label for="workspace-chat-question" class="sr-only">向本地资料助手提问</label><textarea id="workspace-chat-question" rows="3" placeholder="搜索公司资料、法规或历史公告" required></textarea><button class="icon-button primary" type="submit" aria-label="发送" data-tip="发送"><i data-lucide="send" aria-hidden="true"></i></button></form>
+            </section>
+          </div>
+        </section>
+
+        <section class="app-view financial-audit-view" id="view-financial-audit" data-view-panel="financial-audit">
+          <div class="section-toolbar financial-audit-toolbar">
+            <div><h2>财务数据勾稽审计</h2><p>本地结构化取数与 Decimal 确定性复算，不调用大模型做算术。</p></div>
+            <div class="financial-toolbar-actions">
+              <label class="select-field"><span class="sr-only">选择审查任务</span><select id="financial-task-select"><option value="">选择定期报告任务</option></select></label>
+              <button class="button" type="button" id="refresh-financial-audit"><i data-lucide="refresh-cw" aria-hidden="true"></i>刷新</button>
+              <div class="financial-report-menu" role="group" aria-label="下载财务审核报告">
+                <button class="button" type="button" data-financial-report="html"><i data-lucide="file-code-2" aria-hidden="true"></i>HTML</button>
+                <button class="button" type="button" data-financial-report="docx"><i data-lucide="file-text" aria-hidden="true"></i>Word</button>
+                <button class="button" type="button" data-financial-report="pdf"><i data-lucide="file-down" aria-hidden="true"></i>PDF</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="financial-local-band"><i data-lucide="shield-check" aria-hidden="true"></i><span id="financial-audit-meta">选择一份已完成的定期报告审查任务。</span></div>
+          <section class="financial-kpis" aria-label="财务审计汇总">
+            <article><span>总检查项</span><strong id="financial-total">0</strong></article>
+            <article><span>已通过</span><strong id="financial-passed">0</strong></article>
+            <article><span>异常</span><strong id="financial-exceptions">0</strong></article>
+            <article class="is-severe"><span>严重</span><strong id="financial-severe">0</strong></article>
+            <article><span>待人工确认</span><strong id="financial-review">0</strong></article>
+          </section>
+
+          <div class="financial-filter-bar">
+            <div class="financial-status-filter" role="group" aria-label="检查状态">
+              <button class="segment is-active" type="button" data-financial-status="all">全部</button>
+              <button class="segment" type="button" data-financial-status="failed">明确错误</button>
+              <button class="segment" type="button" data-financial-status="needs_review">待确认</button>
+              <button class="segment" type="button" data-financial-status="source_issue">来源问题</button>
+              <button class="segment" type="button" data-financial-status="passed">已通过</button>
+            </div>
+            <label class="select-field"><span class="sr-only">检查类别</span><select id="financial-category-filter"><option value="all">全部类别</option></select></label>
+          </div>
+
+          <div class="financial-audit-layout">
+            <aside class="financial-check-list" id="financial-check-list" aria-label="财务检查清单">
+              <div class="review-empty-result"><i data-lucide="calculator" aria-hidden="true"></i><strong>等待选择任务</strong><span>完成定期报告审查后，财务勾稽结果会自动保存在这里。</span></div>
+            </aside>
+            <section class="financial-check-detail" id="financial-check-detail" aria-live="polite">
+              <div class="review-empty-result"><i data-lucide="mouse-pointer-click" aria-hidden="true"></i><strong>选择一项检查</strong><span>查看公式、取数、差异和原文位置。</span></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="app-view review-view" id="view-review" data-view-panel="review">
+          <div class="review-header">
+            <div class="review-title-block">
+              <button class="icon-button" type="button" data-view="tasks" aria-label="返回任务" data-tip="返回任务">
+                <i data-lucide="arrow-left" aria-hidden="true"></i>
+              </button>
+              <div><span class="eyebrow" id="review-task-label">审查任务 · XS-2026-008</span><h2 id="review-file-name">关联交易公告_v3.docx</h2><p class="review-classification-meta" id="review-classification-meta">审查类型与规则包将在打开任务后显示</p></div>
+            </div>
+            <div class="review-header-actions">
+              <span class="status-chip success" id="review-status"><i data-lucide="check-circle-2" aria-hidden="true"></i>AI 审查完成</span>
+              <button class="button" type="button" id="download-annotated-document" title="在上传的 Word 原件副本中写入可接受或拒绝的修订痕迹及风险批注"><i data-lucide="message-square-text" aria-hidden="true"></i>下载修订批注版</button>
+              <button class="button" type="button" id="generate-report"><i data-lucide="file-down" aria-hidden="true"></i>生成报告</button>
+            </div>
+          </div>
+
+          <div class="review-grid">
+            <aside class="document-outline" aria-label="文档目录">
+              <div class="panel-title-row"><h3>文档目录</h3><span id="review-page-count">12 页</span></div>
+              <nav id="review-outline">
+                <button type="button"><i data-lucide="file-text" aria-hidden="true"></i>公告标题</button>
+                <button type="button" class="is-active"><i data-lucide="chevron-right" aria-hidden="true"></i>交易概述</button>
+                <button type="button"><i data-lucide="chevron-right" aria-hidden="true"></i>交易对方</button>
+                <button type="button"><i data-lucide="chevron-right" aria-hidden="true"></i>标的情况</button>
+                <button type="button"><i data-lucide="chevron-right" aria-hidden="true"></i>定价依据</button>
+                <button type="button"><i data-lucide="chevron-right" aria-hidden="true"></i>风险提示</button>
+                <button type="button"><i data-lucide="chevron-right" aria-hidden="true"></i>备查文件</button>
+              </nav>
+            </aside>
+
+            <section class="document-reader" aria-label="公告原文">
+              <div class="reader-toolbar">
+                <div class="reader-toolbar-left">
+                  <div class="reader-view-switch" role="tablist" aria-label="文档查看模式">
+                    <button class="reader-mode-button is-active" type="button" role="tab" aria-selected="true" data-reader-mode="annotated"><i data-lucide="scan-text" aria-hidden="true"></i>解析标注</button>
+                    <button class="reader-mode-button" type="button" role="tab" aria-selected="false" data-reader-mode="original"><i data-lucide="file-check-2" aria-hidden="true"></i>原件审批</button>
+                  </div>
+                  <span id="review-reader-meta">第 3 / 12 页</span>
+                </div>
+                <div>
+                  <button class="icon-button" id="review-zoom-out" type="button" aria-label="缩小" data-tip="缩小"><i data-lucide="zoom-out" aria-hidden="true"></i></button>
+                  <button class="icon-button" id="review-zoom-in" type="button" aria-label="放大" data-tip="放大"><i data-lucide="zoom-in" aria-hidden="true"></i></button>
+                  <button class="icon-button" id="download-review-document" type="button" aria-label="下载原文" data-tip="下载原文"><i data-lucide="download" aria-hidden="true"></i></button>
+                </div>
+              </div>
+              <div class="paper-wrap">
+                <article class="document-paper" id="review-document-paper">
+                  <h3>关于对外投资暨关联交易的公告</h3>
+                  <p class="document-meta">证券代码：300688　证券简称：创业黑马　公告编号：2026-042</p>
+                  <h4>一、交易概述</h4>
+                  <p>公司拟与北京某科技有限公司共同设立产业投资基金，基金总规模为人民币 10,000 万元。公司拟以自有资金出资 <button type="button" class="inline-risk high is-active" data-risk-id="risk-amount">3,500 万元，占基金认缴总额的 30%</button>。</p>
+                  <p>本次交易对方之一为公司董事控制的企业，因此构成关联交易。本事项已经公司董事会审议通过，关联董事已回避表决。</p>
+                  <p>本次投资将进一步完善公司产业布局，<button type="button" class="inline-risk medium" data-risk-id="risk-wording">确保公司未来三年实现持续稳定增长</button>，不会对公司财务状况和经营成果产生重大不利影响。</p>
+                  <h4>二、交易对方基本情况</h4>
+                  <p>北京某科技有限公司成立于 2024 年 6 月，注册资本 2,000 万元。经核查，该公司不属于失信被执行人。</p>
+                  <div class="paper-page-number">- 3 -</div>
+                </article>
+              </div>
+              <div class="original-file-wrap" id="review-original-file" hidden>
+                <iframe id="review-original-frame" title="原始文件预览" hidden></iframe>
+                <div class="original-structure-wrap" id="review-original-structure" hidden></div>
+                <div class="original-file-placeholder" id="review-original-placeholder">
+                  <i data-lucide="file-check-2" aria-hidden="true"></i>
+                  <strong>原始文件尚未打开</strong>
+                  <span>切换到“原始文件”后，系统将直接读取上传的原件。原件是最终审批依据，解析标注仅用于定位问题。</span>
+                </div>
+              </div>
+            </section>
+
+            <aside class="risk-panel" aria-label="风险审查结果">
+              <div class="review-side-tabs" role="tablist" aria-label="审阅侧栏">
+                <button class="is-active" type="button" role="tab" aria-selected="true" data-review-tab="risks"><i data-lucide="shield-alert" aria-hidden="true"></i>风险</button>
+                <button type="button" role="tab" aria-selected="false" data-review-tab="assistant"><i data-lucide="message-square-text" aria-hidden="true"></i>AI 助手</button>
+              </div>
+              <div id="review-risk-tab">
+                <div class="risk-panel-head"><div><h3>风险审查结果</h3><span><b id="pending-risk-count">3</b> 项待处理</span></div><div class="risk-counts"><span class="high-text" id="risk-high-count">高 1</span><span class="medium-text" id="risk-medium-count">中 1</span><span id="risk-review-count">待确认 1</span></div><small id="review-rag-coverage">本地规则覆盖统计将在审查完成后显示</small></div>
+                <div class="risk-list" id="risk-list">
+                  <button type="button" class="risk-list-item is-active" data-risk-id="risk-amount"><span><strong>金额与比例不一致</strong><small>第 3 页 · 交易概述 · 第 1 段</small></span><span class="status-chip high">高风险</span></button>
+                  <button type="button" class="risk-list-item" data-risk-id="risk-wording"><span><strong>确定性表述风险</strong><small>第 3 页 · 交易概述 · 第 3 段</small></span><span class="status-chip medium">中风险</span></button>
+                  <button type="button" class="risk-list-item" data-risk-id="risk-related"><span><strong>关联方信息待补充</strong><small>第 5 页 · 交易对方 · 第 2 段</small></span><span class="status-chip neutral">待确认</span></button>
+                </div>
+                <div class="risk-detail" id="risk-detail-live" aria-live="polite">
+                  <div><span class="detail-label">问题说明</span><p id="risk-reason"></p></div>
+                  <div id="risk-financial-change-group" hidden><span class="detail-label">财务变动判定</span><div class="financial-change-box" id="risk-financial-change"></div></div>
+                  <div><span class="detail-label">原文位置与内容</span><div class="risk-original" id="risk-original"></div></div>
+                  <div><span class="detail-label">规则依据与本地 RAG 来源</span><div class="evidence-box" id="risk-evidence"></div></div>
+                  <div><span class="detail-label">修改建议</span><div class="suggestion-box" id="risk-suggestion"></div></div>
+                  <div class="risk-actions">
+                    <button class="button button-primary" type="button" id="confirm-risk"><i data-lucide="check" aria-hidden="true"></i>确认风险</button>
+                    <button class="button" type="button" id="ignore-risk"><i data-lucide="circle-slash-2" aria-hidden="true"></i>误报</button>
+                    <button class="button" type="button" id="note-risk"><i data-lucide="message-square-text" aria-hidden="true"></i>补充材料/备注</button>
+                    <button class="button" type="button" id="undo-risk" hidden><i data-lucide="rotate-ccw" aria-hidden="true"></i>撤销处理</button>
+                  </div>
+                  <p class="ai-disclaimer"><i data-lucide="shield-alert" aria-hidden="true"></i>系统提供辅助审查，最终结论由证券事务人员确认。</p>
+                </div>
+              </div>
+              <section class="assistant-panel" id="review-assistant-tab" hidden aria-label="AI 合规助手">
+                <div class="assistant-head"><div><h3>AI 合规助手</h3><span id="assistant-mode-note">所有事实性问题均先检索知识库</span></div><button class="icon-button" id="new-conversation" type="button" aria-label="新建对话" data-tip="新建对话"><i data-lucide="square-pen" aria-hidden="true"></i></button></div>
+                <div class="assistant-messages" id="assistant-messages" aria-live="polite"><div class="assistant-empty"><i data-lucide="messages-square" aria-hidden="true"></i><strong>围绕当前任务继续提问</strong><span>例如：为什么判定为风险？引用了哪些公司制度？</span></div></div>
+                <form class="assistant-form" id="assistant-form"><label for="assistant-question" class="sr-only">向 AI 合规助手提问</label><textarea id="assistant-question" rows="3" placeholder="询问当前文件、风险或引用依据" required></textarea><button class="icon-button primary" type="submit" aria-label="发送" data-tip="发送"><i data-lucide="send" aria-hidden="true"></i></button></form>
+              </section>
+            </aside>
+          </div>
+          <section class="summary-comparison-panel" id="summary-comparison-panel" hidden aria-label="摘要与原文对比">
+          <div class="summary-comparison-head">
+            <div><span class="eyebrow">DOCUMENT COMPARISON</span><h3>摘要与原文对比</h3><p id="summary-comparison-meta">等待加载对比结果</p></div>
+            <span class="status-chip neutral" id="summary-comparison-status">未加载</span>
+          </div>
+          <div class="summary-comparison-findings" id="summary-comparison-findings"></div>
+          <div class="summary-comparison-multi-documents" id="summary-comparison-multi-documents" hidden></div>
+          <div class="summary-comparison-columns">
+            <article class="summary-comparison-document">
+              <header><i data-lucide="file-text" aria-hidden="true"></i><div><strong id="summary-comparison-summary-name">摘要</strong><small id="summary-comparison-summary-meta"></small></div></header>
+              <div class="summary-comparison-scroll" id="summary-comparison-summary-body"></div>
+            </article>
+            <article class="summary-comparison-document">
+              <header><i data-lucide="file-text" aria-hidden="true"></i><div><strong id="summary-comparison-original-name">完整报告原文</strong><small id="summary-comparison-original-meta"></small></div></header>
+              <div class="summary-comparison-scroll" id="summary-comparison-original-body"></div>
+            </article>
+          </div>
+          </section>
+        </section>
+
+        <section class="app-view usage-view" id="view-usage" data-view-panel="usage">
+          <div class="section-toolbar usage-toolbar">
+            <div><h2>AI 用量统计</h2><p>按日汇总模型分析请求、Token 消耗与估算费用。</p></div>
+            <div class="usage-toolbar-actions">
+              <div class="usage-range-switch" role="group" aria-label="统计周期">
+                <button class="is-active" type="button" data-usage-range="7">近 7 日</button>
+                <button type="button" data-usage-range="14">近 14 日</button>
+                <button type="button" data-usage-range="month">本月</button>
+              </div>
+              <button class="button" type="button" id="export-usage"><i data-lucide="download" aria-hidden="true"></i>导出明细</button>
+            </div>
+          </div>
+
+          <div class="usage-status-band">
+            <span><i data-lucide="database" aria-hidden="true"></i><strong>等待服务数据</strong></span>
+            <span id="usage-period-label">2026-08-12 至 2026-08-18</span>
+            <small>正式接入后由后端记录模型返回的 Token 用量，实际费用以上游账单为准。</small>
+          </div>
+
+          <section class="usage-kpi-grid" aria-label="AI 用量汇总">
+            <article class="usage-kpi"><span><i data-lucide="scan-search" aria-hidden="true"></i>分析次数</span><strong id="usage-analysis-total">0</strong><small id="usage-analysis-average">日均 0 次</small></article>
+            <article class="usage-kpi"><span><i data-lucide="arrow-down-to-line" aria-hidden="true"></i>输入 Token</span><strong id="usage-input-total">0</strong><small id="usage-input-average">单次平均 0</small></article>
+            <article class="usage-kpi"><span><i data-lucide="arrow-up-from-line" aria-hidden="true"></i>输出 Token</span><strong id="usage-output-total">0</strong><small id="usage-output-average">单次平均 0</small></article>
+            <article class="usage-kpi usage-cost-kpi"><span><i data-lucide="wallet" aria-hidden="true"></i>估算 API 成本</span><strong id="usage-cost-total">¥0.00</strong><small>按服务端配置单价计算</small></article>
+          </section>
+
+          <div class="usage-dashboard-grid">
+            <section class="usage-panel usage-chart-panel" aria-labelledby="usage-chart-title">
+              <div class="usage-panel-head">
+                <div><h3 id="usage-chart-title">每日分析次数</h3><small>成功完成并返回用量信息的分析请求</small></div>
+                <span class="usage-legend"><i></i>分析次数</span>
+              </div>
+              <div class="usage-chart" id="usage-analysis-chart" role="img" aria-label="每日 AI 分析次数柱状图"></div>
+            </section>
+
+            <aside class="usage-panel usage-cost-panel" aria-labelledby="usage-cost-title">
+              <div class="usage-panel-head"><div><h3 id="usage-cost-title">成本估算口径</h3><small>人民币 / 百万 Token</small></div><i data-lucide="calculator" aria-hidden="true"></i></div>
+              <div class="usage-rate-list">
+                <div><span>输入 Token 单价</span><strong>¥4.00</strong></div>
+                <div><span>输出 Token 单价</span><strong>¥12.00</strong></div>
+              </div>
+              <div class="usage-token-mix">
+                <div><span>输入 Token</span><strong id="usage-input-share">0%</strong></div>
+                <div class="usage-meter"><span id="usage-input-meter"></span></div>
+                <div><span>输出 Token</span><strong id="usage-output-share">0%</strong></div>
+                <div class="usage-meter output"><span id="usage-output-meter"></span></div>
+              </div>
+              <p class="usage-cost-note"><i data-lucide="info" aria-hidden="true"></i>估算成本不含缓存、批处理、重试及服务商阶梯计价。</p>
+            </aside>
+          </div>
+
+          <section class="usage-table-panel" aria-labelledby="usage-table-title">
+            <div class="usage-panel-head"><div><h3 id="usage-table-title">每日用量明细</h3><small>最近日期优先</small></div><span id="usage-record-count">0 个统计日</span></div>
+            <div class="usage-table-wrap">
+              <table class="usage-table">
+                <thead><tr><th>日期</th><th>分析次数</th><th>输入 Token</th><th>输出 Token</th><th>总 Token</th><th>估算成本</th></tr></thead>
+                <tbody id="usage-table-body"></tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+
+        <section class="app-view accounts-view" id="view-accounts" data-view-panel="accounts">
+          <div class="section-toolbar">
+            <div><h2>账号管理</h2><p>查看当前应用已注册账号及启用状态。</p></div>
+            <button class="button" type="button" id="refresh-accounts"><i data-lucide="refresh-cw" aria-hidden="true"></i>刷新</button>
+          </div>
+          <div class="account-summary" aria-label="账号统计">
+            <div><span>全部账号</span><strong id="account-total">0</strong></div>
+            <div><span>启用账号</span><strong id="account-active-total">0</strong></div>
+            <div><span>管理员</span><strong id="account-admin-total">0</strong></div>
+          </div>
+          <div class="table-wrap"><table class="data-table account-table"><thead><tr><th>账号</th><th>显示名称</th><th>角色</th><th>状态</th><th>注册时间（北京时间）</th><th>最近更新（北京时间）</th><th>操作</th></tr></thead><tbody id="account-table-body"><tr><td colspan="7"><div class="table-empty"><strong>正在读取账号</strong></div></td></tr></tbody></table></div>
+        </section>
+
+        <section class="app-view audit-view" id="view-audit" data-view-panel="audit">
+          <div class="section-toolbar"><div><h2>审计记录</h2><p>查看登录、上传、分析、AI 对话、人工确认和知识库变更。</p></div><button class="button" type="button" id="refresh-audit"><i data-lucide="refresh-cw" aria-hidden="true"></i>刷新</button></div>
+          <div class="table-wrap"><table class="data-table"><thead><tr><th>时间（北京时间）</th><th>用户</th><th>操作</th><th>资源</th><th>来源 IP</th></tr></thead><tbody id="audit-table-body"></tbody></table></div>
+        </section>
+
+        <section class="app-view" id="view-reports" data-view-panel="reports">
+          <div class="section-toolbar">
+            <div><h2>审查报告</h2><p>集中查看已确认风险、修改建议与审计记录。</p></div>
+            <button class="button" type="button" id="export-all-reports"><i data-lucide="download" aria-hidden="true"></i>导出当前任务</button>
+          </div>
+          <div class="report-list"><div class="review-empty-result"><i data-lucide="file-chart-column" aria-hidden="true"></i><strong>等待加载真实任务</strong></div></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="task-dialog" id="task-dialog">
+    <form method="dialog" id="new-task-form">
+      <div class="dialog-header"><div><h2>上传审查材料</h2><p>文件只在本机解析，扫描 PDF 自动使用本地 OCR。</p></div><button class="icon-button" type="button" id="close-task-dialog" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="dialog-body">
+        <label class="upload-field"><input name="document" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.md,.json" required><i data-lucide="upload-cloud" aria-hidden="true"></i><strong>选择 Word、PDF、Excel、CSV、TXT 或 MD</strong><span id="upload-file-status">最大 20MB，扫描 PDF 自动使用 Windows 本地 OCR</span></label>
+        <label class="form-field comparison-file-field"><span>摘要 / 原文 / 勾稽表格 <small>可选，可多选</small></span><input name="comparison_document" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.md" multiple><small id="comparison-file-status">可同时选择最多 8 份对比文件；系统会分别读取每份文档，XLS/XLSX/CSV 全部参与财务勾稽，其他文档逐份进行摘要/全文和事实对比。</small></label>
+        <section class="analysis-progress" id="analysis-progress" aria-live="polite" hidden>
+          <div class="analysis-progress-head"><strong id="analysis-progress-stage">准备上传</strong><span id="analysis-progress-percent">0%</span></div>
+          <div class="analysis-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="analysis-progress-bar"></span></div>
+          <p id="analysis-progress-message">正在准备本地分析。</p>
+          <small id="analysis-progress-count"></small>
+        </section>
+        <label class="form-field"><span>审查类型</span><select name="taskType" required><option value="auto" selected>自动识别（推荐）</option><option>临时公告通用审查</option><option>关联交易专项审查</option><option>定期报告一致性审查</option><option>重大事项披露审查</option><option>会议决议与公告审查</option></select></label>
+        <p class="auto-classification-preview" id="auto-classification-preview"><i data-lucide="sparkles" aria-hidden="true"></i><span>上传后根据文件名和正文自动识别，识别不明确时采用通用规则包并提示人工确认。</span></p>
+        <label class="form-field"><span>任务名称 <small>选填</small></span><input name="taskName" placeholder="留空时使用文件名"></label>
+        <details class="advanced-fields"><summary><i data-lucide="settings-2" aria-hidden="true"></i>高级设置</summary><label class="form-field"><span>规则包</span><select name="rulePack"><option value="auto" selected>自动匹配（推荐）</option><option>上市公司信披基础包</option><option>创业板持续监管规则包</option><option>创业板定期报告规则包</option><option>关联交易专项规则包</option></select></label></details>
+      </div>
+      <div class="dialog-footer"><button class="button" type="button" id="cancel-task-dialog">取消</button><button class="button button-primary" type="submit" id="submit-task"><i data-lucide="scan-search" aria-hidden="true"></i><span>开始审查</span></button></div>
+    </form>
+  </dialog>
+
+  <dialog class="task-dialog knowledge-dialog" id="knowledge-dialog">
+    <form method="dialog" id="knowledge-form">
+      <div class="dialog-header"><div><span class="eyebrow">KNOWLEDGE IMPORT</span><h2 id="knowledge-dialog-title">导入公司资料</h2></div><button class="icon-button" type="button" id="close-knowledge-dialog" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="dialog-body knowledge-form-grid">
+        <label class="form-field" data-knowledge-type-field><span>知识类型</span><select name="document_type" required><option value="company_profile">公司画像</option><option value="internal_rules">公司内部制度</option><option value="regulations">法规与交易所规则</option><option value="announcements">历史公告</option><option value="cases">历史案例/问询</option><option value="drafting_materials">起草文书资料</option><option value="user_documents">其他资料</option></select></label>
+        <label class="form-field" data-knowledge-category-field><span>自定义资料栏 <small>可选</small></span><select name="category_id" id="knowledge-category-select"><option value="">不设置自定义资料栏</option></select></label>
+        <label class="form-field" data-knowledge-metadata><span>公司</span><input name="company" value="创业黑马科技集团股份有限公司"></label>
+        <label class="form-field" data-knowledge-metadata><span>标题</span><input name="title" placeholder="留空时使用文件标题"></label>
+        <label class="form-field" data-knowledge-metadata><span>来源</span><input name="source" required placeholder="例如：公司证券部 / 深交所官网"></label>
+        <label class="form-field" data-knowledge-metadata><span>版本</span><input name="version" placeholder="例如：2026年修订"></label>
+        <label class="form-field" data-knowledge-metadata><span>生效日期</span><input name="effective_date" type="date"></label>
+        <div class="knowledge-upload-options">
+          <label class="upload-field knowledge-upload"><input name="documents" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.md,.json" multiple><i data-lucide="files" aria-hidden="true"></i><strong>选择文件</strong><span>可一次选择多份资料</span></label>
+          <label class="upload-field knowledge-upload"><input name="folder_documents" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.md,.json" multiple webkitdirectory directory><i data-lucide="folder-up" aria-hidden="true"></i><strong>导入文件夹</strong><span>递归导入文件夹及子文件夹内的支持文件</span></label>
+        </div>
+        <p class="knowledge-file-selection" id="knowledge-file-selection">尚未选择文件。选择文件夹后，系统会列出并逐份导入其中的支持文件。</p>
+        <p class="knowledge-import-status" id="knowledge-import-status">系统将逐份解析、Chunk、Embedding，并按文件哈希跳过重复内容。</p>
+      </div>
+      <div class="dialog-footer"><button class="button" type="button" id="cancel-knowledge-dialog">取消</button><button class="button button-primary" type="submit" id="submit-knowledge"><i data-lucide="database-zap" aria-hidden="true"></i><span>导入并索引</span></button></div>
+    </form>
+  </dialog>
+
+  <dialog class="task-dialog knowledge-category-dialog" id="knowledge-category-dialog">
+    <form method="dialog" id="knowledge-category-form">
+      <div class="dialog-header"><div><span class="eyebrow">KNOWLEDGE CATEGORY</span><h2>管理资料栏</h2><p>管理员创建的资料栏对所有账号可见，并继续参与本地 RAG 检索。</p></div><button class="icon-button" type="button" id="close-knowledge-category-dialog" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="dialog-body"><label class="form-field"><span>资料栏名称</span><input name="name" maxlength="40" placeholder="例如：法务资料" required></label><label class="form-field"><span>说明 <small>可选</small></span><textarea name="description" rows="3" maxlength="200" placeholder="例如：合同、法律意见和诉讼材料"></textarea></label><div id="knowledge-category-list" class="knowledge-category-list"></div><p id="knowledge-category-status" class="knowledge-import-status" role="status"></p></div>
+      <div class="dialog-footer"><button class="button" type="button" id="cancel-knowledge-category-dialog">取消</button><button class="button button-primary" type="submit"><i data-lucide="plus" aria-hidden="true"></i>新增资料栏</button></div>
+    </form>
+  </dialog>
+
+  <dialog class="task-dialog knowledge-preview-dialog" id="knowledge-preview-dialog">
+    <form method="dialog" id="knowledge-preview-form">
+      <div class="dialog-header"><div><span class="eyebrow">SOURCE PREVIEW</span><h2 id="knowledge-preview-title">资料原文预览</h2><p id="knowledge-preview-meta">正在读取原文件内容</p></div><button class="icon-button" type="button" id="close-knowledge-preview" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="knowledge-preview-body" id="knowledge-preview-body"><div class="review-empty-result"><i data-lucide="loader-circle" aria-hidden="true"></i><strong>正在读取原文件</strong></div></div>
+      <div class="dialog-footer"><a class="button" id="knowledge-preview-download" href="#" target="_blank" rel="noreferrer" download><i data-lucide="download" aria-hidden="true"></i>下载原文件</a><button class="button button-primary" type="submit">关闭</button></div>
+    </form>
+  </dialog>
+
+  <dialog class="task-dialog rule-compare-dialog" id="rule-compare-dialog">
+    <form method="dialog" id="rule-compare-form">
+      <div class="dialog-header"><div><span class="eyebrow">RULE VERSION DIFF</span><h2 id="rule-compare-title">规则版本对比</h2><p>差异来自本地完整规则正文，适用效力以官方现行版本为准。</p></div><button class="icon-button" type="button" id="close-rule-compare" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="dialog-body rule-compare-body">
+        <div class="rule-compare-toolbar">
+          <label class="form-field"><span>新版</span><input id="rule-compare-new-year" name="new_year" type="number" min="2000" max="2099" step="1" value="2026" required></label>
+          <span class="rule-compare-arrow" aria-hidden="true"><i data-lucide="arrow-right" aria-hidden="true"></i></span>
+          <label class="form-field"><span>旧版</span><input id="rule-compare-old-year" name="old_year" type="number" min="2000" max="2099" step="1" value="2025" required></label>
+          <button class="button button-primary" type="submit" id="rule-compare-submit"><i data-lucide="git-compare-arrows" aria-hidden="true"></i>开始比较</button>
+        </div>
+        <p class="dialog-status" id="rule-compare-status" role="status">选择版本后点击“开始比较”。</p>
+        <section class="rule-compare-summary" id="rule-compare-summary" aria-live="polite"></section>
+        <section class="rule-compare-results" id="rule-compare-results" aria-live="polite"><div class="review-empty-result"><i data-lucide="git-compare-arrows" aria-hidden="true"></i><strong>等待比较</strong></div></section>
+      </div>
+      <div class="dialog-footer"><button class="button" type="button" id="cancel-rule-compare">关闭</button><button class="button button-primary" type="button" id="download-rule-compare-report" disabled><i data-lucide="file-down" aria-hidden="true"></i>生成报告</button></div>
+    </form>
+  </dialog>
+
+  <dialog class="task-dialog password-dialog" id="password-dialog">
+    <form method="dialog" id="password-form">
+      <div class="dialog-header"><div><span class="eyebrow">ACCOUNT SECURITY</span><h2>修改登录密码</h2></div><button class="icon-button" type="button" id="close-password-dialog" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="dialog-body">
+        <label class="form-field"><span>当前密码</span><input name="current_password" type="password" autocomplete="current-password" required></label>
+        <label class="form-field"><span>新密码</span><input name="new_password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label>
+        <label class="form-field"><span>确认新密码</span><input name="new_password_confirm" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label>
+        <p class="dialog-status" id="password-status" role="alert" hidden></p>
+        <p class="dialog-help"><i data-lucide="shield-check" aria-hidden="true"></i>修改后其他电脑和手机上的旧会话将立即失效。</p>
+      </div>
+      <div class="dialog-footer"><button class="button" type="button" id="cancel-password-dialog">取消</button><button class="button button-primary" type="submit" id="submit-password"><i data-lucide="key-round" aria-hidden="true"></i><span>确认修改</span></button></div>
+    </form>
+  </dialog>
+
+  <dialog class="task-dialog password-dialog" id="delete-account-dialog">
+    <form method="dialog" id="delete-account-form">
+      <div class="dialog-header"><div><span class="eyebrow">ACCOUNT CLOSURE</span><h2>注销账号</h2></div><button class="icon-button" type="button" id="close-delete-account-dialog" aria-label="关闭" data-tip="关闭"><i data-lucide="x" aria-hidden="true"></i></button></div>
+      <div class="dialog-body">
+        <div class="danger-zone"><i data-lucide="triangle-alert" aria-hidden="true"></i><div><strong>此操作不可撤销</strong><p>将删除该账号的私有文档、审查任务、向量、对话和长期记忆，并退出所有设备。</p></div></div>
+        <label class="form-field"><span>当前密码</span><input name="current_password" type="password" autocomplete="current-password" required></label>
+        <label class="form-field"><span>输入“注销账号”确认</span><input name="confirmation" autocomplete="off" required></label>
+        <p class="dialog-status" id="delete-account-status" role="alert" hidden></p>
+      </div>
+      <div class="dialog-footer"><button class="button" type="button" id="cancel-delete-account-dialog">取消</button><button class="button button-danger" type="submit" id="submit-delete-account"><i data-lucide="user-x" aria-hidden="true"></i><span>永久注销</span></button></div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><i data-lucide="circle-check" aria-hidden="true"></i><span id="toast-message"></span></div>
+</body>
+</html>

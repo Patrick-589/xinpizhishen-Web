@@ -1,0 +1,47 @@
+# Environment files may contain credentials. Keep only the blank template.
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Local runtime output
+node_modules/
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+web/runtime/
+
+# Company knowledge files may contain confidential information.
+web/knowledge/*
+!web/knowledge/README.md
+
+# Local QA workspaces, packaged deliveries, and generated source snapshots.
+.tmp/
+_qa_*/
+qa_report*/
+发布包/
+创业黑马_最终交付_请发送整个文件夹/
+创业黑马下载安装包/
+完整源代码_*/
+完整源代码_*.zip
+*.zip
+
+# Local reports and source documents are not application code.
+*.docx
+*.doc
+*.xls
+*.xlsx
+*.csv
+
+# Bundled tunnel installers are machine-specific binaries.
+tools/*.exe
+
+# Browser QA screenshots are generated artifacts.
+web/research/*.png

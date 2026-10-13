@@ -18,8 +18,8 @@
 1. 克隆仓库，或从 GitHub 下载 ZIP 并解压：
 
    ```powershell
-   git clone https://github.com/Patrick-589/app.git
-   cd app
+   git clone https://github.com/Patrick-589/xinpizhishen-Web.git
+   cd xinpizhishen-Web
    ```
 
 2. 在**首次启动前**创建根目录 `.env`，并设置独立的管理员密码和应用密钥：
